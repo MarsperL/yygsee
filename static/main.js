@@ -16,11 +16,14 @@ const modalCloseBtn = document.getElementById('modalClose');
 // // 从全局变量获取数据 (由模板注入)
 // const channelsData = window.channelsData;
 let channelsData = []; // 定义一个空数组来存放数据
+
 // 当前视图模式
 let currentView = 'grid';
 
+// 初始化页面
 // ✅ 修改：新的初始化函数，现在是异步的
 async function init() {
+    console.log("Initializing app...");
     try {
         // 使用fetch API获取JSON数据
         const response = await fetch('/channels.json');
@@ -28,17 +31,18 @@ async function init() {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         channelsData = await response.json();
+        console.log("Channel data loaded:", channelsData);
         
         // 数据加载成功后，渲染页面
         renderChannels(channelsData);
         setupEventListeners();
+        console.log("Initialization complete.");
     } catch (error) {
         console.error("Failed to load channel data:", error);
         // 可以在这里向用户显示错误信息
         channelsContainer.innerHTML = `<p style="color: red; text-align: center;">加载数据失败，请稍后重试。错误: ${error.message}</p>`;
     }
 }
-
 
 // 设置事件监听器
 function setupEventListeners() {
