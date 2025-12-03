@@ -1,0 +1,648 @@
+       :root {
+           --primary-color: #3498db;
+           --secondary-color: #2c3e50;
+           --background-color: #f8f9fa;
+           --card-background: #ffffff;
+           --text-color: #333333;
+           --text-secondary: #6c757d;
+           --border-color: #e9ecef;
+           --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+           --shadow-hover: 0 8px 15px rgba(0, 0, 0, 0.1);
+       }
+
+       * {
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+       }
+
+       body {
+           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           background-color: var(--background-color);
+           color: var(--text-color);
+           line-height: 1.6;
+       }
+
+       .container {
+           max-width: 1200px;
+           margin: 0 auto;
+           padding: 20px;
+       }
+
+       header {
+           text-align: center;
+           padding: 30px 0;
+           margin-bottom: 30px;
+           background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+           color: white;
+           border-radius: 10px;
+           box-shadow: var(--shadow);
+       }
+
+       header h1 {
+           font-size: 2.5rem;
+           margin-bottom: 10px;
+       }
+
+       header p {
+           font-size: 1.1rem;
+           opacity: 0.9;
+       }
+
+       .controls {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           margin-bottom: 20px;
+           flex-wrap: wrap;
+           gap: 10px;
+       }
+
+       .search-box {
+           display: flex;
+           align-items: center;
+           background-color: var(--card-background);
+           border-radius: 30px;
+           padding: 8px 15px;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+           width: 100%;
+           max-width: 300px;
+       }
+
+       .search-box input {
+           border: none;
+           background: none;
+           outline: none;
+           flex: 1;
+           padding: 5px;
+       }
+
+       .view-toggle {
+           display: flex;
+           background-color: var(--card-background);
+           border-radius: 30px;
+           overflow: hidden;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+       }
+
+       .view-toggle button {
+           background: none;
+           border: none;
+           padding: 8px 15px;
+           cursor: pointer;
+           transition: all 0.3s ease;
+       }
+
+       .view-toggle button.active {
+           background-color: var(--primary-color);
+           color: white;
+       }
+
+       /* 频道容器 - 每行一个卡片 */
+       .channels-container {
+           display: flex;
+           flex-direction: column;
+           gap: 25px;
+       }
+
+       .channel-card {
+           background-color: var(--card-background);
+           border-radius: 10px;
+           overflow: hidden;
+           box-shadow: var(--shadow);
+           transition: transform 0.3s ease, box-shadow 0.3s ease;
+           width: 100%;
+       }
+
+       .channel-card:hover {
+           transform: translateY(-5px);
+           box-shadow: var(--shadow-hover);
+       }
+
+       .channel-header {
+           padding: 15px;
+           display: flex;
+           align-items: center;
+           border-bottom: 1px solid var(--border-color);
+       }
+
+       .channel-avatar {
+           width: 40px;
+           height: 40px;
+           border-radius: 50%;
+           margin-right: 15px;
+           background-color: var(--primary-color);
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           color: white;
+       }
+
+       .channel-info {
+           flex: 1;
+       }
+
+       .channel-title {
+           font-weight: 600;
+           margin-bottom: 5px;
+           white-space: nowrap;
+           overflow: hidden;
+           text-overflow: ellipsis;
+       }
+
+       .channel-title a {
+           text-decoration: none;
+           color: var(--text-color);
+       }
+
+       .channel-title a:hover {
+           color: var(--primary-color);
+       }
+
+       .channel-stats {
+           font-size: 0.8rem;
+           color: var(--text-secondary);
+       }
+
+       .videos-container {
+           position: relative;
+           overflow: hidden;
+           padding: 10px 0;
+       }
+
+       .videos-scroll {
+           display: flex;
+           overflow-x: auto;
+           scroll-behavior: smooth;
+           scrollbar-width: none;
+           /* Firefox */
+           -ms-overflow-style: none;
+           /* IE and Edge */
+       }
+
+       .videos-scroll::-webkit-scrollbar {
+           display: none;
+           /* Chrome, Safari, Opera */
+       }
+
+       .video-card {
+           flex: 0 0 auto;
+           width: 200px;
+           margin: 10px;
+           cursor: pointer;
+           position: relative;
+       }
+
+       .video-thumbnail {
+           position: relative;
+           padding-bottom: 56.25%;
+           /* 16:9 aspect ratio */
+           overflow: hidden;
+           border-radius: 8px;
+           background-color: #f0f0f0;
+       }
+
+       .video-thumbnail img {
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+           transition: transform 0.3s ease;
+       }
+
+       .video-card:hover .video-thumbnail img {
+           transform: scale(1.05);
+       }
+
+       .video-duration {
+           position: absolute;
+           bottom: 5px;
+           right: 5px;
+           background-color: rgba(0, 0, 0, 0.7);
+           color: white;
+           padding: 2px 5px;
+           border-radius: 4px;
+           font-size: 0.7rem;
+       }
+
+       .video-info {
+           margin-top: 8px;
+           /* --- 关键：设置一个固定的最小高度 --- */
+           /* 高度 = (2行标题 * 1.3行高 * 0.9rem字体) + (1行元数据 * 1.3行高 * 0.8rem字体) + 5px间距 */
+           /* 约等于 (2.34rem) + (1.04rem) + 5px */
+           min-height: 3.5rem;
+           /* 这个值可以根据您的实际字体大小微调 */
+           display: flex;
+           flex-direction: column;
+           justify-content: flex-start;
+           /* 内容从顶部开始排列 */
+       }
+
+       .video-title {
+           font-size: 0.9rem;
+           font-weight: 500;
+           /* --- 移除旧的截断样式 --- */
+           display: -webkit-box;
+           -webkit-line-clamp: 2;
+           /* 限制最多显示2行 */
+           -webkit-box-orient: vertical;
+           overflow: hidden;
+           text-overflow: ellipsis;
+           line-height: 1.3;
+           word-wrap: break-word;
+           /* --- 关键：让标题元素占据所有可用空间 --- */
+           flex-grow: 1;
+           /* 这会让标题部分填充所有可用的高度 */
+       }
+
+       .video-meta {
+           font-size: 0.8rem;
+           color: var(--text-secondary);
+           /* 元数据不需要伸缩，保持其自然高度 */
+           flex-shrink: 0;
+           margin-top: auto;
+           /* 将元数据推到底部 */
+       }
+
+       /* 播放按钮样式 */
+       .play-button {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           width: 50px;
+           height: 50px;
+           background-color: rgba(0, 0, 0, 0.7);
+           border-radius: 50%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           color: white;
+           font-size: 20px;
+           opacity: 0;
+           transition: opacity 0.3s ease;
+           cursor: pointer;
+           z-index: 2;
+       }
+
+       .video-card:hover .play-button {
+           opacity: 1;
+       }
+
+       /* 视频模态框样式 */
+       .video-modal {
+           display: none;
+           position: fixed;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           background-color: rgba(0, 0, 0, 0.8);
+           z-index: 1000;
+           justify-content: center;
+           align-items: center;
+       }
+
+       .video-modal-content {
+           position: relative;
+           width: 80%;
+           max-width: 900px;
+           background-color: #000;
+           border-radius: 8px;
+           overflow: hidden;
+       }
+
+       .video-modal-iframe {
+           width: 100%;
+           height: 500px;
+           border: none;
+       }
+
+       .video-modal-close {
+           position: absolute;
+           top: 15px;
+           right: 15px;
+           color: white;
+           font-size: 24px;
+           cursor: pointer;
+           z-index: 1001;
+       }
+
+       /* 滚动按钮样式 */
+       .scroll-btn {
+           position: absolute;
+           top: 50%;
+           transform: translateY(-50%);
+           background-color: rgba(255, 255, 255, 0.8);
+           border: none;
+           width: 30px;
+           height: 30px;
+           border-radius: 50%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           cursor: pointer;
+           z-index: 10;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+           transition: background-color 0.3s ease;
+       }
+
+       .scroll-btn:hover {
+           background-color: white;
+       }
+
+       .scroll-btn.left {
+           left: 5px;
+       }
+
+       .scroll-btn.right {
+           right: 5px;
+       }
+
+       /* 列表视图样式 */
+       .list-view .channel-card {
+           display: flex;
+           flex-direction: column;
+       }
+
+       .list-view .videos-container {
+           padding: 10px 0;
+       }
+
+       .list-view .video-card {
+           width: 100%;
+           display: flex;
+           margin: 10px 15px;
+           padding-bottom: 10px;
+           border-bottom: 1px solid var(--border-color);
+       }
+
+       .list-view .video-card:last-child {
+           border-bottom: none;
+       }
+
+       .list-view .video-thumbnail {
+           width: 120px;
+           height: 70px;
+           padding-bottom: 0;
+           margin-right: 15px;
+           flex-shrink: 0;
+       }
+
+       .list-view .video-info {
+           flex: 1;
+       }
+
+       /* 列表视图下的视频滚动容器 */
+       .list-view .videos-scroll {
+           flex-direction: column;
+           overflow-x: hidden;
+           overflow-y: auto;
+           max-height: 300px;
+       }
+
+       /* 列表视图下隐藏滚动按钮 */
+       .list-view .scroll-btn {
+           display: none;
+       }
+
+       /* ... (其他CSS规则保持不变) ... */
+
+       /* 列表视图下隐藏滚动按钮 */
+       .list-view .scroll-btn {
+           display: none;
+       }
+
+
+       /* --- 新的、独立的紧凑视图样式 --- */
+
+       /* 默认紧凑视图：适用于中等屏幕，每行3个 */
+       .channels-grid {
+           display: grid;
+           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+           gap: 25px;
+       }
+
+       /* --- 优化后的、最多每行3个的紧凑视图样式 --- */
+
+       /* 默认紧凑视图：适用于中等屏幕，每行3个 */
+       .channels-grid {
+           display: grid;
+           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+           gap: 25px;
+       }
+
+       /* 媒体查询：中等屏幕，每行3个 */
+       @media (min-width: 900px) {
+           .channels-grid {
+               grid-template-columns: repeat(3, 1fr);
+           }
+       }
+
+       /* 媒体查询：小屏幕（如平板竖放），每行2个 */
+       @media (min-width: 600px) and (max-width: 899px) {
+           .channels-grid {
+               grid-template-columns: repeat(2, 1fr);
+           }
+       }
+
+       /* 媒体查询：手机端，每行1个 */
+       @media (max-width: 599px) {
+           .channels-grid {
+               grid-template-columns: 1fr;
+           }
+       }
+
+       /* 2. 当容器是这个新类时，内部的视频卡片样式 */
+       .channels-grid .videos-container {
+           padding: 10px 0;
+       }
+
+       .channels-grid .videos-scroll {
+           display: flex;
+           flex-direction: column;
+           max-height: 300px;
+
+           /* --- 关键：隐藏滚动条的技巧 --- */
+           overflow-y: scroll;
+           /* 必须是 scroll，不能是 auto */
+
+           /* 1. 增加内边距，为可能出现的滚动条留出空间 */
+           padding-right: 15px;
+           /* 这个值可以根据滚动条的宽度调整 */
+       }
+
+       /* --- 关键：隐藏滚动条的技巧 --- */
+       /* 2. 创建一个子容器，其宽度和父容器一样 */
+       .channels-grid .videos-scroll>div {
+           /* 这里不需要额外样式，因为视频卡片本身已经定义好了 */
+       }
+
+       /* 3. 使用负边距，将子容器拉回，覆盖掉滚动条区域 */
+       .channels-grid .videos-scroll>div {
+           margin-right: -15px;
+           /* 这个值必须与 padding-right 相同 */
+           padding-right: 15px;
+           /* 给子容器增加内边距，防止内容被裁切 */
+       }
+
+       /* 2. WebKit (Chrome, Safari, Edge) 的私有属性 */
+       .channels-grid .videos-scroll::-webkit-scrollbar {
+           width: 8px;
+           /* 增加宽度，使其更明显 */
+       }
+
+       .channels-grid .videos-scroll::-webkit-scrollbar-track {
+           background: transparent;
+           /* 轨道颜色 */
+           border-radius: 4px;
+       }
+
+       .channels-grid .videos-scroll::-webkit-scrollbar-thumb {
+           background: var(--text-secondary);
+           /* 滑块颜色 */
+           border-radius: 4px;
+           border: 1px solid var(--border-color);
+           /* 添加边框，增加可见性 */
+       }
+
+       .channels-grid .videos-scroll::-webkit-scrollbar-thumb:hover {
+           background: var(--text-color);
+           /* 鼠标悬停时滑块颜色 */
+       }
+
+
+       .channels-grid .video-card {
+           display: flex;
+           /* 水平布局 */
+           width: 100%;
+           margin: 10px 15px;
+           padding-bottom: 10px;
+           border-bottom: 1px solid var(--border-color);
+       }
+
+       .channels-grid .video-card:last-child {
+           border-bottom: none;
+       }
+
+       .channels-grid .video-thumbnail {
+           width: 120px;
+           height: 70px;
+           padding-bottom: 0;
+           margin-right: 15px;
+           flex-shrink: 0;
+       }
+
+       .channels-grid .video-info {
+           flex: 1;
+       }
+
+       .channels-grid .scroll-btn {
+           display: none;
+           /* 隐藏滚动按钮 */
+       }
+
+       footer {
+           text-align: center;
+           padding: 20px 0;
+           margin-top: 40px;
+           color: var(--text-secondary);
+           font-size: 0.9rem;
+           border-top: 1px solid var(--border-color);
+       }
+
+       .footer-links {
+           margin-top: 10px;
+       }
+
+       .footer-links a {
+           color: var(--primary-color);
+           text-decoration: none;
+           margin: 0 10px;
+       }
+
+       .footer-links a:hover {
+           text-decoration: underline;
+       }
+
+       /* 今日更新徽章样式 */
+       .today-badge {
+           position: absolute;
+           top: 5px;
+           right: 5px;
+           background-color: #FC7E11;
+           /* 一个醒目的红色 */
+           color: white;
+           font-size: 0.7rem;
+           padding: 3px 6px;
+           border-radius: 4px;
+           font-weight: bold;
+           z-index: 2;
+           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+       }
+
+       /* 响应式设计 */
+       @media (max-width: 768px) {
+           header h1 {
+               font-size: 2rem;
+           }
+
+           .controls {
+               flex-direction: column;
+               align-items: stretch;
+           }
+
+           /* --- 新增：视图切换按钮在手机端平分宽度 --- */
+           .view-toggle {
+               width: 100%;
+               /* 确保容器占满父元素宽度 */
+               margin-top: 10px;
+               /* 与上方的搜索框增加一点间距 */
+           }
+
+           .view-toggle button {
+               flex: 1;
+               /* 关键：让每个按钮平分可用空间 */
+           }
+
+           .search-box {
+               max-width: none;
+           }
+
+           .video-modal-content {
+               width: 95%;
+           }
+
+           .video-modal-iframe {
+               height: 300px;
+           }
+
+           /* --- 紧凑视图在手机端的响应式样式 --- */
+           body .channels-grid {
+               grid-template-columns: 1fr !important;
+               /* 增加特殊性并强制覆盖 */
+           }
+
+           /* --- 新增：确保列表模式在手机端页面可以滚动 --- */
+           body.list-view {
+               overflow: auto;
+               /* 或者 overflow-y: auto; */
+           }
+       }
+
+       /* 暗色模式 */
+       @media (prefers-color-scheme: dark) {
+           :root {
+               --primary-color: #4dabf7;
+               --secondary-color: #495057;
+               --background-color: #212529;
+               --card-background: #343a40;
+               --text-color: #f8f9fa;
+               --text-secondary: #adb5bd;
+               --border-color: #495057;
+               --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+               --shadow-hover: 0 8px 15px rgba(0, 0, 0, 0.4);
+           }
+       }
