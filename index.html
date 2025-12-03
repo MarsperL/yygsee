@@ -6,7 +6,7 @@
     <title>视频RSS聚合站</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* --- 基础和卡片样式 (与之前相同) --- */
+        /* 这里放置之前提供的所有CSS代码 */
         :root {
             --primary-color: #3498db;
             --secondary-color: #2c3e50;
@@ -180,12 +180,12 @@
             display: flex;
             overflow-x: auto;
             scroll-behavior: smooth;
-            scrollbar-width: none;
-            -ms-overflow-style: none;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none; /* IE and Edge */
         }
 
         .videos-scroll::-webkit-scrollbar {
-            display: none;
+            display: none; /* Chrome, Safari, Opera */
         }
 
         .video-card {
@@ -193,16 +193,11 @@
             width: 200px;
             margin: 10px;
             cursor: pointer;
-            transition: transform 0.2s ease;
-        }
-        
-        .video-card:hover {
-            transform: scale(1.03);
         }
 
         .video-thumbnail {
             position: relative;
-            padding-bottom: 56.25%;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
             overflow: hidden;
             border-radius: 8px;
             background-color: #f0f0f0;
@@ -284,6 +279,39 @@
             right: 5px;
         }
 
+        .list-view .channel-card {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .list-view .videos-container {
+            padding: 10px 0;
+        }
+
+        .list-view .video-card {
+            width: 100%;
+            display: flex;
+            margin: 10px 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .list-view .video-card:last-child {
+            border-bottom: none;
+        }
+
+        .list-view .video-thumbnail {
+            width: 120px;
+            height: 70px;
+            padding-bottom: 0;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .list-view .video-info {
+            flex: 1;
+        }
+
         footer {
             text-align: center;
             padding: 20px 0;
@@ -306,8 +334,28 @@
         .footer-links a:hover {
             text-decoration: underline;
         }
-        
-        /* --- 暗色模式 (与之前相同) --- */
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .channels-container {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .search-box {
+                max-width: none;
+            }
+        }
+
+        /* 暗色模式 */
         @media (prefers-color-scheme: dark) {
             :root {
                 --primary-color: #4dabf7;
@@ -319,137 +367,6 @@
                 --border-color: #495057;
                 --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
                 --shadow-hover: 0 8px 15px rgba(0, 0, 0, 0.4);
-            }
-        }
-
-        /* --- 新增：模态框 (Modal) 样式 --- */
-        .modal {
-            display: none; /* 默认隐藏 */
-            position: fixed; /* 固定在视口 */
-            z-index: 1000; /* 置于所有内容之上 */
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto; /* 如果需要，启用滚动 */
-            background-color: rgba(0, 0, 0, 0.8); /* 黑色半透明背景 */
-            animation: fadeIn 0.3s ease;
-        }
-
-        .modal-content {
-            background-color: var(--card-background);
-            margin: 5% auto; /* 5% 顶部边距，水平居中 */
-            padding: 0;
-            border-radius: 10px;
-            width: 90%;
-            max-width: 800px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-            animation: slideIn 0.4s ease;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .modal-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            border-bottom: 1px solid var(--border-color);
-        }
-
-        .modal-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin: 0;
-            color: var(--text-color);
-        }
-
-        .close {
-            color: var(--text-secondary);
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-            transition: color 0.2s;
-        }
-
-        .close:hover {
-            color: var(--text-color);
-        }
-
-        .modal-body {
-            padding: 20px;
-            display: flex;
-            gap: 20px;
-        }
-
-        .modal-thumbnail {
-            flex-shrink: 0;
-            width: 50%;
-            max-width: 400px;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-
-        .modal-thumbnail img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-
-        .modal-details {
-            flex-grow: 1;
-        }
-
-        .modal-meta {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            margin-bottom: 15px;
-        }
-
-        .modal-description {
-            font-size: 1rem;
-            line-height: 1.7;
-            color: var(--text-color);
-        }
-        
-        .modal-footer {
-            padding: 15px 20px;
-            text-align: right;
-            border-top: 1px solid var(--border-color);
-        }
-        
-        .modal-footer a {
-            background-color: var(--primary-color);
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: 500;
-            transition: background-color 0.2s;
-        }
-
-        .modal-footer a:hover {
-            background-color: #2980b9;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-
-        @keyframes slideIn {
-            from { transform: translateY(-50px); opacity: 0; }
-            to { transform: translateY(0); opacity: 1; }
-        }
-
-        /* 响应式设计 */
-        @media (max-width: 768px) {
-            .modal-body {
-                flex-direction: column;
-            }
-            .modal-thumbnail {
-                width: 100%;
-                max-width: none;
             }
         }
     </style>
@@ -477,36 +394,12 @@
         </div>
 
         <footer>
-            <p>最后更新时间: <span id="lastUpdated">2025-12-03 09:32:12</span></p>
+            <p>最后更新时间: <span id="lastUpdated">2025-12-03 09:35:40</span></p>
             <div class="footer-links">
                 <a href="http://localhost:8000/feedshub.opml">📥 订阅全部 (OPML)</a>
                 <a href="https://github.com/yourusername/your-repo" target="_blank">GitHub</a>
             </div>
         </footer>
-    </div>
-
-    <!-- 新增：模态框HTML结构 -->
-    <div id="videoModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title" id="modalTitle">视频标题</h2>
-                <span class="close" id="modalClose">&times;</span>
-            </div>
-            <div class="modal-body">
-                <div class="modal-thumbnail">
-                    <img id="modalThumbnail" src="" alt="视频缩略图">
-                </div>
-                <div class="modal-details">
-                    <div class="modal-meta" id="modalMeta">发布时间 | 时长</div>
-                    <div class="modal-description" id="modalDescription">
-                        这里是视频的描述信息。由于RSS源通常不包含详细描述，这里可以显示摘要或其他信息。
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <a href="#" id="modalWatchLink" target="_blank">在原网站观看</a>
-            </div>
-        </div>
     </div>
 
     <script>
@@ -518,15 +411,6 @@
         const searchInput = document.getElementById('searchInput');
         const gridViewBtn = document.getElementById('gridViewBtn');
         const listViewBtn = document.getElementById('listViewBtn');
-
-        // 模态框DOM元素
-        const modal = document.getElementById('videoModal');
-        const modalTitle = document.getElementById('modalTitle');
-        const modalThumbnail = document.getElementById('modalThumbnail');
-        const modalMeta = document.getElementById('modalMeta');
-        const modalDescription = document.getElementById('modalDescription');
-        const modalWatchLink = document.getElementById('modalWatchLink');
-        const modalCloseBtn = document.getElementById('modalClose');
 
         // 当前视图模式
         let currentView = 'grid';
@@ -545,14 +429,6 @@
             // 视图切换
             gridViewBtn.addEventListener('click', () => switchView('grid'));
             listViewBtn.addEventListener('click', () => switchView('list'));
-
-            // 模态框关闭事件
-            modalCloseBtn.onclick = () => closeModal();
-            window.onclick = (event) => {
-                if (event.target == modal) {
-                    closeModal();
-                }
-            };
         }
 
         // 渲染频道
@@ -571,6 +447,7 @@
             card.className = 'channel-card';
             card.dataset.channelId = channel.id;
 
+            // 频道头部
             const header = document.createElement('div');
             header.className = 'channel-header';
 
@@ -594,14 +471,17 @@
             header.appendChild(avatar);
             header.appendChild(info);
 
+            // 视频容器
             const videosContainer = document.createElement('div');
             videosContainer.className = 'videos-container';
 
+            // 左滚动按钮
             const leftBtn = document.createElement('button');
             leftBtn.className = 'scroll-btn left';
             leftBtn.innerHTML = '<i class="fas fa-chevron-left"></i>';
             leftBtn.addEventListener('click', () => scrollVideos(channel.id, 'left'));
 
+            // 视频列表
             const videosScroll = document.createElement('div');
             videosScroll.className = 'videos-scroll';
             videosScroll.id = `videos-${channel.id}`;
@@ -611,6 +491,7 @@
                 videosScroll.appendChild(videoCard);
             });
 
+            // 右滚动按钮
             const rightBtn = document.createElement('button');
             rightBtn.className = 'scroll-btn right';
             rightBtn.innerHTML = '<i class="fas fa-chevron-right"></i>';
@@ -626,14 +507,13 @@
             return card;
         }
 
-        // 创建视频卡片 (修改了点击事件)
+        // 创建视频卡片
         function createVideoCard(video) {
             const card = document.createElement('div');
             card.className = 'video-card';
-            
-            // ✅ 修改：点击时打开模态框，而不是跳转
-            card.addEventListener('click', () => openModal(video));
+            card.addEventListener('click', () => window.open(video.link, '_blank'));
 
+            // 缩略图容器
             const thumbnail = document.createElement('div');
             thumbnail.className = 'video-thumbnail';
 
@@ -649,6 +529,7 @@
             thumbnail.appendChild(img);
             thumbnail.appendChild(duration);
 
+            // 视频信息
             const info = document.createElement('div');
             info.className = 'video-info';
 
@@ -668,28 +549,12 @@
 
             return card;
         }
-        
-        // ✅ 新增：打开模态框的函数
-        function openModal(video) {
-            modalTitle.textContent = video.title;
-            modalThumbnail.src = video.thumbnail;
-            modalThumbnail.alt = video.title;
-            modalMeta.textContent = `${video.published} | ${video.duration || 'N/A'}`;
-            // RSS通常没有详细描述，这里用标题作为占位
-            modalDescription.textContent = `视频简介：${video.title}`;
-            modalWatchLink.href = video.link;
-            modal.style.display = 'block';
-        }
-
-        // ✅ 新增：关闭模态框的函数
-        function closeModal() {
-            modal.style.display = 'none';
-        }
 
         // 滚动视频列表
         function scrollVideos(channelId, direction) {
             const videosScroll = document.getElementById(`videos-${channelId}`);
-            const scrollAmount = 210;
+            const scrollAmount = 210; // 视频卡片宽度 + 间距
+
             if (direction === 'left') {
                 videosScroll.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
             } else {
@@ -700,6 +565,7 @@
         // 切换视图
         function switchView(view) {
             currentView = view;
+            
             if (view === 'grid') {
                 channelsContainer.classList.remove('list-view');
                 gridViewBtn.classList.add('active');
@@ -714,14 +580,24 @@
         // 搜索处理
         function handleSearch() {
             const query = searchInput.value.toLowerCase().trim();
+            
             if (!query) {
                 renderChannels(channelsData);
                 return;
             }
+
             const filteredChannels = channelsData.filter(channel => {
-                if (channel.title.toLowerCase().includes(query)) return true;
-                return channel.videos.some(video => video.title.toLowerCase().includes(query));
+                // 检查频道名称
+                if (channel.title.toLowerCase().includes(query)) {
+                    return true;
+                }
+                
+                // 检查视频标题
+                return channel.videos.some(video => 
+                    video.title.toLowerCase().includes(query)
+                );
             });
+
             renderChannels(filteredChannels);
         }
 
