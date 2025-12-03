@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>视频RSS聚合站</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* 这里放置之前提供的所有CSS代码 */
+        /* CSS变量 */
         :root {
             --primary-color: #3498db;
             --secondary-color: #2c3e50;
@@ -107,9 +108,10 @@
             color: white;
         }
 
+        /* 频道容器 - 每行一个卡片 */
         .channels-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            display: flex;
+            flex-direction: column;
             gap: 25px;
         }
 
@@ -119,6 +121,7 @@
             overflow: hidden;
             box-shadow: var(--shadow);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
         }
 
         .channel-card:hover {
@@ -174,18 +177,22 @@
         .videos-container {
             position: relative;
             overflow: hidden;
+            padding: 10px 0;
         }
 
         .videos-scroll {
             display: flex;
             overflow-x: auto;
             scroll-behavior: smooth;
-            scrollbar-width: none; /* Firefox */
-            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+            -ms-overflow-style: none;
+            /* IE and Edge */
         }
 
         .videos-scroll::-webkit-scrollbar {
-            display: none; /* Chrome, Safari, Opera */
+            display: none;
+            /* Chrome, Safari, Opera */
         }
 
         .video-card {
@@ -193,11 +200,13 @@
             width: 200px;
             margin: 10px;
             cursor: pointer;
+            position: relative;
         }
 
         .video-thumbnail {
             position: relative;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
             overflow: hidden;
             border-radius: 8px;
             background-color: #f0f0f0;
@@ -249,6 +258,71 @@
             color: var(--text-secondary);
         }
 
+        /* 播放按钮样式 */
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            cursor: pointer;
+            z-index: 2;
+        }
+
+        .video-card:hover .play-button {
+            opacity: 1;
+        }
+
+        /* 视频模态框样式 */
+        .video-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .video-modal-content {
+            position: relative;
+            width: 80%;
+            max-width: 900px;
+            background-color: #000;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .video-modal-iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        .video-modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1001;
+        }
+
+        /* 滚动按钮样式 */
         .scroll-btn {
             position: absolute;
             top: 50%;
@@ -279,6 +353,7 @@
             right: 5px;
         }
 
+        /* 列表视图样式 */
         .list-view .channel-card {
             display: flex;
             flex-direction: column;
@@ -312,6 +387,19 @@
             flex: 1;
         }
 
+        /* 列表视图下的视频滚动容器 */
+        .list-view .videos-scroll {
+            flex-direction: column;
+            overflow-x: hidden;
+            overflow-y: auto;
+            max-height: 500px;
+        }
+
+        /* 列表视图下隐藏滚动按钮 */
+        .list-view .scroll-btn {
+            display: none;
+        }
+
         footer {
             text-align: center;
             padding: 20px 0;
@@ -337,21 +425,25 @@
 
         /* 响应式设计 */
         @media (max-width: 768px) {
-            .channels-container {
-                grid-template-columns: 1fr;
-            }
-            
             header h1 {
                 font-size: 2rem;
             }
-            
+
             .controls {
                 flex-direction: column;
                 align-items: stretch;
             }
-            
+
             .search-box {
                 max-width: none;
+            }
+
+            .video-modal-content {
+                width: 95%;
+            }
+
+            .video-modal-iframe {
+                height: 300px;
             }
         }
 
@@ -371,6 +463,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -394,23 +487,36 @@
         </div>
 
         <footer>
-            <p>最后更新时间: <span id="lastUpdated">2025-12-03 09:58:18</span></p>
+            <p>最后更新时间: <span id="lastUpdated">2025-12-03 15:54:24</span></p>
             <div class="footer-links">
-                <a href="http://localhost:8000/feedshub.opml">📥 订阅全部 (OPML)</a>
+                <a href="http://localhost:8000/feeds.opml">📥 订阅全部 (OPML)</a>
                 <a href="https://github.com/yourusername/your-repo" target="_blank">GitHub</a>
             </div>
         </footer>
     </div>
 
+    <!-- 视频模态框 -->
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-content">
+            <span class="video-modal-close" id="videoModalClose">&times;</span>
+            <iframe class="video-modal-iframe" id="videoModalIframe" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
     <script>
         // 从模板变量注入数据
-        const channelsData = [{"description": "\u8001\u674e\u8239\u957f \u7684 bilibili \u52a8\u6001 - Powered by RSSHub", "id": "https___raw_githubusercontent_com_MarsperL_feedshub_main_xml_bilib_TRUNCATED_9a2ff678_xml", "title": "\u8001\u674e\u8239\u957f \u7684 bilibili \u52a8\u6001", "url": "https://space.bilibili.com/6336952/dynamic", "videos": [{"duration": "", "link": "https://www.bilibili.com/video/BV1WRynBGEBV", "published": "Sat, 22 Nov 2025 11:35:11 GMT", "thumbnail": "", "title": "\u4e0d\u662f\uff01\u89c6\u9891\u91cc\u7684\u90a3\u4e2a\u751c\u67ff\u5b50\u662f\u8981\u524a\u76ae\u561b\uff1f\uff1f[\u5fae\u7b11]\u67ff\u5b50\u4e0d\u662f\u76f4\u63a5\u5403\u7684\u5417[\u8fa3\u773c\u775b][\u8fa3\u773c\u775b][\u8fa3\u773c\u775b]"}, {"duration": "", "link": "https://www.bilibili.com/video/BV1WRynBGEBV", "published": "Fri, 21 Nov 2025 09:05:01 GMT", "thumbnail": "", "title": "\u6211\u4f4f\u5728\u4e86\"\u8001\u848b\"\u540c\u6b3e\u9152\u5e97\uff01\u53f0\u6e7e\u6700\u8d35\u7684\u9152\u5e97\uff01"}, {"duration": "", "link": "https://www.bilibili.com/video/BV1Zr1WBrELj", "published": "Wed, 05 Nov 2025 09:00:14 GMT", "thumbnail": "", "title": "\u6211\u7ec8\u4e8e\u4f53\u9a8c\u4e86\u4e00\u628a\u4f1e\u5175\u7a7a\u964d\uff1f\u4ece4000\u7c73\u9ad8\u7a7a\u8df3\u4e0b\uff01"}, {"duration": "", "link": "https://www.bilibili.com/video/BV1JasyziEV2", "published": "Tue, 04 Nov 2025 05:20:31 GMT", "thumbnail": "", "title": "\u6211\u9760\uff01\u6211\u624d\u53d1\u73b0B\u7ad9\u6709AI\u539f\u58f0\u7ffb\u8bd1\u4e86\uff1f\uff1f[\u8fa3\u773c\u775b]\u6211\u90fd\u4e0d\u6562\u76f8\u4fe1\uff0c\u89c6\u9891\u91cc\u6211\u7684\u82f1\u8bed\u8fd9\u4e48\u597d\uff1f"}, {"duration": "", "link": "https://www.bilibili.com/video/BV1JasyziEV2", "published": "Sat, 01 Nov 2025 04:05:01 GMT", "thumbnail": "", "title": "\u5168\u7f51\u9996\u6d4b\uff01\u65e5\u672c\u63b7\u5f39\u7b52\u6253\u8d77\u6765\u662f\u4ec0\u4e48\u611f\u89c9\uff1f"}, {"duration": "", "link": "https://www.bilibili.com/video/BV1sXs7zMEDW", "published": "Fri, 24 Oct 2025 09:00:15 GMT", "thumbnail": "", "title": "\u6211\u7adf\u7136\u7528\"\u5355\u5175\u667a\u80fd\u773c\u955c\"\u6765\u6253\u67aa\uff1f\u8ddf\u5f00\u5916\u6302\u4e00\u6837\uff01\u592a\u51c6\u4e86\uff01"}, {"duration": "", "link": "https://www.bilibili.com/video/BV1CN4qzfEZG", "published": "Fri, 24 Oct 2025 02:11:39 GMT", "thumbnail": "", "title": "\u8fd9\u4e24\u5929\u5728\u60f3\u4e00\u4e2a\u95ee\u9898\uff0c\u4f60\u4eec\u8bf4\u6211\u8981\u4e0d\u8981\u5728\u7f8e\u56fd\u5f00\u4e00\u4e2a\u9776\u573a\uff1f[\u8e72\u8e72]\u5144\u5f1f\u4eec\u613f\u610f\u6765\u5417"}, {"duration": "", "link": "https://www.bilibili.com/video/BV1CN4qzfEZG", "published": "Thu, 16 Oct 2025 09:00:01 GMT", "thumbnail": "", "title": "\u6211\u7adf\u7136\u6253\u4e86\u5168\u7403\u9996\u6b3e\u5927\u53e3\u5f84\u51b2\u950b\u67aa\uff01\u7f8e\u56fd\u9ed1\u5e2e\u4e13\u5c5e\u6b66\u5668\uff1f"}, {"duration": "", "link": "https://www.bilibili.com/opus/1119029887630311449", "published": "Tue, 07 Oct 2025 05:24:02 GMT", "thumbnail": "", "title": "\u606d\u559c@\u6b66\u5f53\u5c0f\u5b66\u5f92@\u732b\u54aa\u9e21\u817f-\u5c0f\u53f7\u4e2d\u5956\uff0c\u5df2\u79c1\u4fe1\u901a\u77e5\uff0c\u8be6\u60c5\u8bf7\u70b9\u51fb\u62bd\u5956\u67e5\u770b\u3002"}, {"duration": "", "link": "https://www.bilibili.com/video/BV1RQxVzLE94", "published": "Mon, 06 Oct 2025 04:00:24 GMT", "thumbnail": "", "title": "\u63a2\u79d8\u5168\u7403\u6700\u8d35\u7684\u519b\u4e8b\u9632\u7ebf\uff01\u82b1\u8d3970\u4ebf\u6cd5\u90ce\uff01\u5230\u5e95\u6709\u591a\u5f3a\uff1f"}, {"duration": "", "link": "https://www.bilibili.com/opus/1119029887630311449", "published": "Thu, 02 Oct 2025 05:27:29 GMT", "thumbnail": "", "title": "\u200b\u4e92\u52a8\u62bd\u5956\u611f\u8c22[\u6253call]\u4f7f\u547d\u53ec\u5524\uff1a\u9ed1\u8272\u884c\u52a87\u7684\u9080\u8bf7\uff01\u8fd8\u9001\u4e86\u4e00\u4e2a\u9650\u91cf\u7248\u7684\u8054\u540d\u80cc\u5305\uff01\u521a\u597d\u56fd\u5e86\u8282\u4e86\uff0c\u8fd9\u4e2a\u5305\u5c31\u7ed9\u5144\u5f1f\u4eec\u62bd\u4e86\uff01\u5f53\u793c\u7269\u4e86\uff01\u9664\u4e86\u80cc\u5305\uff0c\u8fd8\u6709\u4e00\u4e2aCOD\u8054\u540d\u6c34..."}, {"duration": "", "link": "https://www.bilibili.com/opus/1117922808307908612", "published": "Mon, 29 Sep 2025 05:51:27 GMT", "thumbnail": "", "title": "\u54b1\u7262\u91cc\u53c8\u662f\u7b2c\u4e00\u6ce2\u4f53\u9a8c \u4f7f\u547d\u53ec\u5524\u9ed1\u8272\u884c\u52a87 \u7684\u4e2d\u56fd\u73a9\u5bb6\u4e86[\u6ed1\u7a3d]9\u670830\u53f7\u665a\u4e0a11:59\u7ed9\u5144\u5f1f\u4eec\u76f4\u64ad\uff01[doge]"}]}, {"description": "", "id": "https___www_youtube_com_feeds_videos_xml_channel_id_UCsUalyRg43M8D60mtHe6YcA", "title": "CultRepo", "url": "https://www.youtube.com/channel/UCsUalyRg43M8D60mtHe6YcA", "videos": [{"duration": "", "link": "https://www.youtube.com/shorts/_V8l33p_gf8", "published": "2025-12-01T23:59:46+00:00", "thumbnail": "https://img.youtube.com/vi/_V8l33p_gf8/mqdefault.jpg", "title": "\"I thought it was too late for me to learn programming...\""}, {"duration": "", "link": "https://www.youtube.com/watch?v=qvg7S13-bkc", "published": "2025-11-27T15:01:44+00:00", "thumbnail": "https://img.youtube.com/vi/qvg7S13-bkc/mqdefault.jpg", "title": "The Unconventional Path of Rita Codes: Art, Code \u0026 Community"}, {"duration": "", "link": "https://www.youtube.com/watch?v=GXJwX3tpMe0", "published": "2025-11-23T09:16:05+00:00", "thumbnail": "https://img.youtube.com/vi/GXJwX3tpMe0/mqdefault.jpg", "title": "Flask started as an Aprils Fool\u0027s joke | with Armin Ronacher"}, {"duration": "", "link": "https://www.youtube.com/shorts/yO4fbCYL6pc", "published": "2025-10-29T14:01:50+00:00", "thumbnail": "https://img.youtube.com/vi/yO4fbCYL6pc/mqdefault.jpg", "title": "\"[Webpack] was slow to scaffold a project, slow to start and slow to hot update.\""}, {"duration": "", "link": "https://www.youtube.com/shorts/GK39dMwqJjg", "published": "2025-10-27T14:00:21+00:00", "thumbnail": "https://img.youtube.com/vi/GK39dMwqJjg/mqdefault.jpg", "title": "\"I\u0027ve seen Webpack projects with a configuration file that\u0027s a thousand lines long.\""}, {"duration": "", "link": "https://www.youtube.com/shorts/aurEWYs9AFc", "published": "2025-10-26T08:39:33+00:00", "thumbnail": "https://img.youtube.com/vi/aurEWYs9AFc/mqdefault.jpg", "title": "\"[Webpack] is designed to be as flexible as possible\"... but..."}, {"duration": "", "link": "https://www.youtube.com/watch?v=yhcuXXl-Vb0", "published": "2025-10-23T14:01:38+00:00", "thumbnail": "https://img.youtube.com/vi/yhcuXXl-Vb0/mqdefault.jpg", "title": "Why Webpack changed everything, and why it had to change | with Evan You"}, {"duration": "", "link": "https://www.youtube.com/shorts/ahteBhxwVJI", "published": "2025-10-22T14:00:03+00:00", "thumbnail": "https://img.youtube.com/vi/ahteBhxwVJI/mqdefault.jpg", "title": "Bolt loves Vite!"}, {"duration": "", "link": "https://www.youtube.com/shorts/HXXd25PEhnE", "published": "2025-10-20T14:00:25+00:00", "thumbnail": "https://img.youtube.com/vi/HXXd25PEhnE/mqdefault.jpg", "title": "Evan Builds Vite Prototype"}, {"duration": "", "link": "https://www.youtube.com/shorts/OWZyshYJi3s", "published": "2025-10-17T14:00:45+00:00", "thumbnail": "https://img.youtube.com/vi/OWZyshYJi3s/mqdefault.jpg", "title": "Evan\u0027s frustrations that led to Vite..."}, {"duration": "", "link": "https://www.youtube.com/watch?v=9au4xDYpOzo", "published": "2025-10-16T15:00:27+00:00", "thumbnail": "https://img.youtube.com/vi/9au4xDYpOzo/mqdefault.jpg", "title": "How Vitest Was Born: The 4-Hour Prototype That Changed Vite Forever"}, {"duration": "", "link": "https://www.youtube.com/shorts/RUn6dRVmjiE", "published": "2025-10-15T14:00:56+00:00", "thumbnail": "https://img.youtube.com/vi/RUn6dRVmjiE/mqdefault.jpg", "title": "Thoughts on Webpack..."}, {"duration": "", "link": "https://www.youtube.com/shorts/OsZzFzL4dv8", "published": "2025-10-13T01:26:55+00:00", "thumbnail": "https://img.youtube.com/vi/OsZzFzL4dv8/mqdefault.jpg", "title": "\"No one was taking Javascript too seriously until...\""}, {"duration": "", "link": "https://www.youtube.com/watch?v=bmWQqAKLgT4", "published": "2025-10-09T17:00:06+00:00", "thumbnail": "https://img.youtube.com/vi/bmWQqAKLgT4/mqdefault.jpg", "title": "Vite: The Documentary"}, {"duration": "", "link": "https://www.youtube.com/shorts/uXoHuieb_lc", "published": "2025-10-09T14:01:23+00:00", "thumbnail": "https://img.youtube.com/vi/uXoHuieb_lc/mqdefault.jpg", "title": "\"When the Remix team joined Vite, all the other framework authors were helping them.\""}]}, {"description": "", "id": "https___www_youtube_com_feeds_videos_xml_channel_id_UCXuqSBlHAE6Xw_yeJA0Tunw", "title": "Linus Tech Tips", "url": "https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw", "videos": [{"duration": "", "link": "https://www.youtube.com/watch?v=KMXXcqpFZzo", "published": "2025-12-02T18:04:03+00:00", "thumbnail": "https://img.youtube.com/vi/KMXXcqpFZzo/mqdefault.jpg", "title": "Do the Writers Agree With Linus\u0027s Hot Takes?"}, {"duration": "", "link": "https://www.youtube.com/shorts/VqMBiXI2-KE", "published": "2025-12-01T21:25:17+00:00", "thumbnail": "https://img.youtube.com/vi/VqMBiXI2-KE/mqdefault.jpg", "title": "I\u0027ve dropped tech on purpose two times"}, {"duration": "", "link": "https://www.youtube.com/watch?v=jNkNnQ7AfT8", "published": "2025-12-01T18:43:52+00:00", "thumbnail": "https://img.youtube.com/vi/jNkNnQ7AfT8/mqdefault.jpg", "title": "Will I Get Scammed For Speaking English in China?"}, {"duration": "", "link": "https://www.youtube.com/watch?v=mfv0V1SxbNA", "published": "2025-11-30T18:00:02+00:00", "thumbnail": "https://img.youtube.com/vi/mfv0V1SxbNA/mqdefault.jpg", "title": "Building the PERFECT Linux PC with Linus Torvalds"}, {"duration": "", "link": "https://www.youtube.com/watch?v=vJIzIH_guPU", "published": "2025-11-29T17:47:28+00:00", "thumbnail": "https://img.youtube.com/vi/vJIzIH_guPU/mqdefault.jpg", "title": "AirPods Pro 3 - I was Wrong (sort of)"}, {"duration": "", "link": "https://www.youtube.com/watch?v=35igp1OBRY0", "published": "2025-11-28T21:54:36+00:00", "thumbnail": "https://img.youtube.com/vi/35igp1OBRY0/mqdefault.jpg", "title": "The Honey Lawsuit Was Dismissed - WAN Show November 28, 2025"}, {"duration": "", "link": "https://www.youtube.com/watch?v=j2Bvy7tSX5E", "published": "2025-11-28T21:44:14+00:00", "thumbnail": "https://img.youtube.com/vi/j2Bvy7tSX5E/mqdefault.jpg", "title": "This Water Cooled Phone is the Fastest We\u2019ve Tested"}, {"duration": "", "link": "https://www.youtube.com/shorts/b_qzIofbuoc", "published": "2025-11-28T01:20:39+00:00", "thumbnail": "https://img.youtube.com/vi/b_qzIofbuoc/mqdefault.jpg", "title": "We made a Transparent PC"}, {"duration": "", "link": "https://www.youtube.com/watch?v=iHkBcqW-ExY", "published": "2025-11-27T19:37:50+00:00", "thumbnail": "https://img.youtube.com/vi/iHkBcqW-ExY/mqdefault.jpg", "title": "The STEAM Machine Won\u0027t Cost What You Think"}, {"duration": "", "link": "https://www.youtube.com/watch?v=TGrFMFR6W0I", "published": "2025-11-26T20:03:24+00:00", "thumbnail": "https://img.youtube.com/vi/TGrFMFR6W0I/mqdefault.jpg", "title": "The All Transparent Gaming Setup"}, {"duration": "", "link": "https://www.youtube.com/watch?v=_KMPjeioX08", "published": "2025-11-25T20:56:15+00:00", "thumbnail": "https://img.youtube.com/vi/_KMPjeioX08/mqdefault.jpg", "title": "I Watched This Movie on 10 Different Formats"}, {"duration": "", "link": "https://www.youtube.com/watch?v=xkGNuPanPh4", "published": "2025-11-24T19:33:46+00:00", "thumbnail": "https://img.youtube.com/vi/xkGNuPanPh4/mqdefault.jpg", "title": "I got TESTED in China\u0027s Incredible Biometrics Lab"}, {"duration": "", "link": "https://www.youtube.com/watch?v=BUPtrvh8fCg", "published": "2025-11-23T17:54:26+00:00", "thumbnail": "https://img.youtube.com/vi/BUPtrvh8fCg/mqdefault.jpg", "title": "Stop Wasting Money on Premium Monitors"}, {"duration": "", "link": "https://www.youtube.com/shorts/QhDEM3xytZc", "published": "2025-11-23T01:06:10+00:00", "thumbnail": "https://img.youtube.com/vi/QhDEM3xytZc/mqdefault.jpg", "title": "How To Spot an AI Image"}, {"duration": "", "link": "https://www.youtube.com/watch?v=-kDtt0QBNRU", "published": "2025-11-22T18:00:51+00:00", "thumbnail": "https://img.youtube.com/vi/-kDtt0QBNRU/mqdefault.jpg", "title": "That Isn\u0027t Me"}]}];
+        const channelsData = [{"description": "Yooupi\u98df\u9014 \u7684 bilibili \u7a7a\u95f4 - Powered by RSSHub", "id": "https___raw_githubusercontent_com_MarsperL_feedshub_main_xml_bilibili_user_video_452412746_xml", "title": "Yooupi\u98df\u9014 \u7684 bilibili \u7a7a\u95f4", "url": "https://space.bilibili.com/452412746", "videos": [{"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1DWUDBUEdp", "published": "2025\u5e7411\u670826\u65e5", "thumbnail": "https://i1.hdslb.com/bfs/archive/f6b3ea30cabf0dfccdd3532669852f9caf8345b7.jpg", "title": "\u5370\u5c3c\u6293\u91ce\u732a\uff0c\u5370\u5c3c\u4eba\u4ec5\u9760\u4e00\u6839\u7aff\u4e00\u6346\u7ef3\uff0c\u6293100\u65a4\u5c71\u732a"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1vUkXBUEBT", "published": "2025\u5e7411\u670809\u65e5", "thumbnail": "https://i2.hdslb.com/bfs/archive/1bc1e6f9b5bd72fd8565acfd90f91f38a71d3ebb.jpg", "title": "\u5370\u5c3c\u6293\u5de8\u578b\u6d77\u53c2\uff0c\u4e00\u4e2a\u6bd4\u817f\u8fd8\u7c97\uff0c\u7206\u7092\u716e\u7ca5\u7f8e\u5473"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1mms9zjEZJ", "published": "2025\u5e7410\u670825\u65e5", "thumbnail": "https://i2.hdslb.com/bfs/archive/26a927d8a356079b0a96bcafb548a96d2d64d827.jpg", "title": "\u5370\u5c3c\u6293\u5de8\u578b\u6930\u5b50\u87f9\uff0c\u5de7\u8bbe\u9677\u9631\u8bf1\u63553\u53ea\uff0c\u5230\u5e95\u4ec0\u4e48\u5473\u9053\uff1f"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV13CHZzREUZ", "published": "2025\u5e7409\u670814\u65e5", "thumbnail": "https://i1.hdslb.com/bfs/archive/010a29021dd9a33f04a6c8cf220eb8559564b849.jpg", "title": "\u5728\u6b27\u6d32\u9493\u9ed1\u5751\uff0c\u76d8\u7c73\u7ea7\u9c9f\u9c7c\uff0c\u5916\u56fd\u9ed1\u5751\u8fd9\u4e48\u523a\u6fc0\uff01"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1Mha1zrEzR", "published": "2025\u5e7409\u670806\u65e5", "thumbnail": "https://i0.hdslb.com/bfs/archive/6397b06784589ba317d8268b35d1fed56d71c886.png", "title": "\u3010\u7eaa\u5f55\u7247\u3011\u53bb\u4f60\u5bb6\u5403\u996d\u597d\u54173 \u7b2c\u56db\u96c6 \u5fc3\u7a0b"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1ifeqzTEE7", "published": "2025\u5e7408\u670823\u65e5", "thumbnail": "https://i2.hdslb.com/bfs/archive/0f42a2525ef817762149dac74d564063fd8e29ba.jpg", "title": "\u65b0\u7586\u6781\u9650\u63a2\u949355\u5c0f\u65f6\uff0c\u91ce\u751f\u4e09\u6587\u9c7c\u6559\u6211\u505a\u4eba\uff01"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1oatbzwEa5", "published": "2025\u5e7408\u670809\u65e5", "thumbnail": "https://i2.hdslb.com/bfs/archive/e4017090404a83d3f9c390bf89fa834fb1db0ff4.jpg", "title": "\u632a\u5a01\u5e1d\u738b\u87f9\u6cdb\u6ee5\uff0c\u51b0\u6d77\u6f5c\u6c34\u6293\u8783\u87f9\uff0c1\u5c0f\u65f6\u6536\u5165\u7834\u4e07\uff01"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1UDhbzfE2B", "published": "2025\u5e7408\u670802\u65e5", "thumbnail": "https://i0.hdslb.com/bfs/archive/993804f27d0ea7add25f979f2654169f95bb4c39.jpg", "title": "\u632a\u5a01\u4e0b\u5730\u7b3c\u80fd\u6293\u5230\u4ec0\u4e48\u6d77\u9c9c\uff1f\u6316\u6c99\u8d1d\u716e\u706b\u9505\u8106\u5ae9\u9c9c\u751c"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1SC8XzZEr1", "published": "2025\u5e7407\u670829\u65e5", "thumbnail": "https://i1.hdslb.com/bfs/archive/26936dbb6609f2d0ae9229b06f66222727bd1647.jpg", "title": "\u82b11\u4e07\u5143\u6d77\u5357\u5c9b\u9493\u9c7c\u80fd\u56de\u672c\u5417\uff1f3\u59292\u591c\u62c960\u65a4\u7ae0\u7ea2\u9c7c"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1VFMXzkEeN", "published": "2025\u5e7407\u670812\u65e5", "thumbnail": "https://i0.hdslb.com/bfs/archive/f355f1c0bc6e9e75d5973f50589629397a265e17.jpg", "title": "\u5728\u4e2d\u4e1c\u9493\u9cb7\u9c7c\uff0c\u624b\u6495\u9493\u9c7c2\u5929\u62c9\u8d77\u5927\u7ea2\u9cb7\uff0c\u505a\u9178\u8fa3\u51c9\u62cc\u9c7c"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1vk3Xz9EWU", "published": "2025\u5e7407\u670805\u65e5", "thumbnail": "https://i1.hdslb.com/bfs/archive/60a0135abe500c16b23e08d01b3a742158d1b476.jpg", "title": "\u975e\u6d32\u6361\u5783\u573e\u80fd\u8d5a\u94b1\u5417\uff1f\u752810\u516c\u65a4\u5783\u573e\u6362\u4e00\u74f6\u53ef\u4e50"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1VD3FzBESm", "published": "2025\u5e7406\u670829\u65e5", "thumbnail": "https://i2.hdslb.com/bfs/archive/41dd13f34647124af8fc1cf8ec575a8c9afcfe0f.jpg", "title": "\u5f53\u5988\u5988\u662f\u4ec0\u4e48\u4f53\u9a8c\uff1f\u98a0\u9505\u7092\u83dc2\u5c0f\u65f6\uff0c\u6211\u8363\u767b\u5b69\u5b50\u738b\uff01"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1YK7AzoEpt", "published": "2025\u5e7405\u670831\u65e5", "thumbnail": "https://i0.hdslb.com/bfs/archive/fc3d35a9f644bd2f55ea01ebc4f5ca9bd09a7bfd.jpg", "title": "\u5728\u975e\u6d32\u6293\u9752\u87f9\uff0c\u6316\u6d1e2\u7c73\u638f6\u65a4\u5927\u8783\u87f9\uff0c\u4e00\u9505\u6c34\u716e\u6ecb\u5473\u9c9c\uff01"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1QSV9zRE7X", "published": "2025\u5e7405\u670810\u65e5", "thumbnail": "https://i2.hdslb.com/bfs/archive/383d690d47ebca4d5e7fff016d4701833a18eade.jpg", "title": "\u5728\u975e\u6d32\u6253\u730e\uff0c\u8352\u91ce2\u5929\u730e\u83b7150\u65a4\u5de8\u578b\u91ce\u732a\uff01"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1MVVJzpEyx", "published": "2025\u5e7405\u670803\u65e5", "thumbnail": "https://i0.hdslb.com/bfs/archive/7f437bbcd73396ea96f7d0afec03b6d61f16fa6c.jpg", "title": "\u975e\u6d32\u8d2b\u6c11\u7a9f\u8857\u5934\u5c0f\u5403\uff0c3\u5143\u76d2\u996d5\u5143\u7f8a\u6742\u6c64\uff0c\u5403\u9971\u5403\u597d"}]}, {"description": "\u8001\u674e\u8239\u957f \u7684 bilibili \u52a8\u6001 - Powered by RSSHub", "id": "https___raw_githubusercontent_com_MarsperL_feedshub_main_xml_bilib_TRUNCATED_9a2ff678_xml", "title": "\u8001\u674e\u8239\u957f \u7684 bilibili \u52a8\u6001", "url": "https://space.bilibili.com/6336952/dynamic", "videos": [{"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1WRynBGEBV", "published": "2025\u5e7411\u670822\u65e5", "thumbnail": "http://i2.hdslb.com/bfs/archive/18772274751a0af0f74c8bd89695fe6d818e0a8d.jpg", "title": "\u4e0d\u662f\uff01\u89c6\u9891\u91cc\u7684\u90a3\u4e2a\u751c\u67ff\u5b50\u662f\u8981\u524a\u76ae\u561b\uff1f\uff1f[\u5fae\u7b11]\u67ff\u5b50\u4e0d\u662f\u76f4\u63a5\u5403\u7684\u5417[\u8fa3\u773c\u775b][\u8fa3\u773c\u775b][\u8fa3\u773c\u775b]"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1WRynBGEBV", "published": "2025\u5e7411\u670821\u65e5", "thumbnail": "http://i2.hdslb.com/bfs/archive/18772274751a0af0f74c8bd89695fe6d818e0a8d.jpg", "title": "\u6211\u4f4f\u5728\u4e86\"\u8001\u848b\"\u540c\u6b3e\u9152\u5e97\uff01\u53f0\u6e7e\u6700\u8d35\u7684\u9152\u5e97\uff01"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1Zr1WBrELj", "published": "2025\u5e7411\u670805\u65e5", "thumbnail": "http://i0.hdslb.com/bfs/archive/aedd08856a3a55c05ecc1d8714aa0eec5f3fd94d.jpg", "title": "\u6211\u7ec8\u4e8e\u4f53\u9a8c\u4e86\u4e00\u628a\u4f1e\u5175\u7a7a\u964d\uff1f\u4ece4000\u7c73\u9ad8\u7a7a\u8df3\u4e0b\uff01"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1JasyziEV2", "published": "2025\u5e7411\u670804\u65e5", "thumbnail": "http://i0.hdslb.com/bfs/archive/dbde8b389c8c8190610dd3132d75428cd7c97df6.jpg", "title": "\u6211\u9760\uff01\u6211\u624d\u53d1\u73b0B\u7ad9\u6709AI\u539f\u58f0\u7ffb\u8bd1\u4e86\uff1f\uff1f[\u8fa3\u773c\u775b]\u6211\u90fd\u4e0d\u6562\u76f8\u4fe1\uff0c\u89c6\u9891\u91cc\u6211\u7684\u82f1\u8bed\u8fd9\u4e48\u597d\uff1f"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1JasyziEV2", "published": "2025\u5e7411\u670801\u65e5", "thumbnail": "http://i0.hdslb.com/bfs/archive/dbde8b389c8c8190610dd3132d75428cd7c97df6.jpg", "title": "\u5168\u7f51\u9996\u6d4b\uff01\u65e5\u672c\u63b7\u5f39\u7b52\u6253\u8d77\u6765\u662f\u4ec0\u4e48\u611f\u89c9\uff1f"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1sXs7zMEDW", "published": "2025\u5e7410\u670824\u65e5", "thumbnail": "http://i1.hdslb.com/bfs/archive/f9cd5548c50861e1774c590e3f08e4e3ab6dbfea.jpg", "title": "\u6211\u7adf\u7136\u7528\"\u5355\u5175\u667a\u80fd\u773c\u955c\"\u6765\u6253\u67aa\uff1f\u8ddf\u5f00\u5916\u6302\u4e00\u6837\uff01\u592a\u51c6\u4e86\uff01"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1CN4qzfEZG", "published": "2025\u5e7410\u670824\u65e5", "thumbnail": "http://i0.hdslb.com/bfs/archive/da1e8688923d1661339d4b0d33f7fba793c9dddf.jpg", "title": "\u8fd9\u4e24\u5929\u5728\u60f3\u4e00\u4e2a\u95ee\u9898\uff0c\u4f60\u4eec\u8bf4\u6211\u8981\u4e0d\u8981\u5728\u7f8e\u56fd\u5f00\u4e00\u4e2a\u9776\u573a\uff1f[\u8e72\u8e72]\u5144\u5f1f\u4eec\u613f\u610f\u6765\u5417"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1CN4qzfEZG", "published": "2025\u5e7410\u670816\u65e5", "thumbnail": "http://i0.hdslb.com/bfs/archive/da1e8688923d1661339d4b0d33f7fba793c9dddf.jpg", "title": "\u6211\u7adf\u7136\u6253\u4e86\u5168\u7403\u9996\u6b3e\u5927\u53e3\u5f84\u51b2\u950b\u67aa\uff01\u7f8e\u56fd\u9ed1\u5e2e\u4e13\u5c5e\u6b66\u5668\uff1f"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/opus/1119029887630311449", "published": "2025\u5e7410\u670807\u65e5", "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/1f5fd5fd1e3e40c34406c3177c5c9f476336952.jpg", "title": "\u606d\u559c@\u6b66\u5f53\u5c0f\u5b66\u5f92@\u732b\u54aa\u9e21\u817f-\u5c0f\u53f7\u4e2d\u5956\uff0c\u5df2\u79c1\u4fe1\u901a\u77e5\uff0c\u8be6\u60c5\u8bf7\u70b9\u51fb\u62bd\u5956\u67e5\u770b\u3002"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/video/BV1RQxVzLE94", "published": "2025\u5e7410\u670806\u65e5", "thumbnail": "http://i0.hdslb.com/bfs/archive/8257dcc00919ccca031e377ffaeef6ab841700ad.jpg", "title": "\u63a2\u79d8\u5168\u7403\u6700\u8d35\u7684\u519b\u4e8b\u9632\u7ebf\uff01\u82b1\u8d3970\u4ebf\u6cd5\u90ce\uff01\u5230\u5e95\u6709\u591a\u5f3a\uff1f"}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/opus/1119029887630311449", "published": "2025\u5e7410\u670802\u65e5", "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/1f5fd5fd1e3e40c34406c3177c5c9f476336952.jpg", "title": "\u200b\u4e92\u52a8\u62bd\u5956\u611f\u8c22[\u6253call]\u4f7f\u547d\u53ec\u5524\uff1a\u9ed1\u8272\u884c\u52a87\u7684\u9080\u8bf7\uff01\u8fd8\u9001\u4e86\u4e00\u4e2a\u9650\u91cf\u7248\u7684\u8054\u540d\u80cc\u5305\uff01\u521a\u597d\u56fd\u5e86\u8282\u4e86\uff0c\u8fd9\u4e2a\u5305\u5c31\u7ed9\u5144\u5f1f\u4eec\u62bd\u4e86\uff01\u5f53\u793c\u7269\u4e86\uff01\u9664\u4e86\u80cc\u5305\uff0c\u8fd8\u6709\u4e00\u4e2aCOD\u8054\u540d\u6c34..."}, {"duration": "", "embed_url": "", "link": "https://www.bilibili.com/opus/1117922808307908612", "published": "2025\u5e7409\u670829\u65e5", "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/8549b7f6ec7faef432330ee6e9e3c7c16336952.png", "title": "\u54b1\u7262\u91cc\u53c8\u662f\u7b2c\u4e00\u6ce2\u4f53\u9a8c \u4f7f\u547d\u53ec\u5524\u9ed1\u8272\u884c\u52a87 \u7684\u4e2d\u56fd\u73a9\u5bb6\u4e86[\u6ed1\u7a3d]9\u670830\u53f7\u665a\u4e0a11:59\u7ed9\u5144\u5f1f\u4eec\u76f4\u64ad\uff01[doge]"}]}, {"description": "", "id": "https___www_youtube_com_feeds_videos_xml_channel_id_UCsUalyRg43M8D60mtHe6YcA", "title": "CultRepo", "url": "https://www.youtube.com/channel/UCsUalyRg43M8D60mtHe6YcA", "videos": [{"duration": "", "embed_url": "https://www.youtube.com/embed/_V8l33p_gf8", "link": "https://www.youtube.com/shorts/_V8l33p_gf8", "published": "2025\u5e7412\u670801\u65e5", "thumbnail": "https://img.youtube.com/vi/_V8l33p_gf8/mqdefault.jpg", "title": "\"I thought it was too late for me to learn programming...\""}, {"duration": "", "embed_url": "https://www.youtube.com/embed/qvg7S13-bkc", "link": "https://www.youtube.com/watch?v=qvg7S13-bkc", "published": "2025\u5e7411\u670827\u65e5", "thumbnail": "https://img.youtube.com/vi/qvg7S13-bkc/mqdefault.jpg", "title": "The Unconventional Path of Rita Codes: Art, Code \u0026 Community"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/GXJwX3tpMe0", "link": "https://www.youtube.com/watch?v=GXJwX3tpMe0", "published": "2025\u5e7411\u670823\u65e5", "thumbnail": "https://img.youtube.com/vi/GXJwX3tpMe0/mqdefault.jpg", "title": "Flask started as an Aprils Fool\u0027s joke | with Armin Ronacher"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/yO4fbCYL6pc", "link": "https://www.youtube.com/shorts/yO4fbCYL6pc", "published": "2025\u5e7410\u670829\u65e5", "thumbnail": "https://img.youtube.com/vi/yO4fbCYL6pc/mqdefault.jpg", "title": "\"[Webpack] was slow to scaffold a project, slow to start and slow to hot update.\""}, {"duration": "", "embed_url": "https://www.youtube.com/embed/GK39dMwqJjg", "link": "https://www.youtube.com/shorts/GK39dMwqJjg", "published": "2025\u5e7410\u670827\u65e5", "thumbnail": "https://img.youtube.com/vi/GK39dMwqJjg/mqdefault.jpg", "title": "\"I\u0027ve seen Webpack projects with a configuration file that\u0027s a thousand lines long.\""}, {"duration": "", "embed_url": "https://www.youtube.com/embed/aurEWYs9AFc", "link": "https://www.youtube.com/shorts/aurEWYs9AFc", "published": "2025\u5e7410\u670826\u65e5", "thumbnail": "https://img.youtube.com/vi/aurEWYs9AFc/mqdefault.jpg", "title": "\"[Webpack] is designed to be as flexible as possible\"... but..."}, {"duration": "", "embed_url": "https://www.youtube.com/embed/yhcuXXl-Vb0", "link": "https://www.youtube.com/watch?v=yhcuXXl-Vb0", "published": "2025\u5e7410\u670823\u65e5", "thumbnail": "https://img.youtube.com/vi/yhcuXXl-Vb0/mqdefault.jpg", "title": "Why Webpack changed everything, and why it had to change | with Evan You"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/ahteBhxwVJI", "link": "https://www.youtube.com/shorts/ahteBhxwVJI", "published": "2025\u5e7410\u670822\u65e5", "thumbnail": "https://img.youtube.com/vi/ahteBhxwVJI/mqdefault.jpg", "title": "Bolt loves Vite!"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/HXXd25PEhnE", "link": "https://www.youtube.com/shorts/HXXd25PEhnE", "published": "2025\u5e7410\u670820\u65e5", "thumbnail": "https://img.youtube.com/vi/HXXd25PEhnE/mqdefault.jpg", "title": "Evan Builds Vite Prototype"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/OWZyshYJi3s", "link": "https://www.youtube.com/shorts/OWZyshYJi3s", "published": "2025\u5e7410\u670817\u65e5", "thumbnail": "https://img.youtube.com/vi/OWZyshYJi3s/mqdefault.jpg", "title": "Evan\u0027s frustrations that led to Vite..."}, {"duration": "", "embed_url": "https://www.youtube.com/embed/9au4xDYpOzo", "link": "https://www.youtube.com/watch?v=9au4xDYpOzo", "published": "2025\u5e7410\u670816\u65e5", "thumbnail": "https://img.youtube.com/vi/9au4xDYpOzo/mqdefault.jpg", "title": "How Vitest Was Born: The 4-Hour Prototype That Changed Vite Forever"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/RUn6dRVmjiE", "link": "https://www.youtube.com/shorts/RUn6dRVmjiE", "published": "2025\u5e7410\u670815\u65e5", "thumbnail": "https://img.youtube.com/vi/RUn6dRVmjiE/mqdefault.jpg", "title": "Thoughts on Webpack..."}, {"duration": "", "embed_url": "https://www.youtube.com/embed/OsZzFzL4dv8", "link": "https://www.youtube.com/shorts/OsZzFzL4dv8", "published": "2025\u5e7410\u670813\u65e5", "thumbnail": "https://img.youtube.com/vi/OsZzFzL4dv8/mqdefault.jpg", "title": "\"No one was taking Javascript too seriously until...\""}, {"duration": "", "embed_url": "https://www.youtube.com/embed/bmWQqAKLgT4", "link": "https://www.youtube.com/watch?v=bmWQqAKLgT4", "published": "2025\u5e7410\u670809\u65e5", "thumbnail": "https://img.youtube.com/vi/bmWQqAKLgT4/mqdefault.jpg", "title": "Vite: The Documentary"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/uXoHuieb_lc", "link": "https://www.youtube.com/shorts/uXoHuieb_lc", "published": "2025\u5e7410\u670809\u65e5", "thumbnail": "https://img.youtube.com/vi/uXoHuieb_lc/mqdefault.jpg", "title": "\"When the Remix team joined Vite, all the other framework authors were helping them.\""}]}, {"description": "", "id": "https___www_youtube_com_feeds_videos_xml_channel_id_UCXuqSBlHAE6Xw_yeJA0Tunw", "title": "Linus Tech Tips", "url": "https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw", "videos": [{"duration": "", "embed_url": "https://www.youtube.com/embed/KMXXcqpFZzo", "link": "https://www.youtube.com/watch?v=KMXXcqpFZzo", "published": "13\u5c0f\u65f6\u524d", "thumbnail": "https://img.youtube.com/vi/KMXXcqpFZzo/mqdefault.jpg", "title": "Do the Writers Agree With Linus\u0027s Hot Takes?"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/VqMBiXI2-KE", "link": "https://www.youtube.com/shorts/VqMBiXI2-KE", "published": "2025\u5e7412\u670801\u65e5", "thumbnail": "https://img.youtube.com/vi/VqMBiXI2-KE/mqdefault.jpg", "title": "I\u0027ve dropped tech on purpose two times"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/jNkNnQ7AfT8", "link": "https://www.youtube.com/watch?v=jNkNnQ7AfT8", "published": "2025\u5e7412\u670801\u65e5", "thumbnail": "https://img.youtube.com/vi/jNkNnQ7AfT8/mqdefault.jpg", "title": "Will I Get Scammed For Speaking English in China?"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/mfv0V1SxbNA", "link": "https://www.youtube.com/watch?v=mfv0V1SxbNA", "published": "2025\u5e7411\u670830\u65e5", "thumbnail": "https://img.youtube.com/vi/mfv0V1SxbNA/mqdefault.jpg", "title": "Building the PERFECT Linux PC with Linus Torvalds"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/vJIzIH_guPU", "link": "https://www.youtube.com/watch?v=vJIzIH_guPU", "published": "2025\u5e7411\u670829\u65e5", "thumbnail": "https://img.youtube.com/vi/vJIzIH_guPU/mqdefault.jpg", "title": "AirPods Pro 3 - I was Wrong (sort of)"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/35igp1OBRY0", "link": "https://www.youtube.com/watch?v=35igp1OBRY0", "published": "2025\u5e7411\u670828\u65e5", "thumbnail": "https://img.youtube.com/vi/35igp1OBRY0/mqdefault.jpg", "title": "The Honey Lawsuit Was Dismissed - WAN Show November 28, 2025"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/j2Bvy7tSX5E", "link": "https://www.youtube.com/watch?v=j2Bvy7tSX5E", "published": "2025\u5e7411\u670828\u65e5", "thumbnail": "https://img.youtube.com/vi/j2Bvy7tSX5E/mqdefault.jpg", "title": "This Water Cooled Phone is the Fastest We\u2019ve Tested"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/b_qzIofbuoc", "link": "https://www.youtube.com/shorts/b_qzIofbuoc", "published": "2025\u5e7411\u670828\u65e5", "thumbnail": "https://img.youtube.com/vi/b_qzIofbuoc/mqdefault.jpg", "title": "We made a Transparent PC"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/iHkBcqW-ExY", "link": "https://www.youtube.com/watch?v=iHkBcqW-ExY", "published": "2025\u5e7411\u670827\u65e5", "thumbnail": "https://img.youtube.com/vi/iHkBcqW-ExY/mqdefault.jpg", "title": "The STEAM Machine Won\u0027t Cost What You Think"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/TGrFMFR6W0I", "link": "https://www.youtube.com/watch?v=TGrFMFR6W0I", "published": "2025\u5e7411\u670826\u65e5", "thumbnail": "https://img.youtube.com/vi/TGrFMFR6W0I/mqdefault.jpg", "title": "The All Transparent Gaming Setup"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/_KMPjeioX08", "link": "https://www.youtube.com/watch?v=_KMPjeioX08", "published": "2025\u5e7411\u670825\u65e5", "thumbnail": "https://img.youtube.com/vi/_KMPjeioX08/mqdefault.jpg", "title": "I Watched This Movie on 10 Different Formats"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/xkGNuPanPh4", "link": "https://www.youtube.com/watch?v=xkGNuPanPh4", "published": "2025\u5e7411\u670824\u65e5", "thumbnail": "https://img.youtube.com/vi/xkGNuPanPh4/mqdefault.jpg", "title": "I got TESTED in China\u0027s Incredible Biometrics Lab"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/BUPtrvh8fCg", "link": "https://www.youtube.com/watch?v=BUPtrvh8fCg", "published": "2025\u5e7411\u670823\u65e5", "thumbnail": "https://img.youtube.com/vi/BUPtrvh8fCg/mqdefault.jpg", "title": "Stop Wasting Money on Premium Monitors"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/QhDEM3xytZc", "link": "https://www.youtube.com/shorts/QhDEM3xytZc", "published": "2025\u5e7411\u670823\u65e5", "thumbnail": "https://img.youtube.com/vi/QhDEM3xytZc/mqdefault.jpg", "title": "How To Spot an AI Image"}, {"duration": "", "embed_url": "https://www.youtube.com/embed/-kDtt0QBNRU", "link": "https://www.youtube.com/watch?v=-kDtt0QBNRU", "published": "2025\u5e7411\u670822\u65e5", "thumbnail": "https://img.youtube.com/vi/-kDtt0QBNRU/mqdefault.jpg", "title": "That Isn\u0027t Me"}]}];
 
         // DOM元素
         const channelsContainer = document.getElementById('channelsContainer');
         const searchInput = document.getElementById('searchInput');
         const gridViewBtn = document.getElementById('gridViewBtn');
         const listViewBtn = document.getElementById('listViewBtn');
+
+        // 视频模态框元素
+        const videoModal = document.getElementById('videoModal');
+        const videoModalIframe = document.getElementById('videoModalIframe');
+        const videoModalClose = document.getElementById('videoModalClose');
 
         // 当前视图模式
         let currentView = 'grid';
@@ -429,12 +535,29 @@
             // 视图切换
             gridViewBtn.addEventListener('click', () => switchView('grid'));
             listViewBtn.addEventListener('click', () => switchView('list'));
+
+            // 视频模态框关闭事件
+            videoModalClose.addEventListener('click', closeVideoModal);
+
+            // 点击模态框外部关闭
+            videoModal.addEventListener('click', (e) => {
+                if (e.target === videoModal) {
+                    closeVideoModal();
+                }
+            });
+
+            // ESC键关闭模态框
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    closeVideoModal();
+                }
+            });
         }
 
         // 渲染频道
         function renderChannels(channels) {
             channelsContainer.innerHTML = '';
-            
+
             channels.forEach(channel => {
                 const channelCard = createChannelCard(channel);
                 channelsContainer.appendChild(channelCard);
@@ -511,7 +634,6 @@
         function createVideoCard(video) {
             const card = document.createElement('div');
             card.className = 'video-card';
-            card.addEventListener('click', () => window.open(video.link, '_blank'));
 
             // 缩略图容器
             const thumbnail = document.createElement('div');
@@ -526,8 +648,25 @@
             duration.className = 'video-duration';
             duration.textContent = video.duration;
 
+            // 播放按钮
+            const playButton = document.createElement('div');
+            playButton.className = 'play-button';
+            playButton.innerHTML = '<i class="fas fa-play"></i>';
+
+            // 播放按钮点击事件
+            playButton.addEventListener('click', (e) => {
+                e.stopPropagation(); // 阻止事件冒泡，这是关键！
+                if (video.embed_url) {
+                    openVideoModal(video.embed_url);
+                } else {
+                    // 如果没有嵌入URL，则在新窗口打开原链接
+                    window.open(video.link, '_blank');
+                }
+            });
+
             thumbnail.appendChild(img);
             thumbnail.appendChild(duration);
+            thumbnail.appendChild(playButton);
 
             // 视频信息
             const info = document.createElement('div');
@@ -547,11 +686,35 @@
             card.appendChild(thumbnail);
             card.appendChild(info);
 
+            // 视频卡片点击事件（在新窗口打开原链接）
+            card.addEventListener('click', () => {
+                window.open(video.link, '_blank');
+            });
+
             return card;
+        }
+
+        // 打开视频模态框
+        function openVideoModal(embedUrl) {
+            videoModalIframe.src = embedUrl;
+            videoModal.style.display = 'flex';
+            document.body.style.overflow = 'hidden'; // 禁止背景滚动
+        }
+
+        // 关闭视频模态框
+        function closeVideoModal() {
+            videoModal.style.display = 'none';
+            videoModalIframe.src = ''; // 清空iframe内容，停止视频播放
+            document.body.style.overflow = 'auto'; // 恢复背景滚动
         }
 
         // 滚动视频列表
         function scrollVideos(channelId, direction) {
+            // 在列表视图下，不执行滚动操作
+            if (currentView === 'list') {
+                return;
+            }
+
             const videosScroll = document.getElementById(`videos-${channelId}`);
             const scrollAmount = 210; // 视频卡片宽度 + 间距
 
@@ -565,7 +728,7 @@
         // 切换视图
         function switchView(view) {
             currentView = view;
-            
+
             if (view === 'grid') {
                 channelsContainer.classList.remove('list-view');
                 gridViewBtn.classList.add('active');
@@ -580,7 +743,7 @@
         // 搜索处理
         function handleSearch() {
             const query = searchInput.value.toLowerCase().trim();
-            
+
             if (!query) {
                 renderChannels(channelsData);
                 return;
@@ -591,9 +754,9 @@
                 if (channel.title.toLowerCase().includes(query)) {
                     return true;
                 }
-                
+
                 // 检查视频标题
-                return channel.videos.some(video => 
+                return channel.videos.some(video =>
                     video.title.toLowerCase().includes(query)
                 );
             });
@@ -605,4 +768,5 @@
         document.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
+
 </html>
