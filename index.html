@@ -411,13 +411,86 @@
             flex-direction: column;
             overflow-x: hidden;
             overflow-y: auto;
-            max-height: 500px;
+            max-height: 300px;
         }
 
         /* 列表视图下隐藏滚动按钮 */
         .list-view .scroll-btn {
             display: none;
         }
+
+        /* ... (其他CSS规则保持不变) ... */
+
+        /* 列表视图下隐藏滚动按钮 */
+        .list-view .scroll-btn {
+            display: none;
+        }
+
+
+        /* --- 修正后的紧凑视图样式 --- */
+
+        /* 1. 将频道容器设置为网格布局，每行3个 */
+        .compact-view .channels-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            /* 关键：每行3列，等宽 */
+            gap: 25px;
+            /* 卡片间距 */
+        }
+
+        /* 2. 紧凑视图下的单个频道卡片样式 */
+        .compact-view .channel-card {
+            /* 继承默认样式即可，无需修改 */
+        }
+
+        /* 3. 紧凑视图下的视频容器 */
+        .compact-view .videos-container {
+            /* 移除 overflow: hidden，让内容自然展示 */
+            padding: 10px 0;
+        }
+
+        /* 4. 紧凑视图下的视频滚动容器（实际是垂直列表） */
+        .compact-view .videos-scroll {
+            /* 关键：设置为垂直列表 */
+            display: flex;
+            flex-direction: column;
+            /* 移除所有滚动相关属性 */
+            overflow-x: visible;
+            overflow-y: visible;
+        }
+
+        /* 5. 紧凑视图下的单个视频卡片样式 */
+        .compact-view .video-card {
+            /* 关键：设置为水平布局 */
+            display: flex;
+            width: 100%;
+            margin: 10px 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .compact-view .video-card:last-child {
+            border-bottom: none;
+        }
+
+        .compact-view .video-thumbnail {
+            width: 120px;
+            height: 70px;
+            padding-bottom: 0;
+            /* 覆盖默认的 56.25% */
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .compact-view .video-info {
+            flex: 1;
+        }
+
+        /* 6. 在紧凑视图下隐藏滚动按钮 */
+        .compact-view .scroll-btn {
+            display: none;
+        }
+
 
         footer {
             text-align: center;
@@ -513,6 +586,7 @@
             </div>
             <div class="view-toggle">
                 <button class="active" id="gridViewBtn"><i class="fas fa-th"></i></button>
+                <button id="compactViewBtn"><i class="fas fa-th-large"></i></button>
                 <button id="listViewBtn"><i class="fas fa-list"></i></button>
             </div>
         </div>
@@ -522,7 +596,7 @@
         </div>
 
         <footer>
-            <p>最近更新: <span id="lastUpdated">2025-12-03 19:04:49</span></p>
+            <p>最近更新: <span id="lastUpdated">2025-12-03 19:48:22</span></p>
             <p>© 2025-2025 By 云野阁</p>
             <div class="footer-links">
                 <a
@@ -549,6 +623,7 @@
         const channelsContainer = document.getElementById('channelsContainer');
         const searchInput = document.getElementById('searchInput');
         const gridViewBtn = document.getElementById('gridViewBtn');
+        const compactViewBtn = document.getElementById('compactViewBtn');
         const listViewBtn = document.getElementById('listViewBtn');
 
         // 视频模态框元素
@@ -572,6 +647,7 @@
 
             // 视图切换
             gridViewBtn.addEventListener('click', () => switchView('grid'));
+            compactViewBtn.addEventListener('click', () => switchView('compact'));
             listViewBtn.addEventListener('click', () => switchView('list'));
 
             // 视频模态框关闭事件
@@ -756,8 +832,8 @@
 
         // 滚动视频列表
         function scrollVideos(channelId, direction) {
-            // 在列表视图下，不执行滚动操作
-            if (currentView === 'list') {
+            // 在列表视图和紧凑视图下，不执行滚动操作
+            if (currentView === 'list' || currentView === 'compact') { // 新增 'compact'
                 return;
             }
 
@@ -774,14 +850,22 @@
         // 切换视图
         function switchView(view) {
             currentView = view;
+            // 移除所有按钮的 active 类
+            gridViewBtn.classList.remove('active');
+            compactViewBtn.classList.remove('active');
+            listViewBtn.classList.remove('active');
+
+            // 移除所有视图的类
+            channelsContainer.classList.remove('list-view');
+            channelsContainer.classList.remove('compact-view');
+
 
             if (view === 'grid') {
-                channelsContainer.classList.remove('list-view');
                 gridViewBtn.classList.add('active');
-                listViewBtn.classList.remove('active');
-            } else {
+            } else if (view === 'compact') { // 新增
+                compactViewBtn.classList.add('active');
+            } else if (view === 'list') { // 修改为 else if
                 channelsContainer.classList.add('list-view');
-                gridViewBtn.classList.remove('active');
                 listViewBtn.classList.add('active');
             }
         }
