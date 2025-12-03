@@ -589,6 +589,18 @@
             .video-modal-iframe {
                 height: 300px;
             }
+
+            /* --- 紧凑视图在手机端的响应式样式 --- */
+            body .channels-grid {
+                grid-template-columns: 1fr !important;
+                /* 增加特殊性并强制覆盖 */
+            }
+
+            /* --- 新增：确保列表模式在手机端页面可以滚动 --- */
+            body.list-view {
+                overflow: auto;
+                /* 或者 overflow-y: auto; */
+            }
         }
 
         /* 暗色模式 */
@@ -632,7 +644,7 @@
         </div>
 
         <footer>
-            <p>最近更新: <span id="lastUpdated">2025-12-03 20:26:57</span></p>
+            <p>最近更新: <span id="lastUpdated">2025-12-03 20:43:34</span></p>
             <p>© 2025-2025 By 云野阁</p>
             <div class="footer-links">
                 <a
