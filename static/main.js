@@ -1,3 +1,6 @@
+// 在文件最开头添加
+console.log("main.js loaded and executing.");
+
 // DOM元素
 const channelsContainer = document.getElementById('channelsContainer');
 const searchInput = document.getElementById('searchInput');
@@ -21,12 +24,15 @@ let currentView = 'grid';
 
 // 初始化页面
 function init() {
+        console.log("init() function called.");
     if (!channelsData) {
         console.error("Channel data not found!");
         return;
     }
+    console.log("Channel data found:", channelsData);
     renderChannels(channelsData);
     setupEventListeners();
+    console.log("Initialization complete.");
 }
 
 // 设置事件监听器
@@ -35,8 +41,16 @@ function setupEventListeners() {
     searchInput.addEventListener('input', handleSearch);
 
     // 视图切换
-    gridViewBtn.addEventListener('click', () => switchView('grid'));
-    listViewBtn.addEventListener('click', () => switchView('list'));
+        gridViewBtn.addEventListener('click', () => {
+        console.log("Grid view button clicked.");
+        switchView('grid');
+    });
+    listViewBtn.addEventListener('click', () => {
+        console.log("List view button clicked.");
+        switchView('list');
+    });
+    // gridViewBtn.addEventListener('click', () => switchView('grid'));
+    // listViewBtn.addEventListener('click', () => switchView('list'));
 
     // 模态框关闭事件
     modalCloseBtn.onclick = () => closeModal();
@@ -189,6 +203,7 @@ function scrollVideos(channelId, direction) {
 
 // 切换视图
 function switchView(view) {
+        console.log(`Switching view to: ${view}`);
     currentView = view;
     if (view === 'grid') {
         channelsContainer.classList.remove('list-view');
@@ -215,5 +230,10 @@ function handleSearch() {
     renderChannels(filteredChannels);
 }
 
-// 页面加载完成后初始化
-document.addEventListener('DOMContentLoaded', init);
+// // 页面加载完成后初始化
+// document.addEventListener('DOMContentLoaded', init);
+// 在文件最末尾添加
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("DOM fully loaded and parsed.");
+    init();
+});
