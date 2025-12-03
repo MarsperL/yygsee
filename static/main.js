@@ -1,6 +1,3 @@
-// 在文件最开头添加
-console.log("main.js loaded and executing.");
-
 // DOM元素
 const channelsContainer = document.getElementById('channelsContainer');
 const searchInput = document.getElementById('searchInput');
@@ -16,24 +13,32 @@ const modalDescription = document.getElementById('modalDescription');
 const modalWatchLink = document.getElementById('modalWatchLink');
 const modalCloseBtn = document.getElementById('modalClose');
 
-// 从全局变量获取数据 (由模板注入)
-const channelsData = window.channelsData;
-
+// // 从全局变量获取数据 (由模板注入)
+// const channelsData = window.channelsData;
+let channelsData = []; // 定义一个空数组来存放数据
 // 当前视图模式
 let currentView = 'grid';
 
-// 初始化页面
-function init() {
-        console.log("init() function called.");
-    if (!channelsData) {
-        console.error("Channel data not found!");
-        return;
+// ✅ 修改：新的初始化函数，现在是异步的
+async function init() {
+    try {
+        // 使用fetch API获取JSON数据
+        const response = await fetch('/channels.json');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        channelsData = await response.json();
+        
+        // 数据加载成功后，渲染页面
+        renderChannels(channelsData);
+        setupEventListeners();
+    } catch (error) {
+        console.error("Failed to load channel data:", error);
+        // 可以在这里向用户显示错误信息
+        channelsContainer.innerHTML = `<p style="color: red; text-align: center;">加载数据失败，请稍后重试。错误: ${error.message}</p>`;
     }
-    console.log("Channel data found:", channelsData);
-    renderChannels(channelsData);
-    setupEventListeners();
-    console.log("Initialization complete.");
 }
+
 
 // 设置事件监听器
 function setupEventListeners() {
@@ -41,16 +46,8 @@ function setupEventListeners() {
     searchInput.addEventListener('input', handleSearch);
 
     // 视图切换
-        gridViewBtn.addEventListener('click', () => {
-        console.log("Grid view button clicked.");
-        switchView('grid');
-    });
-    listViewBtn.addEventListener('click', () => {
-        console.log("List view button clicked.");
-        switchView('list');
-    });
-    // gridViewBtn.addEventListener('click', () => switchView('grid'));
-    // listViewBtn.addEventListener('click', () => switchView('list'));
+    gridViewBtn.addEventListener('click', () => switchView('grid'));
+    listViewBtn.addEventListener('click', () => switchView('list'));
 
     // 模态框关闭事件
     modalCloseBtn.onclick = () => closeModal();
@@ -203,7 +200,6 @@ function scrollVideos(channelId, direction) {
 
 // 切换视图
 function switchView(view) {
-        console.log(`Switching view to: ${view}`);
     currentView = view;
     if (view === 'grid') {
         channelsContainer.classList.remove('list-view');
@@ -230,10 +226,5 @@ function handleSearch() {
     renderChannels(filteredChannels);
 }
 
-// // 页面加载完成后初始化
-// document.addEventListener('DOMContentLoaded', init);
-// 在文件最末尾添加
-document.addEventListener('DOMContentLoaded', () => {
-    console.log("DOM fully loaded and parsed.");
-    init();
-});
+// 页面加载完成后初始化
+document.addEventListener('DOMContentLoaded', init);
