@@ -8,6 +8,7 @@
            --border-color: #e9ecef;
            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
            --shadow-hover: 0 8px 15px rgba(0, 0, 0, 0.1);
+           --orange: #4DABF7;
        }
 
        * {
@@ -98,7 +99,6 @@
            color: white;
        }
 
-       /* 频道容器 - 每行一个卡片 */
        .channels-container {
            display: flex;
            flex-direction: column;
@@ -124,6 +124,7 @@
            display: flex;
            align-items: center;
            border-bottom: 1px solid var(--border-color);
+           position: relative;
        }
 
        .channel-avatar {
@@ -175,14 +176,11 @@
            overflow-x: auto;
            scroll-behavior: smooth;
            scrollbar-width: none;
-           /* Firefox */
            -ms-overflow-style: none;
-           /* IE and Edge */
        }
 
        .videos-scroll::-webkit-scrollbar {
            display: none;
-           /* Chrome, Safari, Opera */
        }
 
        .video-card {
@@ -196,7 +194,6 @@
        .video-thumbnail {
            position: relative;
            padding-bottom: 56.25%;
-           /* 16:9 aspect ratio */
            overflow: hidden;
            border-radius: 8px;
            background-color: #f0f0f0;
@@ -229,44 +226,32 @@
 
        .video-info {
            margin-top: 8px;
-           /* --- 关键：设置一个固定的最小高度 --- */
-           /* 高度 = (2行标题 * 1.3行高 * 0.9rem字体) + (1行元数据 * 1.3行高 * 0.8rem字体) + 5px间距 */
-           /* 约等于 (2.34rem) + (1.04rem) + 5px */
            min-height: 3.5rem;
-           /* 这个值可以根据您的实际字体大小微调 */
            display: flex;
            flex-direction: column;
            justify-content: flex-start;
-           /* 内容从顶部开始排列 */
        }
 
        .video-title {
            font-size: 0.9rem;
            font-weight: 500;
-           /* --- 移除旧的截断样式 --- */
            display: -webkit-box;
            -webkit-line-clamp: 2;
-           /* 限制最多显示2行 */
            -webkit-box-orient: vertical;
            overflow: hidden;
            text-overflow: ellipsis;
            line-height: 1.3;
            word-wrap: break-word;
-           /* --- 关键：让标题元素占据所有可用空间 --- */
            flex-grow: 1;
-           /* 这会让标题部分填充所有可用的高度 */
        }
 
        .video-meta {
            font-size: 0.8rem;
            color: var(--text-secondary);
-           /* 元数据不需要伸缩，保持其自然高度 */
            flex-shrink: 0;
            margin-top: auto;
-           /* 将元数据推到底部 */
        }
 
-       /* 播放按钮样式 */
        .play-button {
            position: absolute;
            top: 50%;
@@ -291,7 +276,6 @@
            opacity: 1;
        }
 
-       /* 视频模态框样式 */
        .video-modal {
            display: none;
            position: fixed;
@@ -330,7 +314,6 @@
            z-index: 1001;
        }
 
-       /* 滚动按钮样式 */
        .scroll-btn {
            position: absolute;
            top: 50%;
@@ -361,7 +344,6 @@
            right: 5px;
        }
 
-       /* 列表视图样式 */
        .list-view .channel-card {
            display: flex;
            flex-direction: column;
@@ -395,7 +377,6 @@
            flex: 1;
        }
 
-       /* 列表视图下的视频滚动容器 */
        .list-view .videos-scroll {
            flex-direction: column;
            overflow-x: hidden;
@@ -403,59 +384,44 @@
            max-height: 300px;
        }
 
-       /* 列表视图下隐藏滚动按钮 */
        .list-view .scroll-btn {
            display: none;
        }
 
-       /* ... (其他CSS规则保持不变) ... */
-
-       /* 列表视图下隐藏滚动按钮 */
        .list-view .scroll-btn {
            display: none;
        }
 
-
-       /* --- 新的、独立的紧凑视图样式 --- */
-
-       /* 默认紧凑视图：适用于中等屏幕，每行3个 */
        .channels-grid {
            display: grid;
            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
            gap: 25px;
        }
 
-       /* --- 优化后的、最多每行3个的紧凑视图样式 --- */
-
-       /* 默认紧凑视图：适用于中等屏幕，每行3个 */
        .channels-grid {
            display: grid;
            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
            gap: 25px;
        }
 
-       /* 媒体查询：中等屏幕，每行3个 */
        @media (min-width: 900px) {
            .channels-grid {
                grid-template-columns: repeat(3, 1fr);
            }
        }
 
-       /* 媒体查询：小屏幕（如平板竖放），每行2个 */
        @media (min-width: 600px) and (max-width: 899px) {
            .channels-grid {
                grid-template-columns: repeat(2, 1fr);
            }
        }
 
-       /* 媒体查询：手机端，每行1个 */
        @media (max-width: 599px) {
            .channels-grid {
                grid-template-columns: 1fr;
            }
        }
 
-       /* 2. 当容器是这个新类时，内部的视频卡片样式 */
        .channels-grid .videos-container {
            padding: 10px 0;
        }
@@ -464,59 +430,38 @@
            display: flex;
            flex-direction: column;
            max-height: 300px;
-
-           /* --- 关键：隐藏滚动条的技巧 --- */
            overflow-y: scroll;
-           /* 必须是 scroll，不能是 auto */
-
-           /* 1. 增加内边距，为可能出现的滚动条留出空间 */
            padding-right: 15px;
-           /* 这个值可以根据滚动条的宽度调整 */
        }
 
-       /* --- 关键：隐藏滚动条的技巧 --- */
-       /* 2. 创建一个子容器，其宽度和父容器一样 */
-       .channels-grid .videos-scroll>div {
-           /* 这里不需要额外样式，因为视频卡片本身已经定义好了 */
-       }
+       .channels-grid .videos-scroll>div {}
 
-       /* 3. 使用负边距，将子容器拉回，覆盖掉滚动条区域 */
        .channels-grid .videos-scroll>div {
            margin-right: -15px;
-           /* 这个值必须与 padding-right 相同 */
            padding-right: 15px;
-           /* 给子容器增加内边距，防止内容被裁切 */
        }
 
-       /* 2. WebKit (Chrome, Safari, Edge) 的私有属性 */
        .channels-grid .videos-scroll::-webkit-scrollbar {
            width: 8px;
-           /* 增加宽度，使其更明显 */
        }
 
        .channels-grid .videos-scroll::-webkit-scrollbar-track {
            background: transparent;
-           /* 轨道颜色 */
            border-radius: 4px;
        }
 
        .channels-grid .videos-scroll::-webkit-scrollbar-thumb {
            background: var(--text-secondary);
-           /* 滑块颜色 */
            border-radius: 4px;
            border: 1px solid var(--border-color);
-           /* 添加边框，增加可见性 */
        }
 
        .channels-grid .videos-scroll::-webkit-scrollbar-thumb:hover {
            background: var(--text-color);
-           /* 鼠标悬停时滑块颜色 */
        }
-
 
        .channels-grid .video-card {
            display: flex;
-           /* 水平布局 */
            width: 100%;
            margin: 10px 15px;
            padding-bottom: 10px;
@@ -541,7 +486,6 @@
 
        .channels-grid .scroll-btn {
            display: none;
-           /* 隐藏滚动按钮 */
        }
 
        footer {
@@ -567,13 +511,30 @@
            text-decoration: underline;
        }
 
-       /* 今日更新徽章样式 */
+       .category-badge {
+           display: inline-block;
+           font-size: 0.9rem;
+           color: white;
+           background-color: var(--primary-color);
+           padding: 6px;
+           border-radius: 0px 10px;
+           font-weight: bold;
+           white-space: nowrap;
+           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+       }
+
+       .category-badge-top-right {
+           position: absolute;
+           top: 0px;
+           right: 0px;
+           background-color: #4DABF7;
+       }
+
        .today-badge {
            position: absolute;
            top: 5px;
            right: 5px;
            background-color: #FC7E11;
-           /* 一个醒目的红色 */
            color: white;
            font-size: 0.7rem;
            padding: 3px 6px;
@@ -583,7 +544,6 @@
            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
        }
 
-       /* 响应式设计 */
        @media (max-width: 768px) {
            header h1 {
                font-size: 2rem;
@@ -594,17 +554,13 @@
                align-items: stretch;
            }
 
-           /* --- 新增：视图切换按钮在手机端平分宽度 --- */
            .view-toggle {
                width: 100%;
-               /* 确保容器占满父元素宽度 */
                margin-top: 10px;
-               /* 与上方的搜索框增加一点间距 */
            }
 
            .view-toggle button {
                flex: 1;
-               /* 关键：让每个按钮平分可用空间 */
            }
 
            .search-box {
@@ -619,20 +575,15 @@
                height: 300px;
            }
 
-           /* --- 紧凑视图在手机端的响应式样式 --- */
            body .channels-grid {
                grid-template-columns: 1fr !important;
-               /* 增加特殊性并强制覆盖 */
            }
 
-           /* --- 新增：确保列表模式在手机端页面可以滚动 --- */
            body.list-view {
                overflow: auto;
-               /* 或者 overflow-y: auto; */
            }
        }
 
-       /* 暗色模式 */
        @media (prefers-color-scheme: dark) {
            :root {
                --primary-color: #4dabf7;
@@ -645,4 +596,130 @@
                --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
                --shadow-hover: 0 8px 15px rgba(0, 0, 0, 0.4);
            }
+       }
+
+       .back-top-container {
+           position: fixed;
+           bottom: 80px;
+           right: 20px;
+           width: 60px;
+           height: 60px;
+           z-index: 1001;
+           opacity: 0;
+           visibility: hidden;
+           transition: opacity 0.3s ease, visibility 0.3s ease;
+       }
+
+       .back-top-container.show {
+           opacity: 1;
+           visibility: visible;
+       }
+
+       .back-top-main {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           cursor: pointer;
+           width: 44px;
+           height: 44px;
+           border-radius: 50%;
+           background-color: var(--orange);
+           padding: 8px;
+           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           z-index: 2;
+           transition: background-color 0.2s ease;
+       }
+
+       .back-top-main:hover {
+           background-color: #2a80c6;
+       }
+
+       .progress-ring {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           transform: rotate(-90deg);
+           z-index: 1;
+       }
+
+       .progress-ring-background {
+           fill: none;
+           stroke: rgba(252, 126, 17, 0.15);
+           stroke-width: 3;
+       }
+
+       .progress-ring-circle {
+           fill: none;
+           stroke: var(--orange);
+           stroke-width: 3;
+           stroke-dasharray: 264;
+           stroke-linecap: round;
+           transition: stroke-dashoffset 0.15s ease-out;
+       }
+
+       .icon {
+           width: 24px;
+           height: 24px;
+       }
+
+       @media (max-width: 720px) {
+           .back-top-container {
+               bottom: 100px;
+               right: 10px;
+               width: 50px;
+               height: 50px;
+           }
+
+           .back-top-main {
+               width: 38px;
+               height: 38px;
+           }
+
+           .icon {
+               width: 20px;
+               height: 20px;
+           }
+       }
+
+       .header-content {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           gap: 10px;
+           padding: 30px 0;
+       }
+
+       .header-logo {
+           height: 40px;
+           width: auto;
+           margin-left: 10px;
+           max-width: 60px;
+           object-fit: contain;
+       }
+
+       .header-text {
+           text-align: left;
+       }
+
+       .header-text h1 {
+           margin: 0;
+           font-size: 2.5rem;
+       }
+
+       .header-text p {
+           margin: 5px 0 0 0;
+           font-size: 1.1rem;
+           opacity: 0.9;
+       }
+
+       h2 {
+           background-image: linear-gradient(to top, #dd5cc5 0%, #fffebf 70%);
+           background-clip: text;
+           -webkit-text-fill-color: transparent;
+           color: transparent;
+           font-weight: bold;
        }
