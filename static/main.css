@@ -545,9 +545,6 @@
        }
 
        @media (max-width: 768px) {
-           header h1 {
-               font-size: 2rem;
-           }
 
            .controls {
                flex-direction: column;
@@ -581,6 +578,10 @@
 
            body.list-view {
                overflow: auto;
+           }
+
+           .header-text h2 {
+               height: auto;
            }
        }
 
@@ -705,10 +706,6 @@
            text-align: left;
        }
 
-       .header-text h1 {
-           margin: 0;
-           font-size: 2.5rem;
-       }
 
        .header-text p {
            margin: 5px 0 0 0;
@@ -716,10 +713,12 @@
            opacity: 0.9;
        }
 
-       h2 {
-           background-image: linear-gradient(to top, #dd5cc5 0%, #fffebf 70%);
+       .header-text h2 {
+           background-image: linear-gradient(to top, #dd5cc5 0%, #fffebf 100%);
            background-clip: text;
+           -webkit-background-clip: text;
            -webkit-text-fill-color: transparent;
            color: transparent;
            font-weight: bold;
+           display: inline-block;
        }
