@@ -9,7 +9,7 @@
                 "link": "https://www.bilibili.com/opus/1142892803258318868",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/73247b847151b2a1d924b448b0c46f4b6336952.png",
                 "duration": "",
-                "published": "17小时前",
+                "published": "20小时前",
                 "embed_url": "",
                 "is_today": false
             },
@@ -18,7 +18,7 @@
                 "link": "https://www.bilibili.com/video/BV17T2eBzECS",
                 "thumbnail": "http://i2.hdslb.com/bfs/archive/0d3196ff70de35d6f8a4c10a2a4996ef14d6cd9c.jpg",
                 "duration": "",
-                "published": "21小时前",
+                "published": "2025年12月05日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV17T2eBzECS&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -104,6 +104,15 @@
         "url": "https://space.bilibili.com/46340420/dynamic",
         "videos": [
             {
+                "title": "【中字】恐怖游戏改编《铁肺》终极预告【基萌/Markiplier/Iron Lung】",
+                "link": "https://www.bilibili.com/video/BV1nB2pBUEG6",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/70966a47958c9176e4905acee0cef73cb2b951bc.jpg",
+                "duration": "",
+                "published": "8小时前",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1nB2pBUEG6&high_quality=1&danmaku=0",
+                "is_today": true
+            },
+            {
                 "title": "凯奇叔版的蜘蛛侠会有黑白和彩色两个版本同时上线",
                 "link": "https://www.bilibili.com/opus/1142460360161230853",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/f566a7ab5b1fdc32ab8986315f7bdd6a46340420.jpg",
@@ -183,216 +192,108 @@
                 "published": "2025年11月28日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1XgSEBwEze&high_quality=1&danmaku=0",
                 "is_today": false
-            },
-            {
-                "title": "【中字】瓦格纳·马拉×选碟间【影像铺/CC/标准收藏/DVD】",
-                "link": "https://www.bilibili.com/video/BV1jGUzBtE7F",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/ee60389176a409c5faae5bca6966f8458f72693d.jpg",
-                "duration": "",
-                "published": "2025年11月27日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1jGUzBtE7F&high_quality=1&danmaku=0",
-                "is_today": false
             }
         ],
         "id": "bilibili_d4cd0bec",
         "category": "B站"
     },
     {
-        "title": "CultRepo",
+        "title": "老高與小茉 Mr & Mrs Gao",
         "description": "",
-        "url": "https://www.youtube.com/channel/UCsUalyRg43M8D60mtHe6YcA",
+        "url": "https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ",
         "videos": [
             {
-                "title": "The Rise and Rise of FastAPI",
-                "link": "https://www.youtube.com/watch?v=mpR8ngthqiE",
-                "thumbnail": "https://img.youtube.com/vi/mpR8ngthqiE/mqdefault.jpg",
+                "title": "【庫存影片】百慕大三角（拍攝於2022年2月，由於特殊原因封存至今） | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=ESObIvXrKZI",
+                "thumbnail": "https://img.youtube.com/vi/ESObIvXrKZI/mqdefault.jpg",
                 "duration": "",
-                "published": "2025年12月04日",
-                "embed_url": "https://www.youtube.com/embed/mpR8ngthqiE",
+                "published": "2025年11月12日",
+                "embed_url": "https://www.youtube.com/embed/ESObIvXrKZI",
                 "is_today": false
             },
             {
-                "title": "\"I thought it was too late for me to learn programming...\"",
-                "link": "https://www.youtube.com/shorts/_V8l33p_gf8",
-                "thumbnail": "https://img.youtube.com/vi/_V8l33p_gf8/mqdefault.jpg",
+                "title": "目前為止最可信的地外生命存在的證據 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=Iocm-1dXr-Q",
+                "thumbnail": "https://img.youtube.com/vi/Iocm-1dXr-Q/mqdefault.jpg",
                 "duration": "",
-                "published": "2025年12月01日",
-                "embed_url": "https://www.youtube.com/embed/_V8l33p_gf8",
+                "published": "2025年10月01日",
+                "embed_url": "https://www.youtube.com/embed/Iocm-1dXr-Q",
                 "is_today": false
             },
             {
-                "title": "The Unconventional Path of Rita Codes: Art, Code & Community",
-                "link": "https://www.youtube.com/watch?v=qvg7S13-bkc",
-                "thumbnail": "https://img.youtube.com/vi/qvg7S13-bkc/mqdefault.jpg",
+                "title": "臭氧空洞，人類距離滅絕最近的一次 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=VdF4cd0SitU",
+                "thumbnail": "https://img.youtube.com/vi/VdF4cd0SitU/mqdefault.jpg",
                 "duration": "",
-                "published": "2025年11月27日",
-                "embed_url": "https://www.youtube.com/embed/qvg7S13-bkc",
+                "published": "2025年09月17日",
+                "embed_url": "https://www.youtube.com/embed/VdF4cd0SitU",
                 "is_today": false
             },
             {
-                "title": "Flask started as an Aprils Fool's joke | with Armin Ronacher",
-                "link": "https://www.youtube.com/watch?v=GXJwX3tpMe0",
-                "thumbnail": "https://img.youtube.com/vi/GXJwX3tpMe0/mqdefault.jpg",
+                "title": "鉛，地球上最大的公害物質，我們都中過它的毒 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=hACEeJKE6TE",
+                "thumbnail": "https://img.youtube.com/vi/hACEeJKE6TE/mqdefault.jpg",
                 "duration": "",
-                "published": "2025年11月23日",
-                "embed_url": "https://www.youtube.com/embed/GXJwX3tpMe0",
+                "published": "2025年09月03日",
+                "embed_url": "https://www.youtube.com/embed/hACEeJKE6TE",
                 "is_today": false
             },
             {
-                "title": "\"[Webpack] was slow to scaffold a project, slow to start and slow to hot update.\"",
-                "link": "https://www.youtube.com/shorts/yO4fbCYL6pc",
-                "thumbnail": "https://img.youtube.com/vi/yO4fbCYL6pc/mqdefault.jpg",
+                "title": "【台灣猛鬼】紅衣小女孩 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=AvyJJ_Ew9no",
+                "thumbnail": "https://img.youtube.com/vi/AvyJJ_Ew9no/mqdefault.jpg",
                 "duration": "",
-                "published": "2025年10月29日",
-                "embed_url": "https://www.youtube.com/embed/yO4fbCYL6pc",
+                "published": "2025年08月20日",
+                "embed_url": "https://www.youtube.com/embed/AvyJJ_Ew9no",
                 "is_today": false
             },
             {
-                "title": "\"I've seen Webpack projects with a configuration file that's a thousand lines long.\"",
-                "link": "https://www.youtube.com/shorts/GK39dMwqJjg",
-                "thumbnail": "https://img.youtube.com/vi/GK39dMwqJjg/mqdefault.jpg",
+                "title": "一個星系文明可能來過太陽系，但它們直接摧毀了火星的母星，推演太陽系的形成過程發現我們可能住在一場超級核戰爭的残骸之中 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=XRvUWP6VaJY",
+                "thumbnail": "https://img.youtube.com/vi/XRvUWP6VaJY/mqdefault.jpg",
                 "duration": "",
-                "published": "2025年10月27日",
-                "embed_url": "https://www.youtube.com/embed/GK39dMwqJjg",
+                "published": "2025年08月06日",
+                "embed_url": "https://www.youtube.com/embed/XRvUWP6VaJY",
                 "is_today": false
             },
             {
-                "title": "\"[Webpack] is designed to be as flexible as possible\"... but...",
-                "link": "https://www.youtube.com/shorts/aurEWYs9AFc",
-                "thumbnail": "https://img.youtube.com/vi/aurEWYs9AFc/mqdefault.jpg",
+                "title": "「時間之鏡」絕密實驗：在北極禁區，科學家依據「時間是能量」的驚人理論，試圖用螺旋巨鏡扭曲時空、傳送意識，竟意外接收到來自未來的訊息，更引來UFO與神秘極光。。 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=gHjIZwBhTgI",
+                "thumbnail": "https://img.youtube.com/vi/gHjIZwBhTgI/mqdefault.jpg",
                 "duration": "",
-                "published": "2025年10月26日",
-                "embed_url": "https://www.youtube.com/embed/aurEWYs9AFc",
+                "published": "2025年07月23日",
+                "embed_url": "https://www.youtube.com/embed/gHjIZwBhTgI",
                 "is_today": false
             },
             {
-                "title": "Why Webpack changed everything, and why it had to change | with Evan You",
-                "link": "https://www.youtube.com/watch?v=yhcuXXl-Vb0",
-                "thumbnail": "https://img.youtube.com/vi/yhcuXXl-Vb0/mqdefault.jpg",
+                "title": "百分百成為有錢人的九十七個法則，但其中有一些是禁術，最好不要用 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=X-cm1dk3Peo",
+                "thumbnail": "https://img.youtube.com/vi/X-cm1dk3Peo/mqdefault.jpg",
                 "duration": "",
-                "published": "2025年10月23日",
-                "embed_url": "https://www.youtube.com/embed/yhcuXXl-Vb0",
+                "published": "2025年07月09日",
+                "embed_url": "https://www.youtube.com/embed/X-cm1dk3Peo",
                 "is_today": false
             },
             {
-                "title": "Bolt loves Vite!",
-                "link": "https://www.youtube.com/shorts/ahteBhxwVJI",
-                "thumbnail": "https://img.youtube.com/vi/ahteBhxwVJI/mqdefault.jpg",
+                "title": "世界最大的監獄 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=x1VY8HbGQWM",
+                "thumbnail": "https://img.youtube.com/vi/x1VY8HbGQWM/mqdefault.jpg",
                 "duration": "",
-                "published": "2025年10月22日",
-                "embed_url": "https://www.youtube.com/embed/ahteBhxwVJI",
+                "published": "2025年06月25日",
+                "embed_url": "https://www.youtube.com/embed/x1VY8HbGQWM",
                 "is_today": false
             },
             {
-                "title": "Evan Builds Vite Prototype",
-                "link": "https://www.youtube.com/shorts/HXXd25PEhnE",
-                "thumbnail": "https://img.youtube.com/vi/HXXd25PEhnE/mqdefault.jpg",
+                "title": "【震撼】這是一部需要反覆觀看的影片，你可能不知道，你的人生已經被人帶了節奏 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=MgHfu0aouow",
+                "thumbnail": "https://img.youtube.com/vi/MgHfu0aouow/mqdefault.jpg",
                 "duration": "",
-                "published": "2025年10月20日",
-                "embed_url": "https://www.youtube.com/embed/HXXd25PEhnE",
+                "published": "2025年06月11日",
+                "embed_url": "https://www.youtube.com/embed/MgHfu0aouow",
                 "is_today": false
             }
         ],
-        "id": "cultrepo_d22ea718",
-        "category": "YouTube"
-    },
-    {
-        "title": "Linus Tech Tips",
-        "description": "",
-        "url": "https://www.youtube.com/channel/UCXuqSBlHAE6Xw-yeJA0Tunw",
-        "videos": [
-            {
-                "title": "We Lost A Good One Bois - WAN Show December 5, 2025",
-                "link": "https://www.youtube.com/watch?v=C7RkDtPKZHI",
-                "thumbnail": "https://img.youtube.com/vi/C7RkDtPKZHI/mqdefault.jpg",
-                "duration": "",
-                "published": "7小时前",
-                "embed_url": "https://www.youtube.com/embed/C7RkDtPKZHI",
-                "is_today": true
-            },
-            {
-                "title": "Why Is RAM so Expensive?",
-                "link": "https://www.youtube.com/shorts/VIjppKxB1Ns",
-                "thumbnail": "https://img.youtube.com/vi/VIjppKxB1Ns/mqdefault.jpg",
-                "duration": "",
-                "published": "7小时前",
-                "embed_url": "https://www.youtube.com/embed/VIjppKxB1Ns",
-                "is_today": true
-            },
-            {
-                "title": "10 INCREDIBLE Tech Items Linus Didn’t Know About",
-                "link": "https://www.youtube.com/watch?v=sx_3o7QynPM",
-                "thumbnail": "https://img.youtube.com/vi/sx_3o7QynPM/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年12月04日",
-                "embed_url": "https://www.youtube.com/embed/sx_3o7QynPM",
-                "is_today": false
-            },
-            {
-                "title": "Linus Torvalds Accidentally Slams Elon Musk",
-                "link": "https://www.youtube.com/shorts/rDk_LsON3CM",
-                "thumbnail": "https://img.youtube.com/vi/rDk_LsON3CM/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年12月03日",
-                "embed_url": "https://www.youtube.com/embed/rDk_LsON3CM",
-                "is_today": false
-            },
-            {
-                "title": "Do the Writers Agree With Linus's Hot Takes?",
-                "link": "https://www.youtube.com/watch?v=KMXXcqpFZzo",
-                "thumbnail": "https://img.youtube.com/vi/KMXXcqpFZzo/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年12月02日",
-                "embed_url": "https://www.youtube.com/embed/KMXXcqpFZzo",
-                "is_today": false
-            },
-            {
-                "title": "I've dropped tech on purpose two times",
-                "link": "https://www.youtube.com/shorts/VqMBiXI2-KE",
-                "thumbnail": "https://img.youtube.com/vi/VqMBiXI2-KE/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年12月01日",
-                "embed_url": "https://www.youtube.com/embed/VqMBiXI2-KE",
-                "is_today": false
-            },
-            {
-                "title": "Will I Get Scammed Buying a PC in China?",
-                "link": "https://www.youtube.com/watch?v=jNkNnQ7AfT8",
-                "thumbnail": "https://img.youtube.com/vi/jNkNnQ7AfT8/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年12月01日",
-                "embed_url": "https://www.youtube.com/embed/jNkNnQ7AfT8",
-                "is_today": false
-            },
-            {
-                "title": "Building the PERFECT Linux PC with Linus Torvalds",
-                "link": "https://www.youtube.com/watch?v=mfv0V1SxbNA",
-                "thumbnail": "https://img.youtube.com/vi/mfv0V1SxbNA/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年11月30日",
-                "embed_url": "https://www.youtube.com/embed/mfv0V1SxbNA",
-                "is_today": false
-            },
-            {
-                "title": "AirPods Pro 3 - I was Wrong (sort of)",
-                "link": "https://www.youtube.com/watch?v=vJIzIH_guPU",
-                "thumbnail": "https://img.youtube.com/vi/vJIzIH_guPU/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年11月29日",
-                "embed_url": "https://www.youtube.com/embed/vJIzIH_guPU",
-                "is_today": false
-            },
-            {
-                "title": "The Honey Lawsuit Was Dismissed - WAN Show November 28, 2025",
-                "link": "https://www.youtube.com/watch?v=35igp1OBRY0",
-                "thumbnail": "https://img.youtube.com/vi/35igp1OBRY0/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年11月28日",
-                "embed_url": "https://www.youtube.com/embed/35igp1OBRY0",
-                "is_today": false
-            }
-        ],
-        "id": "linus_tech_tips_d7e0cdfb",
+        "id": "mr_mrs_gao_1915de55",
         "category": "YouTube"
     }
 ]
