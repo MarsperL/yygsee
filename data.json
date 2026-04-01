@@ -999,25 +999,25 @@
                 "link": "https://www.bilibili.com/video/BV1qyXqBaEGS",
                 "thumbnail": "http://i0.hdslb.com/bfs/archive/0b42838ebcfda8cd08740f2bdc7c479f52b9f91c.jpg",
                 "duration": "",
-                "published": "10小时前",
+                "published": "23小时前",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1qyXqBaEGS&high_quality=1&danmaku=0",
-                "is_today": true
+                "is_today": false
             },
             {
                 "title": "超人亮相！DCU《超级少女》正式预告明天见",
                 "link": "https://www.bilibili.com/video/BV1bcXBBDEAt",
                 "thumbnail": "http://i1.hdslb.com/bfs/archive/e6bd27d94489b94b6773977f2fe8d220fe2d76e9.jpg",
                 "duration": "",
-                "published": "11小时前",
+                "published": "2026年03月31日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1bcXBBDEAt&high_quality=1&danmaku=0",
-                "is_today": true
+                "is_today": false
             },
             {
                 "title": "勇闯恐龙岛！2026动画《汪汪队立大功大电影3》预告，后街男孩唱主题曲",
                 "link": "https://www.bilibili.com/video/BV1vyXvB9EK9",
                 "thumbnail": "http://i0.hdslb.com/bfs/archive/f9a1117ace9adb98b91073c9913564370dca2a8e.jpg",
                 "duration": "",
-                "published": "22小时前",
+                "published": "2026年03月30日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1vyXvB9EK9&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -1098,7 +1098,7 @@
                 "link": "https://www.bilibili.com/opus/1185579589829656577",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/ad935b6d644ed924bde14d67c1d29b2a46340420.jpg",
                 "duration": "",
-                "published": "23小时前",
+                "published": "2026年03月30日",
                 "embed_url": "",
                 "is_today": false
             },
@@ -1692,9 +1692,9 @@
                 "link": "https://www.bilibili.com/video/BV1oCXqBAEEW",
                 "thumbnail": "http://i0.hdslb.com/bfs/archive/278c2f7e099703e9b79338ebb2701c04b2c9814b.jpg",
                 "duration": "",
-                "published": "10小时前",
+                "published": "23小时前",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1oCXqBAEEW&high_quality=1&danmaku=0",
-                "is_today": true
+                "is_today": false
             },
             {
                 "title": "害怕倒影，自己也无法长高",
