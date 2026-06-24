@@ -108,7 +108,7 @@
                 "link": "https://www.bilibili.com/video/BV17jjx6LEzN",
                 "thumbnail": "https://i0.hdslb.com/bfs/archive/e7bb7ea6ea58bdf046361a56c627c1e1156b518b.jpg",
                 "duration": "",
-                "published": "23小时前",
+                "published": "2026年06月23日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV17jjx6LEzN&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -504,7 +504,7 @@
                 "link": "https://www.bilibili.com/video/BV1cq7A64EnW",
                 "thumbnail": "http://i2.hdslb.com/bfs/archive/55c8201d747a8f342a3081fa4a0818cbcdaf230b.jpg",
                 "duration": "",
-                "published": "23小时前",
+                "published": "2026年06月23日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1cq7A64EnW&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -702,7 +702,7 @@
                 "link": "https://www.bilibili.com/video/BV1Je7g6rECC",
                 "thumbnail": "https://i0.hdslb.com/bfs/archive/92e459e779aadd8bfb89c3e6998fb060069096fd.jpg",
                 "duration": "",
-                "published": "23小时前",
+                "published": "2026年06月23日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Je7g6rECC&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -3101,6 +3101,15 @@
         "url": "https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ",
         "videos": [
             {
+                "title": "本片需要看兩遍（本片拍攝於2024年，特殊原因被封存，限時公開稍後將轉為會員影片） | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=0V-GiPHgRwI",
+                "thumbnail": "https://img.youtube.com/vi/0V-GiPHgRwI/mqdefault.jpg",
+                "duration": "",
+                "published": "1小时前",
+                "embed_url": "https://www.youtube.com/embed/0V-GiPHgRwI",
+                "is_today": true
+            },
+            {
                 "title": "2030 冰河期 | 老高與小茉 Mr & Mrs Gao",
                 "link": "https://www.youtube.com/watch?v=DQGrPstFRVI",
                 "thumbnail": "https://img.youtube.com/vi/DQGrPstFRVI/mqdefault.jpg",
@@ -3179,15 +3188,6 @@
                 "duration": "",
                 "published": "2025年09月17日",
                 "embed_url": "https://www.youtube.com/embed/VdF4cd0SitU",
-                "is_today": false
-            },
-            {
-                "title": "可怕的鉛 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=hACEeJKE6TE",
-                "thumbnail": "https://img.youtube.com/vi/hACEeJKE6TE/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年09月03日",
-                "embed_url": "https://www.youtube.com/embed/hACEeJKE6TE",
                 "is_today": false
             }
         ],
