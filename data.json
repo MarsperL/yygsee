@@ -603,9 +603,9 @@
                 "link": "https://www.bilibili.com/video/BV1ovTh6NEBT",
                 "thumbnail": "http://i0.hdslb.com/bfs/archive/d0f08aa81c19d2b540b8e785cda93249b8e73a0f.jpg",
                 "duration": "",
-                "published": "11小时前",
+                "published": "2026年07月01日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ovTh6NEBT&high_quality=1&danmaku=0",
-                "is_today": true
+                "is_today": false
             },
             {
                 "title": "二次元峰哥在线施法，峰里雨里直播间等你！",
@@ -2583,7 +2583,7 @@
                 "link": "https://www.bilibili.com/video/BV1fLTw6xEJF",
                 "thumbnail": "http://i0.hdslb.com/bfs/archive/aca64adfe6a75d50a0b07e919e0a84415c1a8324.jpg",
                 "duration": "",
-                "published": "23小时前",
+                "published": "2026年06月30日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1fLTw6xEJF&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -3375,9 +3375,9 @@
                 "link": "https://www.bilibili.com/opus/1219906682191085586",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/b4eacbdded445dde84ccbb5442549a37495224316.png",
                 "duration": "",
-                "published": "12小时前",
+                "published": "2026年07月01日",
                 "embed_url": "",
-                "is_today": true
+                "is_today": false
             },
             {
                 "title": "给自己捞一下，下饭时间到",
@@ -3771,7 +3771,7 @@
                 "link": "https://www.bilibili.com/opus/1219756598845505536",
                 "thumbnail": null,
                 "duration": "",
-                "published": "22小时前",
+                "published": "2026年06月30日",
                 "embed_url": "",
                 "is_today": false
             },
@@ -4194,18 +4194,18 @@
                 "link": "https://www.bilibili.com/video/BV1MqTe6hEja",
                 "thumbnail": "https://i2.hdslb.com/bfs/archive/fbcfe4b14f141954989fa865a0ca069328779226.jpg",
                 "duration": "",
-                "published": "10小时前",
+                "published": "22小时前",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1MqTe6hEja&high_quality=1&danmaku=0",
-                "is_today": true
+                "is_today": false
             },
             {
                 "title": "火锅店熬老油，销售有毒有害食品罪？",
                 "link": "https://www.bilibili.com/video/BV14RKo6WELb",
                 "thumbnail": "https://i0.hdslb.com/bfs/archive/e8ab1ffa1174c394df765166c2f57d6ba409313a.jpg",
                 "duration": "",
-                "published": "14小时前",
+                "published": "2026年06月30日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV14RKo6WELb&high_quality=1&danmaku=0",
-                "is_today": true
+                "is_today": false
             },
             {
                 "title": "发现老婆男友的地址？竟网购了这些东西？",
@@ -4282,104 +4282,5 @@
         ],
         "id": "bilibili_a21c09db",
         "category": "B站"
-    },
-    {
-        "title": "老高與小茉 Mr & Mrs Gao",
-        "description": "",
-        "url": "https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ",
-        "videos": [
-            {
-                "title": "本片需要看兩遍（本片拍攝於2024年，特殊原因被封存，限時公開稍後將轉為會員影片） | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=0V-GiPHgRwI",
-                "thumbnail": "https://img.youtube.com/vi/0V-GiPHgRwI/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年06月24日",
-                "embed_url": "https://www.youtube.com/embed/0V-GiPHgRwI",
-                "is_today": false
-            },
-            {
-                "title": "2030 冰河期 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=DQGrPstFRVI",
-                "thumbnail": "https://img.youtube.com/vi/DQGrPstFRVI/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年05月27日",
-                "embed_url": "https://www.youtube.com/embed/DQGrPstFRVI",
-                "is_today": false
-            },
-            {
-                "title": "有些突然 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=WeBa4ZawcPo",
-                "thumbnail": "https://img.youtube.com/vi/WeBa4ZawcPo/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年04月29日",
-                "embed_url": "https://www.youtube.com/embed/WeBa4ZawcPo",
-                "is_today": false
-            },
-            {
-                "title": "可怕的石油 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=DmFdxaLgD70",
-                "thumbnail": "https://img.youtube.com/vi/DmFdxaLgD70/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年04月15日",
-                "embed_url": "https://www.youtube.com/embed/DmFdxaLgD70",
-                "is_today": false
-            },
-            {
-                "title": "史上最大規模的封閉實驗，第二個“大自然” | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=EOIlGekiMsQ",
-                "thumbnail": "https://img.youtube.com/vi/EOIlGekiMsQ/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年02月17日",
-                "embed_url": "https://www.youtube.com/embed/EOIlGekiMsQ",
-                "is_today": false
-            },
-            {
-                "title": "2026，好久不見 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=_6VOEvdU6hM",
-                "thumbnail": "https://img.youtube.com/vi/_6VOEvdU6hM/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年01月30日",
-                "embed_url": "https://www.youtube.com/embed/_6VOEvdU6hM",
-                "is_today": false
-            },
-            {
-                "title": "【庫存影片】仁頃事件，一個被NHK封殺的接觸事件。（本影片拍攝於1年前，因為特殊原因封存至今） | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=B51v9kJQuKo",
-                "thumbnail": "https://img.youtube.com/vi/B51v9kJQuKo/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年12月24日",
-                "embed_url": "https://www.youtube.com/embed/B51v9kJQuKo",
-                "is_today": false
-            },
-            {
-                "title": "【庫存影片】百慕大三角（拍攝於2022年2月，由於特殊原因封存至今） | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=ESObIvXrKZI",
-                "thumbnail": "https://img.youtube.com/vi/ESObIvXrKZI/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年11月12日",
-                "embed_url": "https://www.youtube.com/embed/ESObIvXrKZI",
-                "is_today": false
-            },
-            {
-                "title": "目前為止最可信的地外生命存在的證據 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=Iocm-1dXr-Q",
-                "thumbnail": "https://img.youtube.com/vi/Iocm-1dXr-Q/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年10月01日",
-                "embed_url": "https://www.youtube.com/embed/Iocm-1dXr-Q",
-                "is_today": false
-            },
-            {
-                "title": "臭氧空洞，人類距離滅絕最近的一次 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=VdF4cd0SitU",
-                "thumbnail": "https://img.youtube.com/vi/VdF4cd0SitU/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年09月17日",
-                "embed_url": "https://www.youtube.com/embed/VdF4cd0SitU",
-                "is_today": false
-            }
-        ],
-        "id": "mr_mrs_gao_1915de55",
-        "category": "YouTube"
     }
 ]
