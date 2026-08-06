@@ -2088,16 +2088,16 @@
                 "link": "https://www.bilibili.com/opus/1232907080006893576",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/03193b6f696b18d968bbb98147fe803d46340420.jpg",
                 "duration": "",
-                "published": "11小时前",
+                "published": "23小时前",
                 "embed_url": "",
-                "is_today": true
+                "is_today": false
             },
             {
                 "title": "【中字】大卫·哈伯《暴力之夜2》首曝预告【4K/动作/喜剧/血浆/克里斯汀·贝尔】",
                 "link": "https://www.bilibili.com/video/BV12YMB6CEXX",
                 "thumbnail": "http://i2.hdslb.com/bfs/archive/5562f7c204d38e331dd3a473391bd0a77b524796.jpg",
                 "duration": "",
-                "published": "22小时前",
+                "published": "2026年08月04日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV12YMB6CEXX&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -2106,7 +2106,7 @@
                 "link": "https://www.bilibili.com/opus/1232715331226566675",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/f0a8c9d0aac6e1d1e5fad8ed805992da46340420.jpg",
                 "duration": "",
-                "published": "23小时前",
+                "published": "2026年08月04日",
                 "embed_url": "",
                 "is_today": false
             },
@@ -2187,7 +2187,7 @@
                 "link": "https://www.bilibili.com/opus/1232744017307893763",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/4a735d86b33b85c2f841f18fd7bb5a3e316955009.jpg",
                 "duration": "",
-                "published": "22小时前",
+                "published": "2026年08月04日",
                 "embed_url": "",
                 "is_today": false
             },
@@ -4104,9 +4104,9 @@
                 "link": "https://www.bilibili.com/video/BV116uc6TEU2",
                 "thumbnail": "https://i0.hdslb.com/bfs/archive/8e1981f2e05dfb89d6a8ff93ce7b3d9d4fc4cad0.jpg",
                 "duration": "",
-                "published": "14小时前",
+                "published": "2026年08月04日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV116uc6TEU2&high_quality=1&danmaku=0",
-                "is_today": true
+                "is_today": false
             },
             {
                 "title": "今日议题：如何合法的不让人插队？",
@@ -4199,6 +4199,15 @@
         "url": "https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ",
         "videos": [
             {
+                "title": "奧德賽前傳，無劇透，無音樂，無素材，請放心觀看（另有後半部，含劇透，暫不對外公開） | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=Zwrq2pxRxfQ",
+                "thumbnail": "https://img.youtube.com/vi/Zwrq2pxRxfQ/mqdefault.jpg",
+                "duration": "",
+                "published": "10小时前",
+                "embed_url": "https://www.youtube.com/embed/Zwrq2pxRxfQ",
+                "is_today": false
+            },
+            {
                 "title": "第二名，可能毀滅一切的鏡像生命 | 老高與小茉 Mr & Mrs Gao",
                 "link": "https://www.youtube.com/watch?v=SHWjQrGb3MQ",
                 "thumbnail": "https://img.youtube.com/vi/SHWjQrGb3MQ/mqdefault.jpg",
@@ -4277,15 +4286,6 @@
                 "duration": "",
                 "published": "2025年11月12日",
                 "embed_url": "https://www.youtube.com/embed/ESObIvXrKZI",
-                "is_today": false
-            },
-            {
-                "title": "目前為止最可信的地外生命存在的證據 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=Iocm-1dXr-Q",
-                "thumbnail": "https://img.youtube.com/vi/Iocm-1dXr-Q/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年10月01日",
-                "embed_url": "https://www.youtube.com/embed/Iocm-1dXr-Q",
                 "is_today": false
             }
         ],
