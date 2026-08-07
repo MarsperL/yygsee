@@ -900,7 +900,7 @@
                 "link": "https://www.bilibili.com/video/BV1xVun64EgX",
                 "thumbnail": "http://i1.hdslb.com/bfs/archive/2721101d555aef0240b9f3300952998d15c792ab.jpg",
                 "duration": "",
-                "published": "16小时前",
+                "published": "2026年08月06日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1xVun64EgX&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -1395,7 +1395,7 @@
                 "link": "https://www.bilibili.com/video/BV161uH6WEYN",
                 "thumbnail": "http://i2.hdslb.com/bfs/archive/c312909bef6dd07eb9d84aa03ad5521e3765dd5e.jpg",
                 "duration": "",
-                "published": "12小时前",
+                "published": "23小时前",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV161uH6WEYN&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -1404,7 +1404,7 @@
                 "link": "https://www.bilibili.com/video/BV1CYuJ69EZg",
                 "thumbnail": "http://i1.hdslb.com/bfs/archive/7b06ef0cb385f5e50430c262d242f2194ac9f18a.jpg",
                 "duration": "",
-                "published": "14小时前",
+                "published": "2026年08月06日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1CYuJ69EZg&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -1413,7 +1413,7 @@
                 "link": "https://www.bilibili.com/opus/1233394198061776915",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/25edef47264650650d11abada3902de346340420.jpg",
                 "duration": "",
-                "published": "16小时前",
+                "published": "2026年08月06日",
                 "embed_url": "",
                 "is_today": false
             },
@@ -1422,7 +1422,7 @@
                 "link": "https://www.bilibili.com/opus/1233287923365838898",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/d5741ee8dd48b07b3e3bc764e36bf97346340420.jpg",
                 "duration": "",
-                "published": "23小时前",
+                "published": "2026年08月06日",
                 "embed_url": "",
                 "is_today": false
             },
@@ -1431,7 +1431,7 @@
                 "link": "https://www.bilibili.com/opus/1233287661381222440",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/a4961af4409e81f2f0db70c64431944546340420.jpg",
                 "duration": "",
-                "published": "23小时前",
+                "published": "2026年08月06日",
                 "embed_url": "",
                 "is_today": false
             },
@@ -1494,7 +1494,7 @@
                 "link": "https://www.bilibili.com/opus/1233320801333149700",
                 "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/bb06a8cd8d6427900e41e847dbacd86428626598.jpg",
                 "duration": "",
-                "published": "21小时前",
+                "published": "2026年08月06日",
                 "embed_url": "",
                 "is_today": false
             },
@@ -1692,7 +1692,7 @@
                 "link": "https://www.bilibili.com/video/BV1sGuE6JEQm",
                 "thumbnail": "http://i0.hdslb.com/bfs/archive/e861bf47e7de0be74a958d07804ff84cbd741af6.jpg",
                 "duration": "",
-                "published": "19小时前",
+                "published": "2026年08月06日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1sGuE6JEQm&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -2770,5 +2770,104 @@
         ],
         "id": "bilibili_6ea9c914",
         "category": "B站"
+    },
+    {
+        "title": "老高與小茉 Mr & Mrs Gao",
+        "description": "",
+        "url": "https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ",
+        "videos": [
+            {
+                "title": "奧德賽前傳，無暴雷，請放心觀看（另有後半部，含劇透，暫不對外公開） | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=Zwrq2pxRxfQ",
+                "thumbnail": "https://img.youtube.com/vi/Zwrq2pxRxfQ/mqdefault.jpg",
+                "duration": "",
+                "published": "2026年08月05日",
+                "embed_url": "https://www.youtube.com/embed/Zwrq2pxRxfQ",
+                "is_today": false
+            },
+            {
+                "title": "第二名，可能毀滅一切的鏡像生命 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=SHWjQrGb3MQ",
+                "thumbnail": "https://img.youtube.com/vi/SHWjQrGb3MQ/mqdefault.jpg",
+                "duration": "",
+                "published": "2026年07月22日",
+                "embed_url": "https://www.youtube.com/embed/SHWjQrGb3MQ",
+                "is_today": false
+            },
+            {
+                "title": "本片需要看兩遍（本片拍攝於2024年，特殊原因被封存，限時公開稍後將轉為會員影片） | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=0V-GiPHgRwI",
+                "thumbnail": "https://img.youtube.com/vi/0V-GiPHgRwI/mqdefault.jpg",
+                "duration": "",
+                "published": "2026年06月24日",
+                "embed_url": "https://www.youtube.com/embed/0V-GiPHgRwI",
+                "is_today": false
+            },
+            {
+                "title": "2030 冰河期 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=DQGrPstFRVI",
+                "thumbnail": "https://img.youtube.com/vi/DQGrPstFRVI/mqdefault.jpg",
+                "duration": "",
+                "published": "2026年05月27日",
+                "embed_url": "https://www.youtube.com/embed/DQGrPstFRVI",
+                "is_today": false
+            },
+            {
+                "title": "有些突然 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=WeBa4ZawcPo",
+                "thumbnail": "https://img.youtube.com/vi/WeBa4ZawcPo/mqdefault.jpg",
+                "duration": "",
+                "published": "2026年04月29日",
+                "embed_url": "https://www.youtube.com/embed/WeBa4ZawcPo",
+                "is_today": false
+            },
+            {
+                "title": "可怕的石油 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=DmFdxaLgD70",
+                "thumbnail": "https://img.youtube.com/vi/DmFdxaLgD70/mqdefault.jpg",
+                "duration": "",
+                "published": "2026年04月15日",
+                "embed_url": "https://www.youtube.com/embed/DmFdxaLgD70",
+                "is_today": false
+            },
+            {
+                "title": "史上最大規模的封閉實驗，第二個“大自然” | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=EOIlGekiMsQ",
+                "thumbnail": "https://img.youtube.com/vi/EOIlGekiMsQ/mqdefault.jpg",
+                "duration": "",
+                "published": "2026年02月17日",
+                "embed_url": "https://www.youtube.com/embed/EOIlGekiMsQ",
+                "is_today": false
+            },
+            {
+                "title": "2026，好久不見 | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=_6VOEvdU6hM",
+                "thumbnail": "https://img.youtube.com/vi/_6VOEvdU6hM/mqdefault.jpg",
+                "duration": "",
+                "published": "2026年01月30日",
+                "embed_url": "https://www.youtube.com/embed/_6VOEvdU6hM",
+                "is_today": false
+            },
+            {
+                "title": "【庫存影片】仁頃事件，一個被NHK封殺的接觸事件。（本影片拍攝於1年前，因為特殊原因封存至今） | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=B51v9kJQuKo",
+                "thumbnail": "https://img.youtube.com/vi/B51v9kJQuKo/mqdefault.jpg",
+                "duration": "",
+                "published": "2025年12月24日",
+                "embed_url": "https://www.youtube.com/embed/B51v9kJQuKo",
+                "is_today": false
+            },
+            {
+                "title": "【庫存影片】百慕大三角（拍攝於2022年2月，由於特殊原因封存至今） | 老高與小茉 Mr & Mrs Gao",
+                "link": "https://www.youtube.com/watch?v=ESObIvXrKZI",
+                "thumbnail": "https://img.youtube.com/vi/ESObIvXrKZI/mqdefault.jpg",
+                "duration": "",
+                "published": "2025年11月12日",
+                "embed_url": "https://www.youtube.com/embed/ESObIvXrKZI",
+                "is_today": false
+            }
+        ],
+        "id": "mr_mrs_gao_1915de55",
+        "category": "YouTube"
     }
 ]
