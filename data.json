@@ -198,113 +198,14 @@
         "category": "B站"
     },
     {
-        "title": "的 bilibili 空间",
-        "description": "的 bilibili 空间 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
-        "url": "https://space.bilibili.com/447317111",
-        "videos": [
-            {
-                "title": "探秘吉隆坡一日三餐！0规划出国探店，能好吃吗？",
-                "link": "https://www.bilibili.com/video/BV1iU846JEfm",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/7c1839871e0871783ec144a0c4dd0d6c05f9680c.jpg",
-                "duration": "",
-                "published": "2026年08月23日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1iU846JEfm&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "探秘千万粉丝，上青杰哥爆火餐厅！真的好吃吗？",
-                "link": "https://www.bilibili.com/video/BV1inuq6dENZ",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/c5c34fb79a25da23a28657da96277a5f3597bf72.jpg",
-                "duration": "",
-                "published": "2026年08月11日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1inuq6dENZ&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "探秘世界杯决赛！现场见证西班牙夺冠，什么体验？？",
-                "link": "https://www.bilibili.com/video/BV1RZK26rENc",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/475fdbbbeeb5d048ac885638bb7c48feb92cb23e.jpg",
-                "duration": "",
-                "published": "2026年07月20日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1RZK26rENc&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "探秘美国最老钱餐厅！世界杯期间，纽约有多贵？",
-                "link": "https://www.bilibili.com/video/BV1ATNY6LEMy",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/c5e0d068976605baefe0d9ac98ca272daa0398e4.jpg",
-                "duration": "",
-                "published": "2026年07月15日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ATNY6LEMy&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "探秘纽约唯一江西米粉！一碗80元，到底多好吃？",
-                "link": "https://www.bilibili.com/video/BV1uxKZ6AE15",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/2a0cd3d3580ac01080c10dedb1db69f1ebcd41be.jpg",
-                "duration": "",
-                "published": "2026年06月30日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1uxKZ6AE15&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "和江西老爸，挑战江西一日三餐！！到底多好吃？？",
-                "link": "https://www.bilibili.com/video/BV1a77j62Ekx",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/b52b2fce8fc480a639d7fdafaf91ab48132b9c6a.jpg",
-                "duration": "",
-                "published": "2026年06月27日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1a77j62Ekx&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "探秘美国贫富差距，最极端城市！种族决定命运？",
-                "link": "https://www.bilibili.com/video/BV1hUji6PEdL",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/f541ec0beebe8b0153585c996e1ee3d191d6607f.jpg",
-                "duration": "",
-                "published": "2026年06月19日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1hUji6PEdL&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "10元vs10000元酒店，价格差百倍！区别到底多大？",
-                "link": "https://www.bilibili.com/video/BV1AnV46DErH",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/a72ec09421df73b3b50b6eecc0671362b714d2fe.jpg",
-                "duration": "",
-                "published": "2026年05月29日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1AnV46DErH&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "探秘美国斩杀线城市！$1美元房子，有多离谱？吃什么？？",
-                "link": "https://www.bilibili.com/video/BV1paLF6LEKN",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/c5fd2f7bd2cc47bc93a4098f9ebcfe8358e3ba22.jpg",
-                "duration": "",
-                "published": "2026年05月18日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1paLF6LEKN&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "美国最危险城市！顶着防弹玻璃吃饭，什么体验?",
-                "link": "https://www.bilibili.com/video/BV13udgBpEqC",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/2b1a8a49c13980ea8efaa43ae5ddbd1fd26442b9.jpg",
-                "duration": "",
-                "published": "2026年05月08日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV13udgBpEqC&high_quality=1&danmaku=0",
-                "is_today": false
-            }
-        ],
-        "id": "bilibili_b5e5198",
-        "category": "B站"
-    },
-    {
-        "title": "的 bilibili 空间",
-        "description": "的 bilibili 空间 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "title": "老王在中国 的 bilibili 空间",
+        "description": "老王在中国 的 bilibili 空间 - Powered by RSSHub",
         "url": "https://space.bilibili.com/3537122973714533",
         "videos": [
             {
                 "title": "25位伊拉克投资人组团来华！带他们看真实中国、学先进技术，架起一座友谊桥梁，比什么都值！",
                 "link": "https://www.bilibili.com/video/BV1BN846UEPH",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/0a8c6d4c9582ea61922fdc8922325e314be9b00c.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/0a8c6d4c9582ea61922fdc8922325e314be9b00c.jpg",
                 "duration": "",
                 "published": "2026年08月23日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1BN846UEPH&high_quality=1&danmaku=0",
@@ -313,7 +214,7 @@
             {
                 "title": "老王在龙餐馆！从伊拉克到中国，他说好好吃饭是很伟大的事情",
                 "link": "https://www.bilibili.com/video/BV1fD8M6NEJ8",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/d6a34ec9e0bb0997a486b190a07563ec52b582be.jpg",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/d6a34ec9e0bb0997a486b190a07563ec52b582be.jpg",
                 "duration": "",
                 "published": "2026年08月21日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1fD8M6NEJ8&high_quality=1&danmaku=0",
@@ -322,7 +223,7 @@
             {
                 "title": "老王立Flag：一个月瘦30斤！今天失败了那就明天再开始！",
                 "link": "https://www.bilibili.com/video/BV1Qtbf6FESn",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/52dd85e1916541dc606d4e7a7a3362c018effad9.jpg",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/52dd85e1916541dc606d4e7a7a3362c018effad9.jpg",
                 "duration": "",
                 "published": "2026年08月20日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Qtbf6FESn&high_quality=1&danmaku=0",
@@ -331,7 +232,7 @@
             {
                 "title": "头上贴着退烧贴吃烧烤是什么体验？老王：我要把这些统统带回伊拉克！",
                 "link": "https://www.bilibili.com/video/BV125bv6DE3y",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/9ebc0ae7a77ce6dcf9a419e6de4eca8b4d39ad03.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/9ebc0ae7a77ce6dcf9a419e6de4eca8b4d39ad03.jpg",
                 "duration": "",
                 "published": "2026年08月17日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV125bv6DE3y&high_quality=1&danmaku=0",
@@ -340,7 +241,7 @@
             {
                 "title": "老王出息了，今天带家人们一起探班龙餐馆的幕后~",
                 "link": "https://www.bilibili.com/video/BV1e5gN6eE1D",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/f0dab5d4c9027a2d85b994c1754578f5e0000764.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/f0dab5d4c9027a2d85b994c1754578f5e0000764.jpg",
                 "duration": "",
                 "published": "2026年08月14日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1e5gN6eE1D&high_quality=1&danmaku=0",
@@ -349,7 +250,7 @@
             {
                 "title": "老爸老妈秒变“中国皇帝与皇后”！来到72万平米的中国故宫，换完装直接看傻：古代皇帝住这真的不会迷路吗？！",
                 "link": "https://www.bilibili.com/video/BV1nvgG6PE9F",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/90e1a8c67e87a7afb93371ce1053c476fc6d5589.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/90e1a8c67e87a7afb93371ce1053c476fc6d5589.jpg",
                 "duration": "",
                 "published": "2026年08月12日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1nvgG6PE9F&high_quality=1&danmaku=0",
@@ -358,7 +259,7 @@
             {
                 "title": "老王去找安秋金大口吃肉！结果硬生生被一盘高粱给征服了？",
                 "link": "https://www.bilibili.com/video/BV1fPu96rEaE",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/ea326febfcde3edf936e1b554d893a2356864b3c.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/ea326febfcde3edf936e1b554d893a2356864b3c.jpg",
                 "duration": "",
                 "published": "2026年08月10日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1fPu96rEaE&high_quality=1&danmaku=0",
@@ -367,7 +268,7 @@
             {
                 "title": "老王吃火锅吃出新副业？偶遇全网爆火的救狗小哥后，准备在成都体验一天骑手生活！",
                 "link": "https://www.bilibili.com/video/BV1imub6KEht",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/9bd9121b350bfcec58101a53b3a27b008a4ae92e.jpg",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/9bd9121b350bfcec58101a53b3a27b008a4ae92e.jpg",
                 "duration": "",
                 "published": "2026年08月07日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1imub6KEht&high_quality=1&danmaku=0",
@@ -376,7 +277,7 @@
             {
                 "title": "全大巴扎老板都在帮我找爸妈！美食太多根本走不动，爸妈没找到肚子倒是吃撑了",
                 "link": "https://www.bilibili.com/video/BV13DMX6tEXQ",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/b79b4662edb4f9f8082eb80ba3380a5c2c2b05da.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/b79b4662edb4f9f8082eb80ba3380a5c2c2b05da.jpg",
                 "duration": "",
                 "published": "2026年08月03日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV13DMX6tEXQ&high_quality=1&danmaku=0",
@@ -385,113 +286,14 @@
             {
                 "title": "中东博主带爸妈体验新疆沙漠！爸爸妈妈惊了：原来沙漠还能这么玩？！",
                 "link": "https://www.bilibili.com/video/BV15A3t6NEft",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/03903ee990d918298b8cba23d5f42556d87e9f71.jpg",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/03903ee990d918298b8cba23d5f42556d87e9f71.jpg",
                 "duration": "",
                 "published": "2026年07月30日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV15A3t6NEft&high_quality=1&danmaku=0",
                 "is_today": false
             }
         ],
-        "id": "bilibili_b5e5198",
-        "category": "B站"
-    },
-    {
-        "title": "蚊子-学做美食 的 bilibili 空间",
-        "description": "蚊子-学做美食 的 bilibili 空间 - Powered by RSSHub",
-        "url": "https://space.bilibili.com/14800002",
-        "videos": [
-            {
-                "title": "很有食欲的一道鸡肉的做法。",
-                "link": "https://www.bilibili.com/video/BV1K9bd61Egf",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/277cd8d6a6648d1a3ac946737ae0138b874c767a.jpg",
-                "duration": "",
-                "published": "2026年08月22日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1K9bd61Egf&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "天气逐渐降温，是时候学一波羊肉抓饭了！",
-                "link": "https://www.bilibili.com/video/BV1eBg76iE1M",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/68b35767a3a1bc7364ca05471a28e9f235d74390.jpg",
-                "duration": "",
-                "published": "2026年08月19日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1eBg76iE1M&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "有手就行的3道鸡蛋绝味家常做法？",
-                "link": "https://www.bilibili.com/video/BV1fbue6XEho",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/9b9545249eea91ce3d343b15f693dccf289bc7db.jpg",
-                "duration": "",
-                "published": "2026年08月15日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1fbue6XEho&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "能让你炫三碗大米饭的减脂餐说是",
-                "link": "https://www.bilibili.com/video/BV1GRuK6AEEe",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/6b79243780bf42264fdc0bf0c5e9b3e744dbaa3e.jpg",
-                "duration": "",
-                "published": "2026年08月12日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1GRuK6AEEe&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "6道有手就行的小食谱哪个是真哪个是坑？",
-                "link": "https://www.bilibili.com/video/BV19Huc6JEGu",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/f244329a642df9688c3fab7a569223e4d67e2a61.jpg",
-                "duration": "",
-                "published": "2026年08月07日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV19Huc6JEGu&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "创意菜羊肚菌加玉米笋酿肉味道如何？",
-                "link": "https://www.bilibili.com/video/BV1a2Mz6XEPq",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/ed2d24ac67a828c076757c1b169c89c4820b8806.jpg",
-                "duration": "",
-                "published": "2026年08月05日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1a2Mz6XEPq&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "香蕉还能做布朗尼蛋糕？",
-                "link": "https://www.bilibili.com/video/BV1oAgZ6QERQ",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/a1b67b7a58c485f5b1485196127ea0d29f98c0d6.jpg",
-                "duration": "",
-                "published": "2026年07月28日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1oAgZ6QERQ&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "柠檬虾里加雪碧这真的好吃吗？",
-                "link": "https://www.bilibili.com/video/BV1fgg86VEzK",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/030cdb64e93345b50d6d70485522a4521896688f.jpg",
-                "duration": "",
-                "published": "2026年07月25日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1fgg86VEzK&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "简单几步复刻便利店同款关东煮？",
-                "link": "https://www.bilibili.com/video/BV1LoKx6QEmF",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/b0e20ac03cd071a952b49f7575546fa7805afd23.jpg",
-                "duration": "",
-                "published": "2026年07月21日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1LoKx6QEmF&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "空气炸锅9元做出完美焦糖布丁蛋糕？",
-                "link": "https://www.bilibili.com/video/BV1wtK76zEkm",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/a1f1bfa8e3f185ef5662e8564fd12c54ede66af9.jpg",
-                "duration": "",
-                "published": "2026年07月18日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1wtK76zEkm&high_quality=1&danmaku=0",
-                "is_today": false
-            }
-        ],
-        "id": "bilibili_43eb7762",
+        "id": "bilibili_f14470f5",
         "category": "B站"
     },
     {
@@ -891,14 +693,14 @@
         "category": "B站"
     },
     {
-        "title": "大漠叔叔 的 bilibili 空间",
-        "description": "大漠叔叔 的 bilibili 空间 - Powered by RSSHub",
+        "title": "的 bilibili 空间",
+        "description": "的 bilibili 空间 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
         "url": "https://space.bilibili.com/67141499",
         "videos": [
             {
                 "title": "漠叔团伙宣传沉香，村民全票通过！",
                 "link": "https://www.bilibili.com/video/BV1YquE6AEDd",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/a202c6972c80b880c1ffaaa91a8e7f6b888a2db0.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/a202c6972c80b880c1ffaaa91a8e7f6b888a2db0.jpg",
                 "duration": "",
                 "published": "2026年08月06日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1YquE6AEDd&high_quality=1&danmaku=0",
@@ -907,7 +709,7 @@
             {
                 "title": "钓上来就啃，没有人比我更了解鱿鱼！",
                 "link": "https://www.bilibili.com/video/BV1N7Kw6wEAX",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/c5d7aacd1ded16f0ea887cd4190e9473183e69df.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/c5d7aacd1ded16f0ea887cd4190e9473183e69df.jpg",
                 "duration": "",
                 "published": "2026年07月18日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1N7Kw6wEAX&high_quality=1&danmaku=0",
@@ -916,7 +718,7 @@
             {
                 "title": "本片放弃所有版权！",
                 "link": "https://www.bilibili.com/video/BV1YgT26qETR",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/d5e32d5ffbd8811acdb86066e4538bc45b03afdc.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/d5e32d5ffbd8811acdb86066e4538bc45b03afdc.jpg",
                 "duration": "",
                 "published": "2026年07月05日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1YgT26qETR&high_quality=1&danmaku=0",
@@ -925,7 +727,7 @@
             {
                 "title": "spaceX才是真正的人类之光，不服来杠！",
                 "link": "https://www.bilibili.com/video/BV1UsLo6jEz8",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/81ca565c50ba1d2ebc53e3b573bcaf3c609dad51.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/81ca565c50ba1d2ebc53e3b573bcaf3c609dad51.jpg",
                 "duration": "",
                 "published": "2026年06月17日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1UsLo6jEz8&high_quality=1&danmaku=0",
@@ -934,7 +736,7 @@
             {
                 "title": "完了！南海的带鱼泛滥了！！",
                 "link": "https://www.bilibili.com/video/BV1RsE769EQp",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/9d980b556bb16e1ea6fa25eba1ed7d71da0d4535.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/9d980b556bb16e1ea6fa25eba1ed7d71da0d4535.jpg",
                 "duration": "",
                 "published": "2026年06月09日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1RsE769EQp&high_quality=1&danmaku=0",
@@ -943,7 +745,7 @@
             {
                 "title": "好消息：荔枝熟了，漠叔来了！",
                 "link": "https://www.bilibili.com/video/BV1zMVZ6FEyt",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/160f07e7c50a52f9553af3ef75f8fb3fdb826b00.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/160f07e7c50a52f9553af3ef75f8fb3fdb826b00.jpg",
                 "duration": "",
                 "published": "2026年06月01日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1zMVZ6FEyt&high_quality=1&danmaku=0",
@@ -952,7 +754,7 @@
             {
                 "title": "漠叔进村助农，卖荔枝老乡感动",
                 "link": "https://www.bilibili.com/video/BV1ShLb6BEUg",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/9ec075940abde8086ee7d7924857a4b50719c257.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/9ec075940abde8086ee7d7924857a4b50719c257.jpg",
                 "duration": "",
                 "published": "2026年05月21日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ShLb6BEUg&high_quality=1&danmaku=0",
@@ -961,7 +763,7 @@
             {
                 "title": "《人民的荔枝》",
                 "link": "https://www.bilibili.com/video/BV1PQ546WEen",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/e193468ea815970797bd90f8e15e8682a6c5ec6e.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/e193468ea815970797bd90f8e15e8682a6c5ec6e.jpg",
                 "duration": "",
                 "published": "2026年05月11日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1PQ546WEen&high_quality=1&danmaku=0",
@@ -970,7 +772,7 @@
             {
                 "title": "证实了！都是经过同意，漠叔才能拿村民东西",
                 "link": "https://www.bilibili.com/video/BV154dpB8EXk",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/c52d4ac31dd3f2766b12111aff04b99575ae1d24.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/c52d4ac31dd3f2766b12111aff04b99575ae1d24.jpg",
                 "duration": "",
                 "published": "2026年04月18日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV154dpB8EXk&high_quality=1&danmaku=0",
@@ -979,14 +781,14 @@
             {
                 "title": "国籍一换，热搜百万！买海鲜被坑",
                 "link": "https://www.bilibili.com/video/BV1L8DxBxEju",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/03550229f5738ce15840ed728a8a937b295d633e.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/03550229f5738ce15840ed728a8a937b295d633e.jpg",
                 "duration": "",
                 "published": "2026年04月09日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1L8DxBxEju&high_quality=1&danmaku=0",
                 "is_today": false
             }
         ],
-        "id": "bilibili_1df6d26a",
+        "id": "bilibili_b5e5198",
         "category": "B站"
     },
     {
@@ -999,7 +801,7 @@
                 "link": "https://www.bilibili.com/video/BV1bMhV6PEtE",
                 "thumbnail": "https://i0.hdslb.com/bfs/archive/8d417f4476382f277e8bb32678cc825329ef5e02.jpg",
                 "duration": "",
-                "published": "18小时前",
+                "published": "2026年08月27日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1bMhV6PEtE&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -1086,105 +888,6 @@
             }
         ],
         "id": "mrbeast_bilibili_b174abae",
-        "category": "B站"
-    },
-    {
-        "title": "影视飓风 的 bilibili 空间",
-        "description": "影视飓风 的 bilibili 空间 - Powered by RSSHub",
-        "url": "https://space.bilibili.com/946974",
-        "videos": [
-            {
-                "title": "非洲淘金，一场黄金背后的生死赌局。",
-                "link": "https://www.bilibili.com/video/BV17E896RE5G",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/1d31fca1a9f3c505cb2509e1c9d27fdbb92fb50d.jpg",
-                "duration": "",
-                "published": "2026年08月26日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV17E896RE5G&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "音画不同步！为什么视频口型总是怪怪的？",
-                "link": "https://www.bilibili.com/video/BV1A2bi6UEev",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/926bb765207a99c6b7022cafe84ef18be65a53d4.jpg",
-                "duration": "",
-                "published": "2026年08月18日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1A2bi6UEev&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "外观大改，更强了吗？Insta360 X6上手",
-                "link": "https://www.bilibili.com/video/BV12TgV63ESW",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/1d01e3c46303c1633f8e09d2666509805142e15e.jpg",
-                "duration": "",
-                "published": "2026年08月12日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV12TgV63ESW&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "长着云台的手机？荣耀Robot Phone上手",
-                "link": "https://www.bilibili.com/video/BV1UKgL6SEyA",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/0b5060a4def5f4fcd982feadcb59d14f4147a65b.jpg",
-                "duration": "",
-                "published": "2026年08月12日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1UKgL6SEyA&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "对话诺兰！导演亲手翻开了《奥德赛》的另一面",
-                "link": "https://www.bilibili.com/video/BV1Apu368EeY",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/edc2fbeb9e1f7f0738e695aa40228e68a9c0366e.jpg",
-                "duration": "",
-                "published": "2026年08月09日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Apu368EeY&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "家里的旧光盘，为什么播不出来了？",
-                "link": "https://www.bilibili.com/video/BV1ymux6BEFU",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/763937480eca8f21b6149c2239769c07200d24df.jpg",
-                "duration": "",
-                "published": "2026年08月07日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ymux6BEFU&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "太卷了！改变视频行业的AI又迭代了什么？",
-                "link": "https://www.bilibili.com/video/BV1teuc63E6D",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/b7283070f0bd96e8e206f20bb6806e8c7cd8009a.jpg",
-                "duration": "",
-                "published": "2026年08月04日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1teuc63E6D&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "租几颗上亿元的卫星，能拍到什么？",
-                "link": "https://www.bilibili.com/video/BV1Pt3D6jEob",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/2a8b58b1415d219277decc6b5feb5b58ac944c8a.jpg",
-                "duration": "",
-                "published": "2026年08月02日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Pt3D6jEob&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "我们拍到了水下风暴",
-                "link": "https://www.bilibili.com/video/BV1c7GA6kEqN",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/e824377f2d0bef7feab618d59d416968c21d3056.jpg",
-                "duration": "",
-                "published": "2026年07月31日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1c7GA6kEqN&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "和解剖了4000具尸体的法医，一起看了影片中的尸体...",
-                "link": "https://www.bilibili.com/video/BV1QEgZ6rEGj",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/5e936abca5bce191965d8c2a8ca91e428998f922.jpg",
-                "duration": "",
-                "published": "2026年07月27日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1QEgZ6rEGj&high_quality=1&danmaku=0",
-                "is_today": false
-            }
-        ],
-        "id": "bilibili_96aa634c",
         "category": "B站"
     },
     {
@@ -1287,14 +990,14 @@
         "category": "B站"
     },
     {
-        "title": "神奇阿宇Ayu 的 bilibili 空间",
-        "description": "神奇阿宇Ayu 的 bilibili 空间 - Powered by RSSHub",
+        "title": "的 bilibili 空间",
+        "description": "的 bilibili 空间 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
         "url": "https://space.bilibili.com/431956189",
         "videos": [
             {
                 "title": "为了看一场流星雨，我造了1000颗流星 ！",
                 "link": "https://www.bilibili.com/video/BV1qeuC63EPE",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/906a8990e428530b91e6889b273da021b1d8486b.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/906a8990e428530b91e6889b273da021b1d8486b.jpg",
                 "duration": "",
                 "published": "2026年08月12日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1qeuC63EPE&high_quality=1&danmaku=0",
@@ -1303,7 +1006,7 @@
             {
                 "title": "为了去天上放烟花，我在车顶装了架飞机...",
                 "link": "https://www.bilibili.com/video/BV1ErLa6bEgj",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/a00b57cad654700115a5e3e04b583a87c81a7150.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/a00b57cad654700115a5e3e04b583a87c81a7150.jpg",
                 "duration": "",
                 "published": "2026年05月22日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ErLa6bEgj&high_quality=1&danmaku=0",
@@ -1312,7 +1015,7 @@
             {
                 "title": "为了捡垃圾，我爆改了一架飞机...",
                 "link": "https://www.bilibili.com/video/BV1csReBiEZc",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/10013785be7156ba84cdca8746d340b7b0206a89.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/10013785be7156ba84cdca8746d340b7b0206a89.jpg",
                 "duration": "",
                 "published": "2026年05月04日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1csReBiEZc&high_quality=1&danmaku=0",
@@ -1321,7 +1024,7 @@
             {
                 "title": "用生命做视频？00后的博主都在做什么？",
                 "link": "https://www.bilibili.com/video/BV1eU1vBiEqh",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/2ab20b12a418abc7a8332cb357eceafb9d2e850d.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/2ab20b12a418abc7a8332cb357eceafb9d2e850d.jpg",
                 "duration": "",
                 "published": "2025年11月03日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1eU1vBiEqh&high_quality=1&danmaku=0",
@@ -1330,7 +1033,7 @@
             {
                 "title": "我造了个会飞的客厅...",
                 "link": "https://www.bilibili.com/video/BV1uunbzaECv",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/2d79a16affd821ccc23d0df76350c6bfead8ac28.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/2d79a16affd821ccc23d0df76350c6bfead8ac28.jpg",
                 "duration": "",
                 "published": "2025年09月26日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1uunbzaECv&high_quality=1&danmaku=0",
@@ -1339,7 +1042,7 @@
             {
                 "title": "为了骨折也能滑雪，我做了台喷气式高速滑雪板...",
                 "link": "https://www.bilibili.com/video/BV1AafRY2EYw",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/0366e55e1ff2204c9a42b9c0177de81a032025c6.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/0366e55e1ff2204c9a42b9c0177de81a032025c6.jpg",
                 "duration": "",
                 "published": "2025年01月25日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1AafRY2EYw&high_quality=1&danmaku=0",
@@ -1348,7 +1051,7 @@
             {
                 "title": "340km/h，我把自己变成了一颗流星...",
                 "link": "https://www.bilibili.com/video/BV1NeULY2EV2",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/e64e14a04efb17d187c48494ef431d6ed6a1493a.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/e64e14a04efb17d187c48494ef431d6ed6a1493a.jpg",
                 "duration": "",
                 "published": "2024年11月15日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1NeULY2EV2&high_quality=1&danmaku=0",
@@ -1357,7 +1060,7 @@
             {
                 "title": "穿越5300公里，为了找到世界上最大的鲨鱼，我造了一台水下飞行翼！",
                 "link": "https://www.bilibili.com/video/BV1wcyVYdE66",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/a8345c818b050b15ccbd4e862595373ef8d3a1ae.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/a8345c818b050b15ccbd4e862595373ef8d3a1ae.jpg",
                 "duration": "",
                 "published": "2024年10月22日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1wcyVYdE66&high_quality=1&danmaku=0",
@@ -1366,7 +1069,7 @@
             {
                 "title": "跨越18年，我在40000米高空放飞6岁的梦",
                 "link": "https://www.bilibili.com/video/BV1uC411n7R9",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/24a5a98d32182093e2d4074e2c6c286e72d04c11.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/24a5a98d32182093e2d4074e2c6c286e72d04c11.jpg",
                 "duration": "",
                 "published": "2024年05月04日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1uC411n7R9&high_quality=1&danmaku=0",
@@ -1375,14 +1078,14 @@
             {
                 "title": "爆改载人风筝！我把自己放上天了...",
                 "link": "https://www.bilibili.com/video/BV1RD421n7WD",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/c468530f079cadcd1c08ce2ec3b1186356bab05c.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/c468530f079cadcd1c08ce2ec3b1186356bab05c.jpg",
                 "duration": "",
                 "published": "2024年04月21日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1RD421n7WD&high_quality=1&danmaku=0",
                 "is_today": false
             }
         ],
-        "id": "ayu_bilibili_f9e334bb",
+        "id": "bilibili_b5e5198",
         "category": "B站"
     },
     {
@@ -1485,14 +1188,14 @@
         "category": "B站"
     },
     {
-        "title": "极速拍档 的 bilibili 空间",
-        "description": "极速拍档 的 bilibili 空间 - Powered by RSSHub",
+        "title": "的 bilibili 空间",
+        "description": "的 bilibili 空间 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
         "url": "https://space.bilibili.com/25150941",
         "videos": [
             {
                 "title": "全国首测！头文字D主角车，谁最快？",
                 "link": "https://www.bilibili.com/video/BV1zmhA6dEkd",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/8f557a37ffc69bf307d4c46a27d66ac4ad5d8670.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/8f557a37ffc69bf307d4c46a27d66ac4ad5d8670.jpg",
                 "duration": "",
                 "published": "2026年08月25日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1zmhA6dEkd&high_quality=1&danmaku=0",
@@ -1501,7 +1204,7 @@
             {
                 "title": "千 万 别 和 老 板 一 起 越 野",
                 "link": "https://www.bilibili.com/video/BV1WqbR6qE7x",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/b49cdad1a5f56325c5591664c60d8cf5f648dc31.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/b49cdad1a5f56325c5591664c60d8cf5f648dc31.jpg",
                 "duration": "",
                 "published": "2026年08月17日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1WqbR6qE7x&high_quality=1&danmaku=0",
@@ -1510,7 +1213,7 @@
             {
                 "title": "中国跑车，凭什么卖2000万？",
                 "link": "https://www.bilibili.com/video/BV1KQua6cERc",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/3da8f036b47160a22988597df09af733fcc520a4.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/3da8f036b47160a22988597df09af733fcc520a4.jpg",
                 "duration": "",
                 "published": "2026年08月11日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1KQua6cERc&high_quality=1&danmaku=0",
@@ -1519,7 +1222,7 @@
             {
                 "title": "500万只配入门，法拉利凭什么？",
                 "link": "https://www.bilibili.com/video/BV1tWMo6aEZk",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/81a1321ac43e754c948f47632f76d4fb2e54ee48.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/81a1321ac43e754c948f47632f76d4fb2e54ee48.jpg",
                 "duration": "",
                 "published": "2026年08月04日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1tWMo6aEZk&high_quality=1&danmaku=0",
@@ -1528,7 +1231,7 @@
             {
                 "title": "到底什么人，会花100万买台旅行车？",
                 "link": "https://www.bilibili.com/video/BV1EN3F6FEoW",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/a8e565f046d5a5e9dff23e2b6bedb52f5c212651.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/a8e565f046d5a5e9dff23e2b6bedb52f5c212651.jpg",
                 "duration": "",
                 "published": "2026年07月28日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1EN3F6FEoW&high_quality=1&danmaku=0",
@@ -1537,7 +1240,7 @@
             {
                 "title": "开理想跑赛道，有什么意义？",
                 "link": "https://www.bilibili.com/video/BV1sXKp6oEsr",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/c36efdf87e5f0b4d18c22ad593a581aa78ff652f.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/c36efdf87e5f0b4d18c22ad593a581aa78ff652f.jpg",
                 "duration": "",
                 "published": "2026年07月21日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1sXKp6oEsr&high_quality=1&danmaku=0",
@@ -1546,7 +1249,7 @@
             {
                 "title": "员工喜提大G，老板什么反应...",
                 "link": "https://www.bilibili.com/video/BV1nBNm6nEza",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/7d57fad498dcad7625c826cdabba0341eecbb83c.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/7d57fad498dcad7625c826cdabba0341eecbb83c.jpg",
                 "duration": "",
                 "published": "2026年07月14日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1nBNm6nEza&high_quality=1&danmaku=0",
@@ -1555,7 +1258,7 @@
             {
                 "title": "开法拉利，一天跑 4000 公里，是什么体验....",
                 "link": "https://www.bilibili.com/video/BV13ZM36kE7Q",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/1703f07c52a88ff5691ddc31d34c530412186897.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/1703f07c52a88ff5691ddc31d34c530412186897.jpg",
                 "duration": "",
                 "published": "2026年07月09日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV13ZM36kE7Q&high_quality=1&danmaku=0",
@@ -1564,7 +1267,7 @@
             {
                 "title": "2026年了，新疆的牧民过着什么样的生活...",
                 "link": "https://www.bilibili.com/video/BV1n9Ts6ZEUd",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/ca14d680a1180df69ca4431ed7356574f825ff9b.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/ca14d680a1180df69ca4431ed7356574f825ff9b.jpg",
                 "duration": "",
                 "published": "2026年07月03日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1n9Ts6ZEUd&high_quality=1&danmaku=0",
@@ -1573,14 +1276,14 @@
             {
                 "title": "真是一台好车",
                 "link": "https://www.bilibili.com/video/BV1UfKQ6LEtE",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/4b2aad67ffdbe7004a12e3caaa4b13b2b829380f.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/4b2aad67ffdbe7004a12e3caaa4b13b2b829380f.jpg",
                 "duration": "",
                 "published": "2026年06月30日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1UfKQ6LEtE&high_quality=1&danmaku=0",
                 "is_today": false
             }
         ],
-        "id": "bilibili_1233c60f",
+        "id": "bilibili_b5e5198",
         "category": "B站"
     },
     {
@@ -1683,14 +1386,14 @@
         "category": "B站"
     },
     {
-        "title": "极速拍档-NANA 的 bilibili 空间",
-        "description": "极速拍档-NANA 的 bilibili 空间 - Powered by RSSHub",
+        "title": "的 bilibili 空间",
+        "description": "的 bilibili 空间 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
         "url": "https://space.bilibili.com/34728585",
         "videos": [
             {
                 "title": "买新小米SU7有意义么？",
                 "link": "https://www.bilibili.com/video/BV1jU8w6VEcK",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/3e39400f9ae1623e93af9e12423c93e100ea15ff.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/3e39400f9ae1623e93af9e12423c93e100ea15ff.jpg",
                 "duration": "",
                 "published": "2026年08月21日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1jU8w6VEcK&high_quality=1&danmaku=0",
@@ -1699,7 +1402,7 @@
             {
                 "title": "这场比赛举办了103年，就为了车子不爆缸？",
                 "link": "https://www.bilibili.com/video/BV1sX3J6ZEjS",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/dd0119d935a18ce29d017d24af7bc67e1a63714a.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/dd0119d935a18ce29d017d24af7bc67e1a63714a.jpg",
                 "duration": "",
                 "published": "2026年07月30日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1sX3J6ZEjS&high_quality=1&danmaku=0",
@@ -1708,7 +1411,7 @@
             {
                 "title": "给她一台保时捷，结果…",
                 "link": "https://www.bilibili.com/video/BV18RNR6QESS",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/8b318a3b4af4ecfb3961bd8f93e8063f39628315.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/8b318a3b4af4ecfb3961bd8f93e8063f39628315.jpg",
                 "duration": "",
                 "published": "2026年07月18日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV18RNR6QESS&high_quality=1&danmaku=0",
@@ -1717,7 +1420,7 @@
             {
                 "title": "2 . 0 T 2 8 0 km/h 飞速去看纽北是什么体验？",
                 "link": "https://www.bilibili.com/video/BV15DMn6MEVA",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/b6be2daa550ff74564c48f3a4805f4f7f1d9a70b.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/b6be2daa550ff74564c48f3a4805f4f7f1d9a70b.jpg",
                 "duration": "",
                 "published": "2026年07月10日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV15DMn6MEVA&high_quality=1&danmaku=0",
@@ -1726,7 +1429,7 @@
             {
                 "title": "刚拿驾照就想挑战磨膝？李亚军第一视角速成班",
                 "link": "https://www.bilibili.com/video/BV1rXEQ6YEWu",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/223e1ef56d5585a1dc99d6c661b37f2ce559f96d.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/223e1ef56d5585a1dc99d6c661b37f2ce559f96d.jpg",
                 "duration": "",
                 "published": "2026年06月10日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1rXEQ6YEWu&high_quality=1&danmaku=0",
@@ -1735,7 +1438,7 @@
             {
                 "title": "如何用最低成本成为赛车手？",
                 "link": "https://www.bilibili.com/video/BV12bEn6UEtV",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/e33ce1613a06b4f89abe19980996c60f97452bba.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/e33ce1613a06b4f89abe19980996c60f97452bba.jpg",
                 "duration": "",
                 "published": "2026年06月06日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV12bEn6UEtV&high_quality=1&danmaku=0",
@@ -1744,7 +1447,7 @@
             {
                 "title": "玩手游，就能开上保时捷？",
                 "link": "https://www.bilibili.com/video/BV1XX9aByE8R",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/e52e864f17e8a5383f603beacf4120fe26defcc4.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/e52e864f17e8a5383f603beacf4120fe26defcc4.jpg",
                 "duration": "",
                 "published": "2026年04月30日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1XX9aByE8R&high_quality=1&danmaku=0",
@@ -1753,7 +1456,7 @@
             {
                 "title": "一台领克能卖140万？！凭啥…",
                 "link": "https://www.bilibili.com/video/BV1jcdHBtEbS",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/af318d79eea9e653a0efc21fc541f98f6c33faa6.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/af318d79eea9e653a0efc21fc541f98f6c33faa6.jpg",
                 "duration": "",
                 "published": "2026年04月18日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1jcdHBtEbS&high_quality=1&danmaku=0",
@@ -1762,7 +1465,7 @@
             {
                 "title": "23岁女大学生，花1万买台23岁宝马....?",
                 "link": "https://www.bilibili.com/video/BV1Z1DLBvEdV",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/4be264d5d16d9f5c534177f1fd1fcf7fd3372c1c.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/4be264d5d16d9f5c534177f1fd1fcf7fd3372c1c.jpg",
                 "duration": "",
                 "published": "2026年04月09日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Z1DLBvEdV&high_quality=1&danmaku=0",
@@ -1771,212 +1474,14 @@
             {
                 "title": "他比小米工程师还懂车？",
                 "link": "https://www.bilibili.com/video/BV1ZBcCzuEDv",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/061e87e9ebc9eb9f4bcc7e56cef35caa75d45f4a.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/061e87e9ebc9eb9f4bcc7e56cef35caa75d45f4a.jpg",
                 "duration": "",
                 "published": "2026年03月13日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ZBcCzuEDv&high_quality=1&danmaku=0",
                 "is_today": false
             }
         ],
-        "id": "nana_bilibili_327a6e7f",
-        "category": "B站"
-    },
-    {
-        "title": "极速拍档-小乔 的 bilibili 空间",
-        "description": "极速拍档-小乔 的 bilibili 空间 - Powered by RSSHub",
-        "url": "https://space.bilibili.com/18154819",
-        "videos": [
-            {
-                "title": "为什么我不推荐你买小米澎程N90?",
-                "link": "https://www.bilibili.com/video/BV1WV8j6YEyA",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/77c56c47e6ca8de6e8494c2cfaa96405b71cfdfe.jpg",
-                "duration": "",
-                "published": "2026年08月19日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1WV8j6YEyA&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "·首试！小米的第一辆增程车？澎程N90!",
-                "link": "https://www.bilibili.com/video/BV1Jm3s6qEZC",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/2caaa0d90446067277f7b99f79d8c1fd08059efc.jpg",
-                "duration": "",
-                "published": "2026年07月30日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Jm3s6qEZC&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "和Links共度48小时",
-                "link": "https://www.bilibili.com/video/BV1tWMe6PE4M",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/1bbda957ba05da736f83f57861d13ee30a7911e8.jpg",
-                "duration": "",
-                "published": "2026年07月08日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1tWMe6PE4M&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "这是我修车的第18个月！",
-                "link": "https://www.bilibili.com/video/BV1pBVW6rEGi",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/cf7a9be4627f07b4110dc4727e927777cc1ca11e.jpg",
-                "duration": "",
-                "published": "2026年05月29日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1pBVW6rEGi&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "从手枪到巴雷特，半天试射20把枪是什么体验？",
-                "link": "https://www.bilibili.com/video/BV1JQGH6cEyv",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/e8f7ca896fb86e650b814f2fac7fccad85dac980.jpg",
-                "duration": "",
-                "published": "2026年05月25日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1JQGH6cEyv&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "这可能是世界上最适合自驾游的地方",
-                "link": "https://www.bilibili.com/video/BV148oVBbE9f",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/17c966678baae634bda82ff2a69c122a08003781.jpg",
-                "duration": "",
-                "published": "2026年04月24日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV148oVBbE9f&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "用年终奖，给妈妈买新车！",
-                "link": "https://www.bilibili.com/video/BV1fBw7zTETM",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/dbad3e7261e9b5a5bdbc00971093ec4f0fcf8a76.jpg",
-                "duration": "",
-                "published": "2026年03月16日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1fBw7zTETM&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "我去F1给车手颁奖?!!",
-                "link": "https://www.bilibili.com/video/BV1HawKzkEjr",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/78357a9531e71b4d2141c60405ed973394d032ab.jpg",
-                "duration": "",
-                "published": "2026年03月15日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1HawKzkEjr&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "2026了，谁还买飞度啊...",
-                "link": "https://www.bilibili.com/video/BV1SAfiBAEqt",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/b49facc272a33b5594d64d20155895ab4dba37c4.jpg",
-                "duration": "",
-                "published": "2026年02月26日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1SAfiBAEqt&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "一顿饭 吃掉老板15万!",
-                "link": "https://www.bilibili.com/video/BV1pSZWBJENJ",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/b37e0f38049f1ecea5336207f9d5c0392d8a9508.jpg",
-                "duration": "",
-                "published": "2026年02月15日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1pSZWBJENJ&high_quality=1&danmaku=0",
-                "is_today": false
-            }
-        ],
-        "id": "bilibili_57ed4abc",
-        "category": "B站"
-    },
-    {
-        "title": "键盘车神教 的 bilibili 空间",
-        "description": "键盘车神教 的 bilibili 空间 - Powered by RSSHub",
-        "url": "https://space.bilibili.com/49576477",
-        "videos": [
-            {
-                "title": "【八代思域进化】LSD+大尾牙，烂仔神器！",
-                "link": "https://www.bilibili.com/video/BV1s18Y61E9L",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/a2b9073750be513ec4d4aae1d384305803452907.jpg",
-                "duration": "",
-                "published": "2026年08月24日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1s18Y61E9L&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "挑战一天开车2000公里，从纽北去丹麦~",
-                "link": "https://www.bilibili.com/video/BV1BDbR6ZECf",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/6a323dfebccab604d5e46da89245b5ee60693764.jpg",
-                "duration": "",
-                "published": "2026年08月17日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1BDbR6ZECf&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "我又买了一台超跑，本田飞度GR9！",
-                "link": "https://www.bilibili.com/video/BV1xVun64EgX",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/2721101d555aef0240b9f3300952998d15c792ab.jpg",
-                "duration": "",
-                "published": "2026年08月06日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1xVun64EgX&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "2万欧战车，整顿纽北～",
-                "link": "https://www.bilibili.com/video/BV1rDMQ6BEqo",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/3d2618edb4576479b3f20201a4dbf4c3fe59953e.jpg",
-                "duration": "",
-                "published": "2026年08月03日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1rDMQ6BEqo&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "空力拉满，岚图追光S～",
-                "link": "https://www.bilibili.com/video/BV15A3x64EaA",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/90f40fae2e5c2d6108113aedfd88fa2198b1984d.jpg",
-                "duration": "",
-                "published": "2026年07月30日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV15A3x64EaA&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "理想i6，也去纽北？",
-                "link": "https://www.bilibili.com/video/BV16sgf64EF4",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/2a722005aad380943eb7f9228768ef39576e4d45.jpg",
-                "duration": "",
-                "published": "2026年07月27日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV16sgf64EF4&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "12万的穷人的法拉利，小鹏L03~",
-                "link": "https://www.bilibili.com/video/BV1eegm6DEg8",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/705026fb63edc0ca9d63149943e6ed2fb9b1f4d0.jpg",
-                "duration": "",
-                "published": "2026年07月23日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1eegm6DEg8&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "领克03大尾翼版，纽北第一圈！",
-                "link": "https://www.bilibili.com/video/BV19EK26MEDB",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/0475e2f75445d8af439892cde0f2ebe3a11518e6.jpg",
-                "duration": "",
-                "published": "2026年07月20日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV19EK26MEDB&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "钢炮之王，是哪国车？",
-                "link": "https://www.bilibili.com/video/BV1JzKM6gErM",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/cbec2036df3d119516bd1997c22a27b33ca6cd01.jpg",
-                "duration": "",
-                "published": "2026年07月16日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1JzKM6gErM&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "日系屌丝战斗机，爆杀全场德系车？",
-                "link": "https://www.bilibili.com/video/BV1yNNy6LERt",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/d143eba5ab0f4a99f67bbd865134dfa6409461fc.jpg",
-                "duration": "",
-                "published": "2026年07月13日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1yNNy6LERt&high_quality=1&danmaku=0",
-                "is_today": false
-            }
-        ],
-        "id": "bilibili_82df33e",
+        "id": "bilibili_b5e5198",
         "category": "B站"
     },
     {
@@ -2084,6 +1589,15 @@
         "url": "https://space.bilibili.com/5321968",
         "videos": [
             {
+                "title": "\"我见过很多天才，但是他们都叫我天才\"",
+                "link": "https://www.bilibili.com/video/BV1K5hw68EfT",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/2b06296b3d4d42aab474d7c1b2e98b9b980644c0.jpg",
+                "duration": "",
+                "published": "2026年08月27日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1K5hw68EfT&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
                 "title": "\"可以看的出来德国老哥是真的很想赢\"",
                 "link": "https://www.bilibili.com/video/BV1mN826nEM8",
                 "thumbnail": "https://i0.hdslb.com/bfs/archive/d44a4f6d1ae9f1071e2d3f7043ac593aa9745d75.jpg",
@@ -2163,15 +1677,6 @@
                 "published": "2026年07月19日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1CmKz6NEzx&high_quality=1&danmaku=0",
                 "is_today": false
-            },
-            {
-                "title": "放一小段基哥喘息的声音，听着太心疼了，基哥是真的老了",
-                "link": "https://www.bilibili.com/video/BV14bKg6REGn",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/f5576a196d4187149e06ec922c0ab8a7363e2d22.jpg",
-                "duration": "",
-                "published": "2026年07月16日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV14bKg6REGn&high_quality=1&danmaku=0",
-                "is_today": false
             }
         ],
         "id": "for_bilibili_3f9df0b",
@@ -2187,7 +1692,7 @@
                 "link": "https://www.bilibili.com/video/BV1TF8d61Ec5",
                 "thumbnail": "https://i1.hdslb.com/bfs/archive/320497bcf314a047008f77b7b2a3d2df00a92312.jpg",
                 "duration": "",
-                "published": "22小时前",
+                "published": "2026年08月26日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1TF8d61Ec5&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -2579,6 +2084,15 @@
         "url": "https://space.bilibili.com/1140672573",
         "videos": [
             {
+                "title": "AI泡沫之下，中美谁更有硬实力？对话沈逸&王骁 | AI 万象谈EP08【视频播客】",
+                "link": "https://www.bilibili.com/video/BV1DUhw6KEGb",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/227ae63a7e2a23a43f985576f21e292c11764fb2.jpg",
+                "duration": "",
+                "published": "2026年08月27日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1DUhw6KEGb&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
                 "title": "十年前忙着反核，十年后忙着找电，台湾开始补能源课【岛岛连线】",
                 "link": "https://www.bilibili.com/video/BV1pFhG6SE1G",
                 "thumbnail": "https://i1.hdslb.com/bfs/archive/10c8957093d34da5b6b396286e521bc3c50ec4f0.jpg",
@@ -2658,15 +2172,6 @@
                 "published": "2026年07月31日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1dbGA6PEAt&high_quality=1&danmaku=0",
                 "is_today": false
-            },
-            {
-                "title": "西班牙赢麻，FIFA赚麻，特朗普乐麻，世界杯谁是输家？",
-                "link": "https://www.bilibili.com/video/BV1wVge6ZE35",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/70cd6601fb5c6935979390b4c87c168a87bae2c8.jpg",
-                "duration": "",
-                "published": "2026年07月24日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1wVge6ZE35&high_quality=1&danmaku=0",
-                "is_today": false
             }
         ],
         "id": "albert_bilibili_a360aa73",
@@ -2674,13 +2179,13 @@
     },
     {
         "title": "-LKs- 的 bilibili 空间",
-        "description": "-LKs- 的 bilibili 空间 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "description": "-LKs- 的 bilibili 空间 - Powered by RSSHub",
         "url": "https://space.bilibili.com/125526",
         "videos": [
             {
                 "title": "员工要陪老板演戏吗？我真去影视飓风上班了...",
                 "link": "https://www.bilibili.com/video/BV1AxhK6BE2j",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/9e6d32b6503e232f780affb4efd30ca77437521c.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/9e6d32b6503e232f780affb4efd30ca77437521c.jpg",
                 "duration": "",
                 "published": "2026年08月25日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1AxhK6BE2j&high_quality=1&danmaku=0",
@@ -2689,7 +2194,7 @@
             {
                 "title": "全站最图一乐的UP主出闲置，清仓骨折价！",
                 "link": "https://www.bilibili.com/video/BV1Ypbi6NEXh",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/fc85adf99db62a157a74c291c779c93a5f5a33c8.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/fc85adf99db62a157a74c291c779c93a5f5a33c8.jpg",
                 "duration": "",
                 "published": "2026年08月19日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Ypbi6NEXh&high_quality=1&danmaku=0",
@@ -2698,7 +2203,7 @@
             {
                 "title": "全球人均GDP最高的国家！探秘真实卢森堡！",
                 "link": "https://www.bilibili.com/video/BV1BkgG6bEUC",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/126767880c36a939263a21b7234a602e9a02adaa.jpg",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/126767880c36a939263a21b7234a602e9a02adaa.jpg",
                 "duration": "",
                 "published": "2026年08月12日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1BkgG6bEUC&high_quality=1&danmaku=0",
@@ -2707,7 +2212,7 @@
             {
                 "title": "门票上万一年只开6天？探秘音乐节版\"迪士尼\"乐园！",
                 "link": "https://www.bilibili.com/video/BV1rkuH6xEBu",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/4c34013788d59ade86c353f3708df80c38d80b41.jpg",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/4c34013788d59ade86c353f3708df80c38d80b41.jpg",
                 "duration": "",
                 "published": "2026年08月07日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1rkuH6xEBu&high_quality=1&danmaku=0",
@@ -2716,7 +2221,7 @@
             {
                 "title": "带百万级的相机拍漫展？挑战BW最高画质！",
                 "link": "https://www.bilibili.com/video/BV1XL3F6HEZa",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/6e5fff7210f9e323f30ad171e15138856ab8d54e.jpg",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/6e5fff7210f9e323f30ad171e15138856ab8d54e.jpg",
                 "duration": "",
                 "published": "2026年07月28日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1XL3F6HEZa&high_quality=1&danmaku=0",
@@ -2725,7 +2230,7 @@
             {
                 "title": "100天亏掉40%？理财大赛S2结果公布！",
                 "link": "https://www.bilibili.com/video/BV1Pxgy68Ek9",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/038f1150bc58568654bd201a14b824bcc5fb643c.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/038f1150bc58568654bd201a14b824bcc5fb643c.jpg",
                 "duration": "",
                 "published": "2026年07月23日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Pxgy68Ek9&high_quality=1&danmaku=0",
@@ -2734,7 +2239,7 @@
             {
                 "title": "100天理财王冠军竟然是TA?【大制作宣传片】",
                 "link": "https://www.bilibili.com/video/BV16AK26EEiF",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/b25465becc88cf37cf2d0f9dffe6d08c1de91672.jpg",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/b25465becc88cf37cf2d0f9dffe6d08c1de91672.jpg",
                 "duration": "",
                 "published": "2026年07月20日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV16AK26EEiF&high_quality=1&danmaku=0",
@@ -2743,7 +2248,7 @@
             {
                 "title": "乐高积木鞋？大力神杯酒？开箱各种离谱联名产品！",
                 "link": "https://www.bilibili.com/video/BV15tMg6VETK",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/311007ddbda8aee1c27de97f632669aab08f562d.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/311007ddbda8aee1c27de97f632669aab08f562d.jpg",
                 "duration": "",
                 "published": "2026年07月12日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV15tMg6VETK&high_quality=1&danmaku=0",
@@ -2752,7 +2257,7 @@
             {
                 "title": "440万粉丝什锦区UP主开什么车？LKs爱车曝光！",
                 "link": "https://www.bilibili.com/video/BV1G6TQ6pEEM",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/903e9c3427e4d15dde9f9f720458f20bcadce5ea.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/903e9c3427e4d15dde9f9f720458f20bcadce5ea.jpg",
                 "duration": "",
                 "published": "2026年07月06日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1G6TQ6pEEM&high_quality=1&danmaku=0",
@@ -2761,7 +2266,7 @@
             {
                 "title": "探秘上万块的顶级八音盒！到底能有多好听?【图一乐】",
                 "link": "https://www.bilibili.com/video/BV1Nr7a6jEE5",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/29a37e3a8e1c3dd39c9bc3092ca3a2e8da22848d.jpg",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/29a37e3a8e1c3dd39c9bc3092ca3a2e8da22848d.jpg",
                 "duration": "",
                 "published": "2026年06月28日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Nr7a6jEE5&high_quality=1&danmaku=0",
@@ -3074,6 +2579,15 @@
         "url": "https://space.bilibili.com/604710494",
         "videos": [
             {
+                "title": "警察为啥不能搞副业？同样的剧本国产被骂惨，韩国拍却成了票房冠军",
+                "link": "https://www.bilibili.com/video/BV1uX4R66EKj",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/ec9b2857f718d1e92c8927e2fab72d298893c885.jpg",
+                "duration": "",
+                "published": "2026年08月27日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1uX4R66EKj&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
                 "title": "只靠情怀拿下当年全球票房第二！没了帽子的马里奥太奇怪了！",
                 "link": "https://www.bilibili.com/video/BV1x2421f75F",
                 "thumbnail": "https://i2.hdslb.com/bfs/archive/39e67e7833d7b8cdac7e3c7fde827c65c62f89b4.jpg",
@@ -3152,15 +2666,6 @@
                 "duration": "",
                 "published": "2026年08月13日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Lpgn65EQ3&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "老一辈对东方美学的顶级理解，为什么现在却很少见到？",
-                "link": "https://www.bilibili.com/video/BV1BwgG6dE1d",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/5fe7866c2deb344dac04ea6a142be9979045f78b.jpg",
-                "duration": "",
-                "published": "2026年08月12日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1BwgG6dE1d&high_quality=1&danmaku=0",
                 "is_today": false
             }
         ],
@@ -3272,11 +2777,20 @@
         "url": "https://space.bilibili.com/46340420/dynamic",
         "videos": [
             {
+                "title": "彼得·库伦去世",
+                "link": "https://www.bilibili.com/opus/1241389597494083588",
+                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/3ef8bddf3c0e84ffb1d55da68d4ef93a46340420.jpg",
+                "duration": "",
+                "published": "2026年08月27日",
+                "embed_url": "",
+                "is_today": false
+            },
+            {
                 "title": "【中字】'社交网络2'《社交清算》正式预告【4K/艾伦·索金/米奇·麦迪森/杰瑞米·艾伦·怀特/杰瑞米·斯特朗】",
                 "link": "https://www.bilibili.com/video/BV12hhc6fEJh",
                 "thumbnail": "http://i1.hdslb.com/bfs/archive/f2cca52082c24e45009bd6449502a0aea754adf4.jpg",
                 "duration": "",
-                "published": "19小时前",
+                "published": "2026年08月27日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV12hhc6fEJh&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -3285,7 +2799,7 @@
                 "link": "https://www.bilibili.com/video/BV1pihc6xEQ6",
                 "thumbnail": "http://i2.hdslb.com/bfs/archive/31087997883378e24abb33231cdd1174984327dc.jpg",
                 "duration": "",
-                "published": "21小时前",
+                "published": "2026年08月27日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1pihc6xEQ6&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -3351,15 +2865,6 @@
                 "published": "2026年08月24日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1pU8Y6CEnZ&high_quality=1&danmaku=0",
                 "is_today": false
-            },
-            {
-                "title": "【中字】冷战科幻《冥府计划》首曝预告【KATABASIS/架空/惊悚/短片】",
-                "link": "https://www.bilibili.com/video/BV1ff826VEkf",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/ee149458eba648564e5cbcaf5dddac68f4407c69.jpg",
-                "duration": "",
-                "published": "2026年08月22日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ff826VEkf&high_quality=1&danmaku=0",
-                "is_today": false
             }
         ],
         "id": "bilibili_d4cd0bec",
@@ -3370,6 +2875,15 @@
         "description": "Netflix影视 的 bilibili 动态 - Powered by RSSHub",
         "url": "https://space.bilibili.com/316955009/dynamic",
         "videos": [
+            {
+                "title": "今晚鬼节不出门！宅家一起看大片[脱单doge]",
+                "link": "https://www.bilibili.com/opus/1184418454027894803",
+                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/0ab8a63d1f09564c6fa0b0f913caaa0d316955009.jpg",
+                "duration": "",
+                "published": "2026年08月27日",
+                "embed_url": "",
+                "is_today": false
+            },
             {
                 "title": "欢迎回到霍金斯镇！Netflix动画《怪奇物语：1985故事集2》正式预告",
                 "link": "https://www.bilibili.com/video/BV1PA8d6CEUB",
@@ -3450,29 +2964,20 @@
                 "published": "2026年08月20日",
                 "embed_url": "",
                 "is_today": false
-            },
-            {
-                "title": "画风带劲！Netflix动画《怪化猫：蛇神》正式预告",
-                "link": "https://www.bilibili.com/video/BV1qz8F6rEU1",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/910c4878ff3befa15f40f37c1ac954aad81578f5.jpg",
-                "duration": "",
-                "published": "2026年08月20日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1qz8F6rEU1&high_quality=1&danmaku=0",
-                "is_today": false
             }
         ],
         "id": "netflix_bilibili_f940023f",
         "category": "B站"
     },
     {
-        "title": "海东鉴宝 的 bilibili 空间",
-        "description": "海东鉴宝 的 bilibili 空间 - Powered by RSSHub",
+        "title": "的 bilibili 空间",
+        "description": "的 bilibili 空间 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
         "url": "https://space.bilibili.com/11083481",
         "videos": [
             {
                 "title": "低质量切片",
                 "link": "https://www.bilibili.com/video/BV153gW6JEFX",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/ae9e639b6db7211cdf6f0a93f42aba8fc3de5c8b.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/ae9e639b6db7211cdf6f0a93f42aba8fc3de5c8b.jpg",
                 "duration": "",
                 "published": "2026年08月13日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV153gW6JEFX&high_quality=1&danmaku=0",
@@ -3481,7 +2986,7 @@
             {
                 "title": "卤蛋蛋给大伙备了点好东西，15号晚记得来！！",
                 "link": "https://www.bilibili.com/video/BV1cogp6fE89",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/08732f0087a27080e2a449f63c7dd61b0364563a.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/08732f0087a27080e2a449f63c7dd61b0364563a.jpg",
                 "duration": "",
                 "published": "2026年08月13日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1cogp6fE89&high_quality=1&danmaku=0",
@@ -3490,7 +2995,7 @@
             {
                 "title": "警惕！老年旅行团的消费陷阱！",
                 "link": "https://www.bilibili.com/video/BV1B1GP63Eg2",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/e6d8fe201fb29158e095160d7bf7e7315ba15abc.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/e6d8fe201fb29158e095160d7bf7e7315ba15abc.jpg",
                 "duration": "",
                 "published": "2026年08月01日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1B1GP63Eg2&high_quality=1&danmaku=0",
@@ -3499,7 +3004,7 @@
             {
                 "title": "真·学术交流",
                 "link": "https://www.bilibili.com/video/BV1PTNd6yEQW",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/fae69b15c480504f19bce2e4319442cde79e325a.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/fae69b15c480504f19bce2e4319442cde79e325a.jpg",
                 "duration": "",
                 "published": "2026年07月17日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1PTNd6yEQW&high_quality=1&danmaku=0",
@@ -3508,7 +3013,7 @@
             {
                 "title": "《我是走路低头看的》",
                 "link": "https://www.bilibili.com/video/BV1vHTR6wEHS",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/0dda1fe49dc04b51be9200479f2b6c9083056acb.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/0dda1fe49dc04b51be9200479f2b6c9083056acb.jpg",
                 "duration": "",
                 "published": "2026年07月06日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1vHTR6wEHS&high_quality=1&danmaku=0",
@@ -3517,7 +3022,7 @@
             {
                 "title": "变 相 怪 蛋",
                 "link": "https://www.bilibili.com/video/BV1SUEv6wEza",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/22029421d492e688b657415cfc2845d27c2feb02.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/22029421d492e688b657415cfc2845d27c2feb02.jpg",
                 "duration": "",
                 "published": "2026年06月11日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1SUEv6wEza&high_quality=1&danmaku=0",
@@ -3526,7 +3031,7 @@
             {
                 "title": "水 期 视 频",
                 "link": "https://www.bilibili.com/video/BV1NsEt6vEFc",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/5a5de90de9a2474fb09adc4c4cba64d7a56610ad.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/5a5de90de9a2474fb09adc4c4cba64d7a56610ad.jpg",
                 "duration": "",
                 "published": "2026年06月07日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1NsEt6vEFc&high_quality=1&danmaku=0",
@@ -3535,7 +3040,7 @@
             {
                 "title": "海东鉴宝全国首家线下直营店",
                 "link": "https://www.bilibili.com/video/BV16TEs6JEQv",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/6774d8314a5a4511f350ba9d195d4893d2b3468a.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/6774d8314a5a4511f350ba9d195d4893d2b3468a.jpg",
                 "duration": "",
                 "published": "2026年06月07日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV16TEs6JEQv&high_quality=1&danmaku=0",
@@ -3544,7 +3049,7 @@
             {
                 "title": "除了鱼，啥也钓",
                 "link": "https://www.bilibili.com/video/BV1rbVS6CE8N",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/527aad34320a671abbf9885381520d683e95395e.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/527aad34320a671abbf9885381520d683e95395e.jpg",
                 "duration": "",
                 "published": "2026年05月31日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1rbVS6CE8N&high_quality=1&danmaku=0",
@@ -3553,113 +3058,14 @@
             {
                 "title": "不 笑 是 给",
                 "link": "https://www.bilibili.com/video/BV1g4VA6bEZk",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/2480c52e8f377ddd34793efa6defb2e0c5b8e13c.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/2480c52e8f377ddd34793efa6defb2e0c5b8e13c.jpg",
                 "duration": "",
                 "published": "2026年05月26日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1g4VA6bEZk&high_quality=1&danmaku=0",
                 "is_today": false
             }
         ],
-        "id": "bilibili_a35d04f",
-        "category": "B站"
-    },
-    {
-        "title": "短的发布会 的 bilibili 空间",
-        "description": "短的发布会 的 bilibili 空间 - Powered by RSSHub",
-        "url": "https://space.bilibili.com/287795639",
-        "videos": [
-            {
-                "title": "【短的发布会】姿势越怪跑的越快！第二届机器人运动会依旧这么好笑",
-                "link": "https://www.bilibili.com/video/BV1JS896aE2p",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/dc54c55e349f276982f98d451162f1017bdf7118.jpg",
-                "duration": "",
-                "published": "2026年08月26日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1JS896aE2p&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【短的发布会】牛X！华为首款“X”车智界RX，来了！",
-                "link": "https://www.bilibili.com/video/BV1yp8C63E2R",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/e24ce5628249cbbc53c77103cf8da75f52977d6d.jpg",
-                "duration": "",
-                "published": "2026年08月22日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1yp8C63E2R&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【短的发布会】沈腾又闯祸了！华为首款硬派SUV享界G9到底有多硬？",
-                "link": "https://www.bilibili.com/video/BV16s8z6WEA7",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/3d2f0522ac80263128af478e0d5ecbde6792379c.jpg",
-                "duration": "",
-                "published": "2026年08月21日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV16s8z6WEA7&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【短的发布会】雷鸟iO眼镜化身物理外挂！我和天才之间只差 2000 块？",
-                "link": "https://www.bilibili.com/video/BV1RS8i6zExk",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/8cfbf6e3810e29e10f1901808510688e0a0c55cf.jpg",
-                "duration": "",
-                "published": "2026年08月21日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1RS8i6zExk&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【短的发布会】我要验湃！一条视频带你看懂全网最带湃的澎湃OS 4",
-                "link": "https://www.bilibili.com/video/BV1mygw6jEg6",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/b1bdf65647f5954097859e925da0022bb5dee0fd.jpg",
-                "duration": "",
-                "published": "2026年08月14日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1mygw6jEg6&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【短的发布会】纯平地板？百变空间？全网热议的9系旗舰竟是五菱扬光Pro！",
-                "link": "https://www.bilibili.com/video/BV179uc6tECJ",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/a475df4be1c860ba0edff5c5555e58fcbe2b6bd2.jpg",
-                "duration": "",
-                "published": "2026年08月04日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV179uc6tECJ&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【短的发布会】荣耀牌傻妞上线！2026 年，你也能拥有自己的手机人",
-                "link": "https://www.bilibili.com/video/BV1jMgq6fE6Y",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/2d0572c3a6780f89f303c2cfb85f6cf6e7ee5fc1.jpg",
-                "duration": "",
-                "published": "2026年07月25日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1jMgq6fE6Y&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【短的发布会】余总+M8+乾崑智驾，这难道才是华为纯种M8？",
-                "link": "https://www.bilibili.com/video/BV14ngY6PEmg",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/2608c133b22c60ae849c6d12a29b54dab0d7534e.jpg",
-                "duration": "",
-                "published": "2026年07月24日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV14ngY6PEmg&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【长话短说】系统界生产队的驴？鸿蒙迭代速度卷疯同行，安全流畅双在线",
-                "link": "https://www.bilibili.com/video/BV1yLgS6rEwf",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/0f5fdb6a5b6f7a386aae5af21c2aacd87a2bc6dd.jpg",
-                "duration": "",
-                "published": "2026年07月23日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1yLgS6rEwf&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【短的发布会】机器人格斗惊现路易十六？一口气看完《叶问2026：铁甲钢拳》",
-                "link": "https://www.bilibili.com/video/BV1DrKp6NEe3",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/41d2723b03bdc88e41ee8ba7d9b7ebf78d5c58a6.jpg",
-                "duration": "",
-                "published": "2026年07月20日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1DrKp6NEe3&high_quality=1&danmaku=0",
-                "is_today": false
-            }
-        ],
-        "id": "bilibili_3e9cf2d1",
+        "id": "bilibili_b5e5198",
         "category": "B站"
     },
     {
@@ -3672,7 +3078,7 @@
                 "link": "https://www.bilibili.com/video/BV1a6hw6kEza",
                 "thumbnail": "https://i1.hdslb.com/bfs/archive/95256cdf489b4aab666b2a0ecb0e99437497b939.jpg",
                 "duration": "",
-                "published": "14小时前",
+                "published": "2026年08月27日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1a6hw6kEza&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -3759,105 +3165,6 @@
             }
         ],
         "id": "bilibili_5d96e44f",
-        "category": "B站"
-    },
-    {
-        "title": "小小段砸 的 bilibili 动态",
-        "description": "小小段砸 的 bilibili 动态 - Powered by RSSHub",
-        "url": "https://space.bilibili.com/288387457/dynamic",
-        "videos": [
-            {
-                "title": "看视频儿啦！！[嘟嘟][嘟嘟]",
-                "link": "https://www.bilibili.com/video/BV1kx3x66EiE",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/891be2b66e7c5a1c584c724bc4feceabb409fb24.jpg",
-                "duration": "",
-                "published": "2026年07月31日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1kx3x66EiE&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【锐评】面试时的神人HR强度排行",
-                "link": "https://www.bilibili.com/video/BV1kx3x66EiE",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/891be2b66e7c5a1c584c724bc4feceabb409fb24.jpg",
-                "duration": "",
-                "published": "2026年07月30日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1kx3x66EiE&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "本想报智能制造，报成“智能建造”了！！！",
-                "link": "https://www.bilibili.com/video/BV1DugQ6WEnU",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/f9f4fbeddcfde720621972350b550c6d0611c56f.jpg",
-                "duration": "",
-                "published": "2026年07月23日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1DugQ6WEnU&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【锐评】大学宿舍神人强度排行榜",
-                "link": "https://www.bilibili.com/video/BV18qTs6zEsr",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/c7fb8b6c0813374af6d1f1f227f25190bde0c9ac.jpg",
-                "duration": "",
-                "published": "2026年07月03日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV18qTs6zEsr&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "高考652分，想报土木工程啊？？？？？？",
-                "link": "https://www.bilibili.com/video/BV1RVKd6YERS",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/5525a63c6533c9eab09436c3a0b9d7d2ef74b9c2.jpg",
-                "duration": "",
-                "published": "2026年06月30日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1RVKd6YERS&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "你的大学专业！你来吐槽！",
-                "link": "https://www.bilibili.com/opus/1215230798500724739",
-                "thumbnail": null,
-                "duration": "",
-                "published": "2026年06月18日",
-                "embed_url": "",
-                "is_today": false
-            },
-            {
-                "title": "大学宿舍锐评篇！",
-                "link": "https://www.bilibili.com/opus/1214499279678210049",
-                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/435fb18f3a4b048a02d0e21e443f3343288387457.jpg",
-                "duration": "",
-                "published": "2026年06月16日",
-                "embed_url": "",
-                "is_today": false
-            },
-            {
-                "title": "上班两年，才知道职场有多反常识？！",
-                "link": "https://www.bilibili.com/video/BV1SXJF6vEHP",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/e925f1895cc8ea8ef4667557671e9b276fcca3c8.jpg",
-                "duration": "",
-                "published": "2026年06月14日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1SXJF6vEHP&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "股神醉后怒斥A股，发誓永久退出股市！",
-                "link": "https://www.bilibili.com/video/BV1rHEy6rEeU",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/c99558d071728155cd260a225789e9717595ce6e.jpg",
-                "duration": "",
-                "published": "2026年06月12日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1rHEy6rEeU&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "每一个上过班的人，死后都会上天堂的",
-                "link": "https://www.bilibili.com/video/BV1ZwEX64E2b",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/7ca90530e3857fdfe4d9d0160407b076871926b1.jpg",
-                "duration": "",
-                "published": "2026年06月10日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ZwEX64E2b&high_quality=1&danmaku=0",
-                "is_today": false
-            }
-        ],
-        "id": "bilibili_fbf39e26",
         "category": "B站"
     },
     {
@@ -4056,6 +3363,105 @@
             }
         ],
         "id": "bilibili_5c853f0b",
+        "category": "B站"
+    },
+    {
+        "title": "臭蛋老师-围棋文学 的 bilibili 动态",
+        "description": "臭蛋老师-围棋文学 的 bilibili 动态 - Powered by RSSHub",
+        "url": "https://space.bilibili.com/1250115313/dynamic",
+        "videos": [
+            {
+                "title": "每个人的围棋书",
+                "link": "https://www.bilibili.com/video/BV1oth36rERv",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/ef0b09f45df9d39b27d9b1928eedf310f19fc8da.jpg",
+                "duration": "",
+                "published": "2026年08月25日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1oth36rERv&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "最后一步，就是第一步",
+                "link": "https://www.bilibili.com/video/BV1H2hN6NEfv",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/58e1dcdc8de7c920577038a1e839d5f8db75d8a0.jpg",
+                "duration": "",
+                "published": "2026年08月24日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1H2hN6NEfv&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "借势而出",
+                "link": "https://www.bilibili.com/video/BV1cg8Y66EaP",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/5a9c8d0e3e3e44c28287209f730acfaf3267da0c.jpg",
+                "duration": "",
+                "published": "2026年08月24日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1cg8Y66EaP&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "一个视频看懂弃子争先",
+                "link": "https://www.bilibili.com/video/BV1818T6SEzi",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/259f4d95cb12d62c3cfa4e41672e1f3340fa0c73.jpg",
+                "duration": "",
+                "published": "2026年08月21日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1818T6SEzi&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "围棋是连上，但也是分开",
+                "link": "https://www.bilibili.com/video/BV1jxgw68EFh",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/2114ad833f451ac028c9803b01b25bb4b9329360.jpg",
+                "duration": "",
+                "published": "2026年08月14日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1jxgw68EFh&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "晓阳破冰封，时光会把你雕刻成应有的样子",
+                "link": "https://www.bilibili.com/video/BV1ghuZ66Exk",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/fc6a8513ef2d8c6745b0966988c4d580dbfa002c.jpg",
+                "duration": "",
+                "published": "2026年08月10日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ghuZ66Exk&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "一本书建立围棋思维",
+                "link": "https://www.bilibili.com/video/BV11qud6oEFW",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/2a564797924dc153314b1079863bbad5539682f4.jpg",
+                "duration": "",
+                "published": "2026年08月10日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV11qud6oEFW&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "神之一手完整版",
+                "link": "https://www.bilibili.com/video/BV1j5uG69ESe",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/d9aba3ffeefc52f9253db163fad1ab084aac89d4.jpg",
+                "duration": "",
+                "published": "2026年08月08日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1j5uG69ESe&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "分明就是老叟戏顽童",
+                "link": "https://www.bilibili.com/video/BV1fcM16mEBU",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/7d2880d72fba9dfe3dbde31f3e731b751016ff2e.jpg",
+                "duration": "",
+                "published": "2026年08月05日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1fcM16mEBU&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "丢掉已经陷入泥潭的靴子",
+                "link": "https://www.bilibili.com/video/BV1YKMX6tEmx",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/79c7664fb3c9cb9cb1a45e123a1f76de7e3ae7d7.jpg",
+                "duration": "",
+                "published": "2026年08月03日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1YKMX6tEmx&high_quality=1&danmaku=0",
+                "is_today": false
+            }
+        ],
+        "id": "bilibili_d9c1059e",
         "category": "B站"
     },
     {
@@ -4356,109 +3762,19 @@
         "category": "B站"
     },
     {
-        "title": "李星河LXH 的 bilibili 动态",
-        "description": "李星河LXH 的 bilibili 动态 - Powered by RSSHub",
-        "url": "https://space.bilibili.com/571791768/dynamic",
-        "videos": [
-            {
-                "title": "这年头，还有人在办读书会？",
-                "link": "https://www.bilibili.com/video/BV1Nj8r6BEoj",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/7582c69c7e091c5591e4665450537eda7d832a6a.jpg",
-                "duration": "",
-                "published": "2026年08月21日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Nj8r6BEoj&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "松林漫步原创设计雷诺曼！限量早鸟档已在B站首发，超多解锁项！",
-                "link": "https://www.bilibili.com/video/BV19h8A6CEGi",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/4153e8407a4cbdc9df9b3d58512a336d4828f98b.jpg",
-                "duration": "",
-                "published": "2026年08月21日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV19h8A6CEGi&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "终于终于要来了！！！",
-                "link": "https://www.bilibili.com/opus/1238634028089737234",
-                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/fece9e26c157468a86151dee689e54db571791768.png",
-                "duration": "",
-                "published": "2026年08月20日",
-                "embed_url": "",
-                "is_today": false
-            },
-            {
-                "title": "近期活动通知",
-                "link": "https://www.bilibili.com/opus/1234538909877141505",
-                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/423d585b48e79e32b0bcfec228caceb1571791768.jpg",
-                "duration": "",
-                "published": "2026年08月09日",
-                "embed_url": "",
-                "is_today": false
-            },
-            {
-                "title": "漂流手帐活动报名，快来玩～",
-                "link": "https://www.bilibili.com/opus/1234080009801433108",
-                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/c0d5b415a39b03260c351d50a09d110d571791768.jpg",
-                "duration": "",
-                "published": "2026年08月08日",
-                "embed_url": "",
-                "is_today": false
-            },
-            {
-                "title": "麦卡勒斯：23岁封神，29岁瘫痪，被家暴、欺骗、离婚又复婚，丈夫提议一起赴死，最终终身残疾，留下永恒的孤独故事……《心是孤独的猎手》》",
-                "link": "https://www.bilibili.com/video/BV1sGuE6JEQm",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/e861bf47e7de0be74a958d07804ff84cbd741af6.jpg",
-                "duration": "",
-                "published": "2026年08月06日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1sGuE6JEQm&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "我们发众筹啦！！！",
-                "link": "https://www.bilibili.com/opus/1232346827298177042",
-                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/8b1e667f14666dff3b2eaf5700493abd571791768.png",
-                "duration": "",
-                "published": "2026年08月03日",
-                "embed_url": "",
-                "is_today": false
-            },
-            {
-                "title": "我们发众筹啦！！！",
-                "link": "https://www.bilibili.com/opus/1232338357650980864",
-                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/81289b4cfe3c140f89c8996052f319a2571791768.png",
-                "duration": "",
-                "published": "2026年08月03日",
-                "embed_url": "",
-                "is_today": false
-            },
-            {
-                "title": "抽奖！送卡佛诗集《我们所有人》",
-                "link": "https://www.bilibili.com/opus/1231900734844305416",
-                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/f4b37cd76b02891acf8563c7a3236cb7571791768.jpg",
-                "duration": "",
-                "published": "2026年08月02日",
-                "embed_url": "",
-                "is_today": false
-            },
-            {
-                "title": "才发现今天是伊藤润二的生日！",
-                "link": "https://www.bilibili.com/video/BV1ZR5C6sETa",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/3f4f2162d9c1a927788fc8b431df0166aa4e43fc.jpg",
-                "duration": "",
-                "published": "2026年07月31日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ZR5C6sETa&high_quality=1&danmaku=0",
-                "is_today": false
-            }
-        ],
-        "id": "lxh_bilibili_cc6c7ce1",
-        "category": "B站"
-    },
-    {
         "title": "松林漫步zz 的 bilibili 空间",
         "description": "松林漫步zz 的 bilibili 空间 - Powered by RSSHub",
         "url": "https://space.bilibili.com/27122760",
         "videos": [
+            {
+                "title": "开启旅居生活后，自媒体人的相册打开方式",
+                "link": "https://www.bilibili.com/video/BV1TShF6ZEd1",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/f4b245c7322db8fcabab80f7760d1ecf55fb7cc8.jpg",
+                "duration": "",
+                "published": "2026年08月27日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1TShF6ZEd1&high_quality=1&danmaku=0",
+                "is_today": false
+            },
             {
                 "title": "在美国，我看到了自己画中的景色",
                 "link": "https://www.bilibili.com/video/BV1xv8K6BEWi",
@@ -4538,15 +3854,6 @@
                 "duration": "",
                 "published": "2026年05月22日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1FpLv6uEph&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "极简主义高智感女性衣橱分享",
-                "link": "https://www.bilibili.com/video/BV1or5Z6hEZE",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/c498cd13b04003b828b2cf8fde176d2fe36d28d9.jpg",
-                "duration": "",
-                "published": "2026年05月18日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1or5Z6hEZE&high_quality=1&danmaku=0",
                 "is_today": false
             }
         ],
@@ -4653,6 +3960,105 @@
         "category": "B站"
     },
     {
+        "title": "武志红讲心理 的 bilibili 动态",
+        "description": "武志红讲心理 的 bilibili 动态 - Powered by RSSHub",
+        "url": "https://space.bilibili.com/508670955/dynamic",
+        "videos": [
+            {
+                "title": "对谈武志红：你的身体总在无意识紧绷吗？|身体与潜意识",
+                "link": "https://www.bilibili.com/video/BV1Uu8j6KEKu",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/3d4fd16bb73446a2f8d412529eeb5da0f3452015.jpg",
+                "duration": "",
+                "published": "2026年08月19日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Uu8j6KEKu&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "武志红X全嘻嘻：一个“现实”和“功利”的人，如何活出了爱和真实？",
+                "link": "https://www.bilibili.com/video/BV1fQbe6iEMh",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/2592a88cb51e867e931caa69887fff7d25c81759.jpg",
+                "duration": "",
+                "published": "2026年08月17日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1fQbe6iEMh&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "童年形成的人生逻辑，如何影响你一生？【武志红】",
+                "link": "https://www.bilibili.com/video/BV1cr756WEcy",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/d482276f91293cec8c0cc03a8b3c1df150119061.jpg",
+                "duration": "",
+                "published": "2026年06月27日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1cr756WEcy&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "张雪：活出自己，是对世界最大的祝福",
+                "link": "https://www.bilibili.com/video/BV1qDQcBZEaS",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/ea533451dd26fec90ba78ef033e696d29e66dc1d.jpg",
+                "duration": "",
+                "published": "2026年04月10日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1qDQcBZEaS&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "【武志红】悼念张雪峰：一路梦碎，一路为他人圆梦",
+                "link": "https://www.bilibili.com/video/BV1N19MBPEiN",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/02fa350c83bdb20f02c9356fa34d7bfd452d5717.jpg",
+                "duration": "",
+                "published": "2026年04月03日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1N19MBPEiN&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "武志红 对谈 尹烨 03集 | 主动创造人生：不做环境的被动响应器",
+                "link": "https://www.bilibili.com/video/BV1DEFjz5EtA",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/3dbc56838f01b3956ea7289bc1fed016e8a3e345.jpg",
+                "duration": "",
+                "published": "2026年02月03日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1DEFjz5EtA&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "武志红 对谈 尹烨 02集 | 这是我见过最好的原生家庭之一",
+                "link": "https://www.bilibili.com/video/BV1DEFjz5Eb9",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/b8b42ef809bf9fb374327e429fd516405d2f6ae0.jpg",
+                "duration": "",
+                "published": "2026年02月03日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1DEFjz5Eb9&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "武志红 对谈 尹烨 01集 | 不随大流的人，才能突破边界",
+                "link": "https://www.bilibili.com/video/BV1QLFjzjEhy",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/912673e0199b35eec62dc042662cfaee15ad4288.jpg",
+                "duration": "",
+                "published": "2026年02月03日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1QLFjzjEhy&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "时隔10年再次举办线下大课",
+                "link": "https://www.bilibili.com/opus/1134314608918528009",
+                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/e09f6c164cef25e6a6a363b5bfac6eb7508670955.jpg",
+                "duration": "",
+                "published": "2025年11月12日",
+                "embed_url": "",
+                "is_today": false
+            },
+            {
+                "title": "武志红 对谈 齐思钧「下集」：为什么心理问题，一般在30岁爆发?",
+                "link": "https://www.bilibili.com/video/BV12NnwzJE63",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/2ede8bf43e02a0e2afc3484771b6cd2bc305f1f3.jpg",
+                "duration": "",
+                "published": "2025年09月24日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV12NnwzJE63&high_quality=1&danmaku=0",
+                "is_today": false
+            }
+        ],
+        "id": "bilibili_c66b4f2a",
+        "category": "B站"
+    },
+    {
         "title": "心理学家Tracey 的 bilibili 动态",
         "description": "心理学家Tracey 的 bilibili 动态 - Powered by RSSHub",
         "url": "https://space.bilibili.com/689271931/dynamic",
@@ -4749,6 +4155,105 @@
             }
         ],
         "id": "tracey_bilibili_997eaadb",
+        "category": "B站"
+    },
+    {
+        "title": "小波心理 的 bilibili 动态",
+        "description": "小波心理 的 bilibili 动态 - Powered by RSSHub",
+        "url": "https://space.bilibili.com/1033890839/dynamic",
+        "videos": [
+            {
+                "title": "投降吧！外面全是NPD，自恋非法如何变成人逃避主体性的工具",
+                "link": "https://www.bilibili.com/video/BV1SfMF63EmH",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/eda8ce0f22523cddae21405cf2c78cbb29369656.jpg",
+                "duration": "",
+                "published": "2026年07月04日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1SfMF63EmH&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "迟钝纠结是大脑被塞满，提升注意记忆需要适当\"未完成事件\"",
+                "link": "https://www.bilibili.com/video/BV1QHcLz7Eu7",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/01fb3c695981c52de05ea919477e22cca47dc3c4.jpg",
+                "duration": "",
+                "published": "2026年02月13日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1QHcLz7Eu7&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "肌肤饥渴症如何判断？渴望约素炮与独处无意义感可以自救",
+                "link": "https://www.bilibili.com/video/BV1bL6iBJELE",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/950716b0ff3b42546812441ffc6a907cc7db7f5b.jpg",
+                "duration": "",
+                "published": "2026年01月30日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1bL6iBJELE&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "预设容易产生ADHD注意力障碍，用任务导向来重塑自己",
+                "link": "https://www.bilibili.com/video/BV1Y2kNByERP",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/350a7ddfa9a52da1839d51a57c56f58982f9f39f.jpg",
+                "duration": "",
+                "published": "2026年01月16日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Y2kNByERP&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "大脑失去控制感的代价？被要求被限制被凝视是成瘾抑郁无助开始",
+                "link": "https://www.bilibili.com/video/BV1PmBoBwEBt",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/07080c8096930578a97786421a56d9ab504f25d7.jpg",
+                "duration": "",
+                "published": "2025年12月26日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1PmBoBwEBt&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "创业成瘾等于吸毒?重开幻想会欺骗大脑刺激多巴胺产生快感",
+                "link": "https://www.bilibili.com/video/BV1kekrBbE6r",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/1bf56b82999784c312bf5445e5308bc902265059.jpg",
+                "duration": "",
+                "published": "2025年11月11日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1kekrBbE6r&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "人为逆境如何把人弄废?拖延症 执行障碍 动力不足的底层原因",
+                "link": "https://www.bilibili.com/video/BV1SFEWzLEF4",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/01bf0c5421daec256380d2a35a37942fdd0fd011.jpg",
+                "duration": "",
+                "published": "2025年05月16日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1SFEWzLEF4&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "视觉意淫后性冷淡在摧毁亲密关系,色情擦边让人在现实里\"性无能\"？",
+                "link": "https://www.bilibili.com/video/BV1AufHYWEUZ",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/58c1ceb248f386f47c52627a6d2180ba7d7847b2.jpg",
+                "duration": "",
+                "published": "2025年01月24日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1AufHYWEUZ&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "两类大脑两种人生,可怕原生家庭塑造固化思维重复性摧毁消磨你",
+                "link": "https://www.bilibili.com/video/BV1ihcBeFE3z",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/23da2ac9c2a706738b656d0aecd5e39cc593787f.jpg",
+                "duration": "",
+                "published": "2025年01月15日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ihcBeFE3z&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "高敏感大脑正在喊痛！耳鸣失眠疲惫烦躁是创伤压力的警报反应",
+                "link": "https://www.bilibili.com/video/BV1q4kuYvEw3",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/699f78c312e410fe5ce7a70e4151a573ba8f3af3.jpg",
+                "duration": "",
+                "published": "2024年12月19日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1q4kuYvEw3&high_quality=1&danmaku=0",
+                "is_today": false
+            }
+        ],
+        "id": "bilibili_3d4368c0",
         "category": "B站"
     },
     {
@@ -4860,7 +4365,7 @@
                 "link": "https://www.bilibili.com/video/BV1Xnhc6iEeA",
                 "thumbnail": "http://i1.hdslb.com/bfs/archive/dc08b1ed711e7e285d453722ff5b47ecdfd139d5.jpg",
                 "duration": "",
-                "published": "18小时前",
+                "published": "2026年08月27日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Xnhc6iEeA&high_quality=1&danmaku=0",
                 "is_today": false
             },
@@ -4950,10 +4455,118 @@
         "category": "B站"
     },
     {
+        "title": "我是黄鸭兄 的 bilibili 动态",
+        "description": "我是黄鸭兄 的 bilibili 动态 - Powered by RSSHub",
+        "url": "https://space.bilibili.com/390513216/dynamic",
+        "videos": [
+            {
+                "title": "【黄鸭兄】和李好帅、江湖举人在杭州的阅读盛典相聚",
+                "link": "https://www.bilibili.com/video/BV15L411a7Xb",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/32744cdbb641b1d9a824f828f243e3f96af73c7c.jpg",
+                "duration": "",
+                "published": "2023年05月02日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV15L411a7Xb&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "【黄鸭兄】对话钱理群：“孔乙己”如何面对大变革时代？",
+                "link": "https://www.bilibili.com/video/BV1bX4y1m7eV",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/5d8cd15d171c1d37d64d4225a003d81e4f8b954b.jpg",
+                "duration": "",
+                "published": "2023年04月29日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1bX4y1m7eV&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "视频更新预告",
+                "link": "https://www.bilibili.com/opus/789664462387806230",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/5d8cd15d171c1d37d64d4225a003d81e4f8b954b.jpg",
+                "duration": "",
+                "published": "2023年04月28日",
+                "embed_url": "",
+                "is_today": false
+            },
+            {
+                "title": "【黄鸭兄】《老人与海》：与自我搏斗的英雄主义",
+                "link": "https://www.bilibili.com/video/BV1VM4y1a7aw",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/4c6d12f4a741cea28a77ca669f53a74b64b71fca.jpg",
+                "duration": "",
+                "published": "2023年04月23日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1VM4y1a7aw&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "视频更新预告",
+                "link": "https://www.bilibili.com/opus/787606868152287302",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/4c6d12f4a741cea28a77ca669f53a74b64b71fca.jpg",
+                "duration": "",
+                "published": "2023年04月23日",
+                "embed_url": "",
+                "is_today": false
+            },
+            {
+                "title": "感谢罗翔老师的推荐！期待在今年带着新书和大家见面[doge]",
+                "link": "",
+                "thumbnail": null,
+                "duration": "",
+                "published": "2023年04月22日",
+                "embed_url": "",
+                "is_today": false
+            },
+            {
+                "title": "今天很有幸和@钱理群讲鲁迅 老师一起简短交流了30分钟，请教了钱老师对于青年和时代的命运纠葛、孔乙己文学、时代巨变等问题。在回答“如何应对一个所有答案都失...",
+                "link": "https://www.bilibili.com/opus/781502306562605062",
+                "thumbnail": "https://i0.hdslb.com/bfs/new_dyn/6f5ea1fcd410a7f4f304d63e2c6e8ac7390513216.png",
+                "duration": "",
+                "published": "2023年04月06日",
+                "embed_url": "",
+                "is_today": false
+            },
+            {
+                "title": "【黄鸭兄】接受现实：人就是自相矛盾的",
+                "link": "https://www.bilibili.com/video/BV1fs4y1n7PD",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/f734ffdfacf722a2a98fbc4f6a0da28143cf7865.jpg",
+                "duration": "",
+                "published": "2023年03月25日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1fs4y1n7PD&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
+                "title": "这周再更一期，跟大家分享一下对于一个问题的看法：我们应该带着简单的、概括的方式看待自我吗？以及，我们应该怎样对待自己的内在矛盾？这期要发言的作家是法国...",
+                "link": "https://www.bilibili.com/opus/775931665260216373",
+                "thumbnail": "https://i0.hdslb.com/bfs/new_dyn/df08128e5bab6891b650ae1af0803ee0390513216.png",
+                "duration": "",
+                "published": "2023年03月22日",
+                "embed_url": "",
+                "is_today": false
+            },
+            {
+                "title": "【黄鸭兄】《冀西南林路行》到底在讲什么？",
+                "link": "https://www.bilibili.com/video/BV1Po4y1k7mp",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/304aa58c447fb8669355b43643faa342c08db94d.jpg",
+                "duration": "",
+                "published": "2023年03月10日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Po4y1k7mp&high_quality=1&danmaku=0",
+                "is_today": false
+            }
+        ],
+        "id": "bilibili_d9cbcff6",
+        "category": "B站"
+    },
+    {
         "title": "御史房 的 bilibili 动态",
         "description": "御史房 的 bilibili 动态 - Powered by RSSHub",
         "url": "https://space.bilibili.com/34264408/dynamic",
         "videos": [
+            {
+                "title": "在这里“见到”教员",
+                "link": "https://www.bilibili.com/opus/1241234888499134469",
+                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/59e59f9292bac4b6f372804ae75561ef34264408.png",
+                "duration": "",
+                "published": "2026年08月27日",
+                "embed_url": "",
+                "is_today": false
+            },
             {
                 "title": "真的没法不哭",
                 "link": "https://www.bilibili.com/opus/1240861166180237335",
@@ -5028,15 +4641,6 @@
             },
             {
                 "title": "新系列第二期已更新[脱单doge]欢迎一起品鉴",
-                "link": "https://www.bilibili.com/video/BV1AQNW6WEKE",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/c9bc0b300ca520257759e0837382ff4e713e78c2.jpg",
-                "duration": "",
-                "published": "2026年07月11日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1AQNW6WEKE&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "汉末三国打仗真有斗将环节吗？【新三品史02】",
                 "link": "https://www.bilibili.com/video/BV1AQNW6WEKE",
                 "thumbnail": "http://i1.hdslb.com/bfs/archive/c9bc0b300ca520257759e0837382ff4e713e78c2.jpg",
                 "duration": "",
@@ -5193,14 +4797,14 @@
         "category": "B站"
     },
     {
-        "title": "医学科普联盟 的 bilibili 空间",
-        "description": "医学科普联盟 的 bilibili 空间 - Powered by RSSHub",
+        "title": "的 bilibili 空间",
+        "description": "的 bilibili 空间 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
         "url": "https://space.bilibili.com/38598226",
         "videos": [
             {
                 "title": "血糖真相：高血糖是如何钝刀割肉，腐蚀数亿人的血管和神经的？",
                 "link": "https://www.bilibili.com/video/BV1jPgG6xEJw",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/f9dd1e3175b0ee931b833f8d53150b188ec59e93.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/f9dd1e3175b0ee931b833f8d53150b188ec59e93.jpg",
                 "duration": "",
                 "published": "2026年08月12日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1jPgG6xEJw&high_quality=1&danmaku=0",
@@ -5209,7 +4813,7 @@
             {
                 "title": "双相情感障碍：明暗交替，情绪的冰与火之困【精神病系列4】",
                 "link": "https://www.bilibili.com/video/BV1MwMc6gEDw",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/7fda64a7ae246cfc42b9aa0aae88b056764d74ab.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/7fda64a7ae246cfc42b9aa0aae88b056764d74ab.jpg",
                 "duration": "",
                 "published": "2026年07月04日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1MwMc6gEDw&high_quality=1&danmaku=0",
@@ -5218,7 +4822,7 @@
             {
                 "title": "成瘾真相：一个视频彻底搞懂多巴胺！如何科学戒瘾？",
                 "link": "https://www.bilibili.com/video/BV1MhLS6FEAg",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/e424c469c1d8a20651636c883a1753e1bfc346e3.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/e424c469c1d8a20651636c883a1753e1bfc346e3.jpg",
                 "duration": "",
                 "published": "2026年05月24日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1MhLS6FEAg&high_quality=1&danmaku=0",
@@ -5227,7 +4831,7 @@
             {
                 "title": "中暑真相：被活活热死是一种怎样的体验？中暑前后该如何应对？",
                 "link": "https://www.bilibili.com/video/BV1LfosBuEwP",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/41db7b3865cabacb7c844e0c53e964102c06e3df.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/41db7b3865cabacb7c844e0c53e964102c06e3df.jpg",
                 "duration": "",
                 "published": "2026年04月24日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1LfosBuEwP&high_quality=1&danmaku=0",
@@ -5236,7 +4840,7 @@
             {
                 "title": "腹型肥胖：看着瘦就一定没有脂肪肝吗？警惕“内脏脂肪”的威胁！",
                 "link": "https://www.bilibili.com/video/BV1uEwJzfELk",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/0df64a33f836bed505d2594fe94b723e821973fd.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/0df64a33f836bed505d2594fe94b723e821973fd.jpg",
                 "duration": "",
                 "published": "2026年03月14日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1uEwJzfELk&high_quality=1&danmaku=0",
@@ -5245,7 +4849,7 @@
             {
                 "title": "胃病真相：是普通胃病还是早期胃癌？如何科学养胃！",
                 "link": "https://www.bilibili.com/video/BV1js6jBkEpo",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/856951f41507a4493b1a33d2dcdd3e7a43914327.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/856951f41507a4493b1a33d2dcdd3e7a43914327.jpg",
                 "duration": "",
                 "published": "2026年01月28日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1js6jBkEpo&high_quality=1&danmaku=0",
@@ -5254,7 +4858,7 @@
             {
                 "title": "刷牙真相：为何动物从不刷牙却吃嘛嘛香？所以刷牙、洗牙是骗局吗？",
                 "link": "https://www.bilibili.com/video/BV1aFrPBPEPR",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/f8424ce707bb4ec072b88ba6d0e17e8ed3d0ec33.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/f8424ce707bb4ec072b88ba6d0e17e8ed3d0ec33.jpg",
                 "duration": "",
                 "published": "2026年01月09日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1aFrPBPEPR&high_quality=1&danmaku=0",
@@ -5263,7 +4867,7 @@
             {
                 "title": "心梗：杀人无数，藏匿在血管中的定时炸弹！身体有哪些求救信号？该如何自救与预防？",
                 "link": "https://www.bilibili.com/video/BV1SzBPBdEk8",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/0b3ff9b0d6b1bb735225e5acc92850a0c84c6921.jpg",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/0b3ff9b0d6b1bb735225e5acc92850a0c84c6921.jpg",
                 "duration": "",
                 "published": "2025年12月23日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1SzBPBdEk8&high_quality=1&danmaku=0",
@@ -5272,7 +4876,7 @@
             {
                 "title": "ED：男生如何科学提高自己的枪械性能？",
                 "link": "https://www.bilibili.com/video/BV14xCiBWEpB",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/d96870569e1ab2160a92da17f163f95d60f55574.jpg",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/d96870569e1ab2160a92da17f163f95d60f55574.jpg",
                 "duration": "",
                 "published": "2025年11月18日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV14xCiBWEpB&high_quality=1&danmaku=0",
@@ -5281,14 +4885,14 @@
             {
                 "title": "玻尿酸：亦正亦邪 玻尿酸到底是什么玩意儿？",
                 "link": "https://www.bilibili.com/video/BV1pb2uB7Ekw",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/9f6ffd185dc4975b7d2de8a0f2f380590704c54d.jpg",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/9f6ffd185dc4975b7d2de8a0f2f380590704c54d.jpg",
                 "duration": "",
                 "published": "2025年11月07日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1pb2uB7Ekw&high_quality=1&danmaku=0",
                 "is_today": false
             }
         ],
-        "id": "bilibili_ebf14879",
+        "id": "bilibili_b5e5198",
         "category": "B站"
     },
     {
@@ -5391,201 +4995,102 @@
         "category": "B站"
     },
     {
-        "title": "思维实验室 的 bilibili 空间",
-        "description": "思维实验室 的 bilibili 空间 - Powered by RSSHub",
-        "url": "https://space.bilibili.com/14583962",
+        "title": "草说木言 的 bilibili 动态",
+        "description": "草说木言 的 bilibili 动态 - Powered by RSSHub",
+        "url": "https://space.bilibili.com/477433087/dynamic",
         "videos": [
             {
-                "title": "1954中苏蜜月期,我们为何决定外交转向不再依赖苏联？",
-                "link": "https://www.bilibili.com/video/BV1Tw8y61E4r",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/6f1ada5594266e4c9dc40ee232d3ea0d2b361700.jpg",
+                "title": "【网友投稿】马贤之死与凉州兵东下洛阳的肇始",
+                "link": "https://www.bilibili.com/video/BV1KS42197Ci",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/319e70f070994ef0aa7f5e99b017ff5d2e71fca4.jpg",
                 "duration": "",
-                "published": "2026年08月22日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Tw8y61E4r&high_quality=1&danmaku=0",
+                "published": "2024年08月16日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1KS42197Ci&high_quality=1&danmaku=0",
                 "is_today": false
             },
             {
-                "title": "中美可回收火箭以及航天产业对比报告【思维实验室】",
-                "link": "https://www.bilibili.com/video/BV1oMgZ6EETu",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/f06c0e5a3426cbea71a46f97bac8850690db7d8e.jpg",
+                "title": "大家好，我是草木。 首先，向大家简要汇报一下我们的情况。这么长时间无论是主系列内容还是其它内容都没有产出，除身体和家庭等方面事端层出耗费时间之外，还存...",
+                "link": "https://www.bilibili.com/opus/963585525006991428",
+                "thumbnail": "http://i0.hdslb.com/bfs/new_dyn/e6d6de523ac30dc555636dfd28541c26477433087.png",
                 "duration": "",
-                "published": "2026年07月31日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1oMgZ6EETu&high_quality=1&danmaku=0",
+                "published": "2024年08月09日",
+                "embed_url": "",
                 "is_today": false
             },
             {
-                "title": "记新中国第一次高层权力冲突，之后又为何斗争不断？",
-                "link": "https://www.bilibili.com/video/BV1sbgv6iEDY",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/cf8f148d94718014a8bb3c31ffda53ea4dc18ecc.jpg",
+                "title": "【中国历代政治得失·总论】中国政治的四个缺陷和历史对现实的意义",
+                "link": "https://www.bilibili.com/video/BV16w4m197Xz",
+                "thumbnail": "http://i0.hdslb.com/bfs/archive/e0c2079d81b93357b55d680ea503a518238dde9e.jpg",
                 "duration": "",
-                "published": "2026年07月25日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1sbgv6iEDY&high_quality=1&danmaku=0",
+                "published": "2024年05月25日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV16w4m197Xz&high_quality=1&danmaku=0",
                 "is_today": false
             },
             {
-                "title": "西方人民会认为自己是帝国主义吗？会支持国家吗？【思维实验室】",
-                "link": "https://www.bilibili.com/video/BV1EBTv6SEB7",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/3d66e1543bddd3da9640e1f7b2ed422e95ca97f2.jpg",
+                "title": "【中国历代政治得失·清代】04民众的起义变法与革命",
+                "link": "https://www.bilibili.com/video/BV12H4y1g7TN",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/2c668866f2b2fb212792df0ada4e5c06b69ddb81.jpg",
                 "duration": "",
-                "published": "2026年07月03日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1EBTv6SEB7&high_quality=1&danmaku=0",
+                "published": "2024年05月19日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV12H4y1g7TN&high_quality=1&danmaku=0",
                 "is_today": false
             },
             {
-                "title": "革命政权的官僚特权阶级是怎么出现的？【思维实验室】",
-                "link": "https://www.bilibili.com/video/BV1Xmjm6YECc",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/bb96e9d4e6906a77683c7d1049243326c4433e94.jpg",
+                "title": "【中国历代政治得失·清代】03让少数人控制多数人的制度和政策",
+                "link": "https://www.bilibili.com/video/BV1yC411j7Zm",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/0baac66feecf90a7012a0937b086a079d11f03a7.jpg",
                 "duration": "",
-                "published": "2026年06月25日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Xmjm6YECc&high_quality=1&danmaku=0",
+                "published": "2024年05月12日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1yC411j7Zm&high_quality=1&danmaku=0",
                 "is_today": false
             },
             {
-                "title": "为啥世界杯各国抢着申办 奥运会却没人想办了？",
-                "link": "https://www.bilibili.com/video/BV1LkEj6WEij",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/96b9b0f2db1aeade686fb722e8f869aa0d497aa0.jpg",
+                "title": "【中国历代政治得失·清代】02政府结构和组织逻辑",
+                "link": "https://www.bilibili.com/video/BV1DD421p7Ny",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/5d1ae95e8eed5eefa81cabdcae8992ea7dc7bdf6.jpg",
                 "duration": "",
-                "published": "2026年06月12日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1LkEj6WEij&high_quality=1&danmaku=0",
+                "published": "2024年04月26日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1DD421p7Ny&high_quality=1&danmaku=0",
                 "is_today": false
             },
             {
-                "title": "【补】刚建国时是怎么反腐的？",
-                "link": "https://www.bilibili.com/video/BV15HEm6uEh3",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/0f91fb1526024bece7b04aa3f05fb2692a933eb6.jpg",
+                "title": "【中国历代政治得失·清代】01政治制度的部族背景",
+                "link": "https://www.bilibili.com/video/BV1yC411G76w",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/ec6d44eec7693580feb842197f40f44ad5dc0914.jpg",
                 "duration": "",
-                "published": "2026年06月10日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV15HEm6uEh3&high_quality=1&danmaku=0",
+                "published": "2024年04月20日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1yC411G76w&high_quality=1&danmaku=0",
                 "is_today": false
             },
             {
-                "title": "陈赓：越南和法国真是一对奇妙的对手",
-                "link": "https://www.bilibili.com/video/BV1ni9aB4Ewp",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/48eb632d4af8dff343b3ed414abb72d983bf6d66.jpg",
+                "title": "【中国历代政治得失·明代】05兵役制度和军事问题",
+                "link": "https://www.bilibili.com/video/BV1qw4m1m7Yv",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/a2b7f50cdee0b67255348ceec69da3808a23551c.jpg",
                 "duration": "",
-                "published": "2026年05月01日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1ni9aB4Ewp&high_quality=1&danmaku=0",
+                "published": "2024年04月14日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1qw4m1m7Yv&high_quality=1&danmaku=0",
                 "is_today": false
             },
             {
-                "title": "抗美援朝时国内经济,天降灾祸如何变成千年机遇？",
-                "link": "https://www.bilibili.com/video/BV13XojB3EHj",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/00c8dd656f9e2f81320c9f491917d3a4fbe3e509.jpg",
+                "title": "先秦诸子并不想刁难谁：从《孙子兵法》看百家典籍的理解障碍问题",
+                "link": "https://www.bilibili.com/video/BV1PC411L7bG",
+                "thumbnail": "http://i1.hdslb.com/bfs/archive/597aa9d4625bcf9e3701bbe40af1be4c03e47818.jpg",
                 "duration": "",
-                "published": "2026年04月25日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV13XojB3EHj&high_quality=1&danmaku=0",
+                "published": "2024年03月31日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1PC411L7bG&high_quality=1&danmaku=0",
                 "is_today": false
             },
             {
-                "title": "朝鲜战争为何被称为错误战争 揭露出兵前反复纠结",
-                "link": "https://www.bilibili.com/video/BV1619PB2ERi",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/4b99debfcb139fdfe3515f477b830f693e533b92.jpg",
+                "title": "【中国历代政治得失·明代】04土地制度的特点和毁废过程",
+                "link": "https://www.bilibili.com/video/BV18j42197sc",
+                "thumbnail": "http://i2.hdslb.com/bfs/archive/b42eae8a38d64703fb8eb87aa2bbbca3850a82f8.jpg",
                 "duration": "",
-                "published": "2026年04月03日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1619PB2ERi&high_quality=1&danmaku=0",
+                "published": "2024年03月30日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV18j42197sc&high_quality=1&danmaku=0",
                 "is_today": false
             }
         ],
-        "id": "bilibili_9d985b50",
-        "category": "B站"
-    },
-    {
-        "title": "罗翔说刑法 的 bilibili 空间",
-        "description": "罗翔说刑法 的 bilibili 空间 - Powered by RSSHub",
-        "url": "https://space.bilibili.com/517327498",
-        "videos": [
-            {
-                "title": "【罗翔】律师为什么要为千夫所指之人辩护？",
-                "link": "https://www.bilibili.com/video/BV1Ti8M61EY3",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/8d60946a9570c10d72fc2e779f22321a3a987490.jpg",
-                "duration": "",
-                "published": "2026年08月21日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Ti8M61EY3&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【罗翔】七夕谈谈冷冻胚胎案和婚姻里“塞壬的诱惑”",
-                "link": "https://www.bilibili.com/video/BV1Np8u65EBH",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/93e25ed646ae02ad651cc64784cc020e3ed0aa4d.jpg",
-                "duration": "",
-                "published": "2026年08月19日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Np8u65EBH&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【罗翔】《历史》里那些炫耀幸福的人，后来都怎么样了...",
-                "link": "https://www.bilibili.com/video/BV1QcgP6sEPW",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/5b4a88afe3a0c204e8b47916ee0576dd0dfd0476.jpg",
-                "duration": "",
-                "published": "2026年08月15日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1QcgP6sEPW&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【罗翔】一份医疗事故无罪判决书",
-                "link": "https://www.bilibili.com/video/BV1Jouq6wEq5",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/08f05d5bef3ab21db3293e09ae02ae6ef7be588a.jpg",
-                "duration": "",
-                "published": "2026年08月11日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1Jouq6wEq5&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【罗翔】老子才是法家的宗师！无为而治vs大开杀戒",
-                "link": "https://www.bilibili.com/video/BV1x8ub6mEAQ",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/bbcc918b27797f5ecb8051f1a986deb10fad8e05.jpg",
-                "duration": "",
-                "published": "2026年08月07日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1x8ub6mEAQ&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【罗翔】蛇逃逸，业主张三大爷午夜惊魂……",
-                "link": "https://www.bilibili.com/video/BV1uS3W67EQb",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/86969335549bf8ae778ce616c80efd30409eaa33.jpg",
-                "duration": "",
-                "published": "2026年07月31日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1uS3W67EQb&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【罗翔】老人见义勇为被咬掉鼻子：法律该如何鼓励行善？",
-                "link": "https://www.bilibili.com/video/BV1WmgC6xEYw",
-                "thumbnail": "https://i2.hdslb.com/bfs/archive/6c3e098ee4359f0352954fd34d9f628a067dc47f.jpg",
-                "duration": "",
-                "published": "2026年07月24日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1WmgC6xEYw&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "幼年被继父性侵，时隔20年还能追诉吗？",
-                "link": "https://www.bilibili.com/video/BV1KDNq6aEq5",
-                "thumbnail": "https://i0.hdslb.com/bfs/archive/92ca2c71e7e7ea0afbbc22ba9058ad22cca5acb9.jpg",
-                "duration": "",
-                "published": "2026年07月15日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1KDNq6aEq5&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【罗翔】黄牛张三抢票、篡改志愿、入侵机器人，这是犯罪吗？",
-                "link": "https://www.bilibili.com/video/BV15oMi6JEeX",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/4f325b3a891d5b0f306a87d805591d75dddb1002.jpg",
-                "duration": "",
-                "published": "2026年07月08日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV15oMi6JEeX&high_quality=1&danmaku=0",
-                "is_today": false
-            },
-            {
-                "title": "【罗翔】张三“网购-退货-掉包-致富”，一顿操作该当何罪？",
-                "link": "https://www.bilibili.com/video/BV1X27J6WE5t",
-                "thumbnail": "https://i1.hdslb.com/bfs/archive/ba0a86c5ebcde059e7262d57f7bd870229f79cf4.jpg",
-                "duration": "",
-                "published": "2026年06月27日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1X27J6WE5t&high_quality=1&danmaku=0",
-                "is_today": false
-            }
-        ],
-        "id": "bilibili_e29ecffb",
+        "id": "bilibili_aa00e5fa",
         "category": "B站"
     },
     {
@@ -5688,32 +5193,41 @@
         "category": "B站"
     },
     {
-        "title": "的 bilibili 空间",
-        "description": "的 bilibili 空间 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "title": "郭庆梓律师 的 bilibili 空间",
+        "description": "郭庆梓律师 的 bilibili 空间 - Powered by RSSHub",
         "url": "https://space.bilibili.com/13651973",
         "videos": [
             {
+                "title": "对方主动说给生活费，我真要钱又拿录音告我敲诈？",
+                "link": "https://www.bilibili.com/video/BV1VC4R62ERA",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/7ab1d350d1509e2b3fb2ebcc182a89e5c781769b.jpg",
+                "duration": "",
+                "published": "2026年08月27日",
+                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1VC4R62ERA&high_quality=1&danmaku=0",
+                "is_today": false
+            },
+            {
                 "title": "助贷人被抓？违法的不是行业是这些骚操作",
                 "link": "https://www.bilibili.com/video/BV11b421477P",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/ac286d9f51b6de57f1ff778e25441a74b4d6afe6.jpg",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/ac286d9f51b6de57f1ff778e25441a74b4d6afe6.jpg",
                 "duration": "",
-                "published": "17小时前",
+                "published": "2026年08月27日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV11b421477P&high_quality=1&danmaku=0",
                 "is_today": false
             },
             {
                 "title": "对方先辱骂动手，骨折了找我索赔5万？",
                 "link": "https://www.bilibili.com/video/BV1QU8X6LEGc",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/caf94c2ebf5261a7da6fea4a35e384dbadeda902.jpg",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/caf94c2ebf5261a7da6fea4a35e384dbadeda902.jpg",
                 "duration": "",
-                "published": "22小时前",
+                "published": "2026年08月26日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1QU8X6LEGc&high_quality=1&danmaku=0",
                 "is_today": false
             },
             {
                 "title": "店员换装1v1陪侍，还能外派？这是什么桌游店…",
                 "link": "https://www.bilibili.com/video/BV1HM896aExF",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/8afbf0992e3e8a86de4f0f1c82b80538c28dad76.jpg",
+                "thumbnail": "https://i1.hdslb.com/bfs/archive/8afbf0992e3e8a86de4f0f1c82b80538c28dad76.jpg",
                 "duration": "",
                 "published": "2026年08月26日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1HM896aExF&high_quality=1&danmaku=0",
@@ -5722,7 +5236,7 @@
             {
                 "title": "临死前必删：十年前是网盘，现在是AI聊天记录",
                 "link": "https://www.bilibili.com/video/BV1LN8R6WE3x",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/1763c2343270970575dcee21fa12ae35215d92fc.jpg",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/1763c2343270970575dcee21fa12ae35215d92fc.jpg",
                 "duration": "",
                 "published": "2026年08月26日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1LN8R6WE3x&high_quality=1&danmaku=0",
@@ -5731,7 +5245,7 @@
             {
                 "title": "咨询公司冒充律所涉诈？所有员工都要被判吗😰",
                 "link": "https://www.bilibili.com/video/BV1o9hG6CE6U",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/f03d0356ce4835bca0c79aaab98c57314d315f9f.jpg",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/f03d0356ce4835bca0c79aaab98c57314d315f9f.jpg",
                 "duration": "",
                 "published": "2026年08月25日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1o9hG6CE6U&high_quality=1&danmaku=0",
@@ -5740,7 +5254,7 @@
             {
                 "title": "理发变贷款？这还是理发店吗？！",
                 "link": "https://www.bilibili.com/video/BV1thhG6bEQR",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/9ddb8ae5feb4141835582d1765764fbe1438c5c2.jpg",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/9ddb8ae5feb4141835582d1765764fbe1438c5c2.jpg",
                 "duration": "",
                 "published": "2026年08月25日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1thhG6bEQR&high_quality=1&danmaku=0",
@@ -5749,7 +5263,7 @@
             {
                 "title": "劫匪：你一点都不慌吗？律师：稍等我先回完客户消息",
                 "link": "https://www.bilibili.com/video/BV1VZhg6AEYk",
-                "thumbnail": "http://i0.hdslb.com/bfs/archive/73e81e612f9cb29e24ee6411566cae93c0da2c81.jpg",
+                "thumbnail": "https://i0.hdslb.com/bfs/archive/73e81e612f9cb29e24ee6411566cae93c0da2c81.jpg",
                 "duration": "",
                 "published": "2026年08月25日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1VZhg6AEYk&high_quality=1&danmaku=0",
@@ -5758,7 +5272,7 @@
             {
                 "title": "携带病毒还聚众❓这种聚众活动万万碰不得❗",
                 "link": "https://www.bilibili.com/video/BV1CChA6bEkP",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/20b407412e45fdb7f5174e6afa1bd5e74065a182.jpg",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/20b407412e45fdb7f5174e6afa1bd5e74065a182.jpg",
                 "duration": "",
                 "published": "2026年08月24日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1CChA6bEkP&high_quality=1&danmaku=0",
@@ -5767,122 +5281,14 @@
             {
                 "title": "三岁女儿被踢进ICU，爸爸还有前科？！",
                 "link": "https://www.bilibili.com/video/BV1GKhP6CEHh",
-                "thumbnail": "http://i2.hdslb.com/bfs/archive/94af9db77c88546de18d70d67e188ad0550c6f67.jpg",
+                "thumbnail": "https://i2.hdslb.com/bfs/archive/94af9db77c88546de18d70d67e188ad0550c6f67.jpg",
                 "duration": "",
                 "published": "2026年08月24日",
                 "embed_url": "https://player.bilibili.com/player.html?bvid=BV1GKhP6CEHh&high_quality=1&danmaku=0",
                 "is_today": false
-            },
-            {
-                "title": "看守所生活大揭秘！原来真有狱霸啊？",
-                "link": "https://www.bilibili.com/video/BV1s18Y61E4M",
-                "thumbnail": "http://i1.hdslb.com/bfs/archive/df6c32da462748d063216eb3cd4b949f3b40bc56.jpg",
-                "duration": "",
-                "published": "2026年08月24日",
-                "embed_url": "https://player.bilibili.com/player.html?bvid=BV1s18Y61E4M&high_quality=1&danmaku=0",
-                "is_today": false
             }
         ],
-        "id": "bilibili_b5e5198",
+        "id": "bilibili_a21c09db",
         "category": "B站"
-    },
-    {
-        "title": "老高與小茉 Mr & Mrs Gao",
-        "description": "",
-        "url": "https://www.youtube.com/channel/UCMUnInmOkrWN4gof9KlhNmQ",
-        "videos": [
-            {
-                "title": "《奧德賽》前傳 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=Zwrq2pxRxfQ",
-                "thumbnail": "https://img.youtube.com/vi/Zwrq2pxRxfQ/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年08月05日",
-                "embed_url": "https://www.youtube.com/embed/Zwrq2pxRxfQ",
-                "is_today": false
-            },
-            {
-                "title": "可能毀滅一切的鏡像生命 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=SHWjQrGb3MQ",
-                "thumbnail": "https://img.youtube.com/vi/SHWjQrGb3MQ/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年07月22日",
-                "embed_url": "https://www.youtube.com/embed/SHWjQrGb3MQ",
-                "is_today": false
-            },
-            {
-                "title": "本片需要看兩遍（本片拍攝於2024年，特殊原因被封存，限時公開稍後將轉為會員影片） | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=0V-GiPHgRwI",
-                "thumbnail": "https://img.youtube.com/vi/0V-GiPHgRwI/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年06月24日",
-                "embed_url": "https://www.youtube.com/embed/0V-GiPHgRwI",
-                "is_today": false
-            },
-            {
-                "title": "2030 冰河期 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=DQGrPstFRVI",
-                "thumbnail": "https://img.youtube.com/vi/DQGrPstFRVI/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年05月27日",
-                "embed_url": "https://www.youtube.com/embed/DQGrPstFRVI",
-                "is_today": false
-            },
-            {
-                "title": "有些突然 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=WeBa4ZawcPo",
-                "thumbnail": "https://img.youtube.com/vi/WeBa4ZawcPo/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年04月29日",
-                "embed_url": "https://www.youtube.com/embed/WeBa4ZawcPo",
-                "is_today": false
-            },
-            {
-                "title": "可怕的石油 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=DmFdxaLgD70",
-                "thumbnail": "https://img.youtube.com/vi/DmFdxaLgD70/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年04月15日",
-                "embed_url": "https://www.youtube.com/embed/DmFdxaLgD70",
-                "is_today": false
-            },
-            {
-                "title": "史上最大規模的封閉實驗，第二個“大自然” | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=EOIlGekiMsQ",
-                "thumbnail": "https://img.youtube.com/vi/EOIlGekiMsQ/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年02月17日",
-                "embed_url": "https://www.youtube.com/embed/EOIlGekiMsQ",
-                "is_today": false
-            },
-            {
-                "title": "2026，好久不見 | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=_6VOEvdU6hM",
-                "thumbnail": "https://img.youtube.com/vi/_6VOEvdU6hM/mqdefault.jpg",
-                "duration": "",
-                "published": "2026年01月30日",
-                "embed_url": "https://www.youtube.com/embed/_6VOEvdU6hM",
-                "is_today": false
-            },
-            {
-                "title": "【庫存影片】仁頃事件，一個被NHK封殺的接觸事件。（本影片拍攝於1年前，因為特殊原因封存至今） | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=B51v9kJQuKo",
-                "thumbnail": "https://img.youtube.com/vi/B51v9kJQuKo/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年12月24日",
-                "embed_url": "https://www.youtube.com/embed/B51v9kJQuKo",
-                "is_today": false
-            },
-            {
-                "title": "【庫存影片】百慕大三角（拍攝於2022年2月，由於特殊原因封存至今） | 老高與小茉 Mr & Mrs Gao",
-                "link": "https://www.youtube.com/watch?v=ESObIvXrKZI",
-                "thumbnail": "https://img.youtube.com/vi/ESObIvXrKZI/mqdefault.jpg",
-                "duration": "",
-                "published": "2025年11月12日",
-                "embed_url": "https://www.youtube.com/embed/ESObIvXrKZI",
-                "is_today": false
-            }
-        ],
-        "id": "mr_mrs_gao_1915de55",
-        "category": "YouTube"
     }
 ]
